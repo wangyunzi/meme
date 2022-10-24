@@ -171,6 +171,11 @@
             
         
             
+                <li class="menu-item"><a href="/talk/"><span class="menu-item-name">说说</span></a>
+                </li>
+            
+        
+            
                 <li class="menu-item"><a href="/about/"><span class="menu-item-name">关于</span></a>
                 </li>
             
@@ -194,24 +199,7 @@
 </nav>
 
                     
-<script
-    src="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/js/nprogress.min.js"
-    integrity="sha384-bHDlAEUFxsRI7JfULv3DTpL2IXbbgn4JHQJibgo5iiXSK6Iu8muwqHANhun74Cqg"
-    crossorigin="anonymous"
-></script>
-<link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/css/nprogress.css"
-    integrity="sha384-KJyhr2syt5+4M9Pz5dipCvTrtvOmLk/olWVdfhAp858UCa64Ia5GFpTN7+G4BWpE"
-    crossorigin="anonymous"
-/>
-<script>
-    NProgress.start();
-    document.addEventListener("readystatechange", () => {
-        if (document.readyState === "interactive") NProgress.inc(0.8);
-        if (document.readyState === "complete") NProgress.done();
-    });
-</script>
+
 
 
 
@@ -522,7 +510,7 @@
                 <div class="share-item qrcode">
                     <div class="qrcode-container" title="通过「二维码」"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon qrcode-icon"><path d="M0 224h192V32H0v192zM64 96h64v64H64V96zm192-64v192h192V32H256zm128 128h-64V96h64v64zM0 480h192V288H0v192zm64-128h64v64H64v-64zm352-64h32v128h-96v-32h-32v96h-64V288h96v32h64v-32zm0 160h32v32h-32v-32zm-64 0h32v32h-32v-32z"/></svg><div id="qrcode-img"></div>
                     </div>
-                    <script src="//npm/qrcode-generator@1.4.4/qrcode.min.js"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js"></script>
 
 <script>
     const typeNumber = 0;
@@ -615,9 +603,6 @@
 
         
 
-        
-            <div id="twikoo"></div>
-        
 
     
 
@@ -636,7 +621,7 @@
             
     <footer id="footer" class="footer">
         <div class="footer-inner">
-            <div class="site-info">©&nbsp;2022&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon footer-icon"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>&nbsp;王云子</div><div class="custom-footer"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a></div>
+            <div class="site-info">2022&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon footer-icon"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>&nbsp;王云子</div>
 
             
 
@@ -650,7 +635,7 @@
 <script type="text/javascript">
     L2Dwidget.init({
         model: {
-            scale: 1,
+            scale: 0.5,
             hHeadPos: 0.5,
             vHeadPos: 0.618,
             jsonPath: 'https://jsd.cky.codes/gh/DomathID/live2d-model@main/Miku/miku.model.json',       
@@ -711,7 +696,7 @@
 
 
 
-    <script src="//npm/mermaid@8.8.3/dist/mermaid.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@8.8.3/dist/mermaid.min.js"></script>
 <script>
     const mermaidConfig = {
         startOnLoad: true,
@@ -767,7 +752,7 @@ twikoo.init({
 
 
 
-    <script src="//npm/instant.page@5.1.0/instantpage.min.js" type="module" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/instant.page@5.1.0/instantpage.min.js" type="module" defer></script>
 
 
 

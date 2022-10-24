@@ -1,0 +1,41 @@
+{{ define "main" }}
+<main class="main single" id="main">
+<div class="main-inner">
+<!-- 引用 artitalk -->
+<script type="text/javascript" src="https://unpkg.com/artitalk@3.3.4/artitalk.js"></script>
+<!-- 存放说说的容器 -->
+<div id="artitalk_main"></div>
+<script>
+new Artitalk({
+    appId: '7gATUBcSDbGEpoYgnlKsuuTh-MdYXbMMI', // Your LeanCloud appId
+    appKey: 'pud6g1GkpmmSMMT9ndCLRXYd', // Your LeanCloud appKey
+    atComment: 1 ,           //可选项：0（关闭），1（开启）
+    color1: 'linear-gradient(90deg,rgba(247,149,51,.1) 0,rgba(243,112,85,.1) 15%,rgba(239,78,123,.1) 30%,rgba(161,102,171,.1) 44%,rgba(80,115,184,.1) 58%,rgba(16,152,173,.1) 72%,rgba(7,179,155,.1) 86%,rgba(109,186,130,.1) 100%)' ,            //说说背景颜色1&按钮颜色1
+    color2: 'linear-gradient(90deg,rgba(247,149,51,.1) 0,rgba(243,112,85,.1) 15%,rgba(239,78,123,.1) 30%,rgba(161,102,171,.1) 44%,rgba(80,115,184,.1) 58%,rgba(16,152,173,.1) 72%,rgba(7,179,155,.1) 86%,rgba(109,186,130,.1) 100%)' ,            //说说背景颜色2&按钮颜色2
+    color3: '#5e5e5e' ,          //说说字体颜色
+    pageSize: 8  ,     //每页说说的显示数量
+    // bgImg:  ,         //说说输入框背景图片url
+    // cssUrl:   ,       //自定义css接口
+    atEmoji: {
+                  baiyan: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/baiyan.png",
+                  bishi: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/bishi.png",
+                  bizui: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/bizui.png",
+                  chan: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/chan.png",
+                  daku: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/daku.png",
+                  dalao: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/dalao.png",
+                  dalian: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/dalian.png",
+                  dianzan: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/dianzan.png",
+                  doge: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/doge.png",
+                  facai: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/facai.png",
+                  fadai: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/fadai.png",
+                  fanu: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/fanu.png",
+            },
+    
+})
+</script>
+
+</div>
+</main>
+
+{{ end }} 
+
