@@ -2,11 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/categories/</loc>
-    <lastmod>2022-10-14T17:58:19+08:00</lastmod>
+    <loc>https://example.com/books/</loc>
+    <lastmod>2022-10-24T12:40:23+08:00</lastmod>
   </url><url>
     <loc>https://example.com/</loc>
-    <lastmod>2022-10-24T11:05:04+08:00</lastmod>
+    <lastmod>2022-10-24T13:11:26+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/categories/</loc>
+    <lastmod>2022-10-14T17:58:19+08:00</lastmod>
   </url><url>
     <loc>https://example.com/life/</loc>
     <lastmod>2022-09-30T21:34:52+08:00</lastmod>
@@ -150,6 +153,9 @@
     <lastmod>2022-09-23T23:26:33+08:00</lastmod>
   </url><url>
     <loc>https://example.com/blogroll/</loc>
-    <lastmod>2022-10-24T11:05:04+08:00</lastmod>
+    <lastmod>2022-10-24T12:22:33+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/friends/</loc>
+    <lastmod>2022-10-24T13:11:26+08:00</lastmod>
   </url>
 </urlset>

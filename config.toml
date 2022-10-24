@@ -227,22 +227,36 @@ uglyURLs = false
         name = "友链"
         weight = 6
         pre = "internal"
-        post = "pagelines"
+    #    post = "pagelines"
+        identifier = "blogroll"
+    [[menu.main]]
+        pageref = "/friends/"
+        name = "朋友圈"
+        weight = 7
+        pre = "internal"
+    #    post = "pagelines"
         identifier = "friends"
+    #[[menu.main]]
+    #    pageref = "/books/"
+    #    name = "书籍"
+    #    weight = 90
+    #    pre = "internal"
+    #    post = "user-circle"
+    #    identifier = "books"
     [[menu.main]]
         pageref = "/about/"
         name = "关于"
-        weight = 7
+        weight = 8
         pre = "internal"
     #    post = "user-circle"
     [[menu.main]]
-        weight = 8
+        weight = 9
         identifier = "theme-switcher"
     [[menu.main]]
-        weight = 9
+        weight = 10
         identifier = "lang-switcher"
     # [[menu.main]]
-    #     weight = 10
+    #     weight = 11
     #     identifier = "search"
     #     post = "search"
 
