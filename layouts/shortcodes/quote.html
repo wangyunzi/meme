@@ -1,8 +1,8 @@
-<blockquote class="quote{{ range .Params }} {{ . }}{{ end }}">
+<blockquote class="quote{{ range .Params }} {{ . }}{{ end }}" style="border-left: none;">
     {{- $content := .Inner | markdownify -}}
     {{- if not (strings.HasPrefix $content "<p>") }}
         {{ printf `<p>%s</p>` $content | safeHTML }}
     {{- else }}
-        {{- $content }}
+        {{- $content | safeHTML }}
     {{- end -}}
-</blockquote> 
+</blockquote>

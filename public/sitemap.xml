@@ -2,19 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://example.com/photos/</loc>
+    <lastmod>2022-10-25T20:40:51+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/</loc>
+    <lastmod>2022-10-25T20:40:51+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/friend/</loc>
+    <lastmod>2022-10-25T20:02:24+08:00</lastmod>
+  </url><url>
     <loc>https://example.com/books/</loc>
     <lastmod>2022-10-24T14:14:05+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/</loc>
-    <lastmod>2022-10-24T14:14:05+08:00</lastmod>
-  </url><url>
-    <loc>https://example.com/categories/</loc>
-    <lastmod>2022-10-24T14:14:05+08:00</lastmod>
-  </url><url>
     <loc>https://example.com/life/</loc>
-    <lastmod>2022-10-24T14:14:05+08:00</lastmod>
+    <lastmod>2022-10-25T18:49:10+08:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/</loc>
+    <lastmod>2022-10-25T18:49:10+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/%E7%A7%8B%E5%A4%A9/</loc>
+    <lastmod>2022-10-21T20:19:18+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/%E5%9B%BE%E4%B9%A6%E9%A6%86/</loc>
+    <lastmod>2022-10-21T20:19:18+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/life/2022-10-23/</loc>
+    <lastmod>2022-10-21T20:19:18+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/%E7%83%A6%E6%81%BC/</loc>
+    <lastmod>2022-10-16T21:05:39+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/life/2022-10-16/</loc>
+    <lastmod>2022-10-16T21:05:39+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/%E7%9D%A1%E7%9C%A0/</loc>
+    <lastmod>2022-10-16T21:05:39+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/read/</loc>
+    <lastmod>2022-10-16T18:22:12+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/%E6%B2%89%E9%BB%98%E7%9A%84%E5%A4%A7%E5%A4%9A%E6%95%B0/</loc>
+    <lastmod>2022-10-16T18:22:12+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/read/2022-10-16/</loc>
+    <lastmod>2022-10-16T18:22:12+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/%E7%8E%8B%E5%B0%8F%E6%B3%A2/</loc>
+    <lastmod>2022-10-16T18:22:12+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/categories/</loc>
     <lastmod>2022-10-24T14:14:05+08:00</lastmod>
   </url><url>
     <loc>https://example.com/life/2022-09-30/</loc>
@@ -31,9 +67,6 @@
   </url><url>
     <loc>https://example.com/read/2022-09-23/</loc>
     <lastmod>2022-09-23T20:11:31+08:00</lastmod>
-  </url><url>
-    <loc>https://example.com/read/</loc>
-    <lastmod>2022-10-24T14:14:05+08:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/%E5%B1%B1%E6%9C%88%E8%AE%B0/</loc>
     <lastmod>2022-09-21T22:12:13+08:00</lastmod>
@@ -81,10 +114,10 @@
     <lastmod>2022-08-22T17:43:54+08:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/happy/</loc>
-    <lastmod>2022-10-24T14:14:05+08:00</lastmod>
+    <lastmod>2022-10-25T18:49:10+08:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2022-10-24T14:14:05+08:00</lastmod>
+    <lastmod>2022-10-25T18:49:10+08:00</lastmod>
   </url><url>
     <loc>https://example.com/life/2022-07-28/</loc>
     <lastmod>2022-10-24T14:14:05+08:00</lastmod>
@@ -132,28 +165,31 @@
     <lastmod>2022-10-24T14:14:05+08:00</lastmod>
   </url><url>
     <loc>https://example.com/life/2022-05-21/</loc>
-    <lastmod>2022-10-24T14:14:05+08:00</lastmod>
+    <lastmod>2022-10-25T18:49:10+08:00</lastmod>
   </url><url>
     <loc>https://example.com/about/</loc>
-    <lastmod>2022-10-24T14:14:05+08:00</lastmod>
+    <lastmod>2022-10-25T20:14:14+08:00</lastmod>
   </url><url>
     <loc>https://example.com/read/2022-05-10/</loc>
-    <lastmod>2022-10-24T14:14:05+08:00</lastmod>
+    <lastmod>2022-09-23T23:26:33+08:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/%E7%AC%AC%E4%B8%80%E6%AC%A1/</loc>
-    <lastmod>2022-10-24T14:14:05+08:00</lastmod>
+    <lastmod>2022-09-23T23:26:33+08:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/%E4%BD%A0%E5%A5%BD/</loc>
-    <lastmod>2022-10-24T14:14:05+08:00</lastmod>
+    <lastmod>2022-09-23T23:26:33+08:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/%E9%9D%92%E6%98%A5/</loc>
-    <lastmod>2022-10-24T14:14:05+08:00</lastmod>
+    <lastmod>2022-09-23T23:26:33+08:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/%E5%86%99%E4%BD%9C/</loc>
-    <lastmod>2022-10-24T14:14:05+08:00</lastmod>
+    <lastmod>2022-09-23T23:26:33+08:00</lastmod>
   </url><url>
     <loc>https://example.com/blogroll/</loc>
     <lastmod>2022-10-24T14:14:05+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/bb/</loc>
+    <lastmod>2022-08-21T12:41:26+08:00</lastmod>
   </url><url>
     <loc>https://example.com/friends/</loc>
     <lastmod>2022-10-24T14:14:05+08:00</lastmod>

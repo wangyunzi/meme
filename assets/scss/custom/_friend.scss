@@ -1,0 +1,68 @@
+.flink{
+	.friend-list-div {
+		overflow: auto;
+		padding: 10px 10px 0;
+		text-align: center;
+		.friend-div{
+			position: relative;
+			float: left;
+			overflow: hidden;
+			margin: 15px 7px;
+			width: calc(100%/3 - 15px);
+			height: 90px;
+			border-radius: 8px;
+			line-height: 17px;
+			-webkit-transform: translateZ(0);
+            &:hover {
+                background: var(--theme);
+                -webkit-transform: scale(1.08);
+                -moz-transform: scale(1.08);
+                -ms-transform: scale(1.08);
+                -o-transform: scale(1.08);
+                transform: scale(1.08);
+                transition: box-shadow 1s ease, transform 1s ease;
+                a{
+                    img{
+                        transition: 0.9s !important;
+                        -webkit-transition: 0.9s !important;
+                        -moz-transition: 0.9s !important;
+                        -o-transition: 0.9s !important;
+                        transform: rotate(360deg) !important;
+                        -webkit-transform: rotate(360deg) !important;
+                        -moz-transform: rotate(360deg) !important;
+                        -o-transform: rotate(360deg) !important;
+                        -ms-transform: rotate(360deg) !important;
+                    }
+                }
+            }
+			a{
+				color: var(--font-color);
+				text-decoration: none;
+				img{
+					float: left;
+					margin: 15px 10px;
+					width: 60px;
+					height: 60px;
+					border-radius: 35px;
+					-webkit-transition: all .3s;
+					-moz-transition: all .3s;
+					-o-transition: all .3s;
+					-ms-transition: all .3s;
+					transition: all .3s;
+				}
+				.friend-name {
+					display: block;
+					padding: 16px 10px 0 0;
+					height: 36px;
+					font-weight: 700;
+					font-size: 15px;
+				}
+				.friend-info{
+				    display: block;
+					padding: 1px 10px 1px 0;
+					height: 50px;
+					font-size: 13px;
+				}
+			}
+    }
+}}

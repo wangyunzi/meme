@@ -91,7 +91,7 @@ uglyURLs = false
 
 # 压缩 HTML
 [minify.tdewolff.html]
-    keepWhitespace = false
+    keepWhitespace = true
 
 # 作者信息
 [author]
@@ -216,19 +216,19 @@ uglyURLs = false
     #    weight = 4
     #    pre = "internal"
     #    post = "th"
-    [[menu.main]]
-        pageref = "/tags/"
-        name = "标签"
-        weight = 5
-        pre = "internal"
+    #[[menu.main]]
+    #    pageref = "/tags/"
+    #    name = "标签"
+    #    weight = 5
+    #    pre = "internal"
     #    post = "tags"
     [[menu.main]]
-        pageref = "/blogroll/"
+        pageref = "/friend/"
         name = "友链"
         weight = 6
         pre = "internal"
     #    post = "pagelines"
-        identifier = "blogroll"
+        identifier = "friend"
     [[menu.main]]
         pageref = "/friends/"
         name = "朋友圈"
@@ -243,6 +243,13 @@ uglyURLs = false
         pre = "internal"
     #    post = "pagelines"
         identifier = "talk"
+    [[menu.main]]
+        pageref = "/photos/"
+        name = "相册"
+        weight = 9
+        pre = "internal"
+    #    post = "pagelines"
+        identifier = "photos"
     #[[menu.main]]
     #    pageref = "/books/"
     #    name = "书籍"
@@ -253,19 +260,25 @@ uglyURLs = false
     [[menu.main]]
         pageref = "/about/"
         name = "关于"
-        weight = 9
+        weight = 10
         pre = "internal"
     #    post = "user-circle"
     [[menu.main]]
-        weight = 10
+        weight = 11
         identifier = "theme-switcher"
     [[menu.main]]
-        weight = 11
+        weight = 12
         identifier = "lang-switcher"
     # [[menu.main]]
-    #     weight = 11
+    #     weight = 13
     #     identifier = "search"
     #     post = "search"
+    #[[menu.main]]
+    #    pageref = "/bb/"
+    #    name = "哔哔"
+    #    weight = 14
+    #    pre = "internal"
+    #    post = "user-circle"
 
 
 ## 社交栏
@@ -284,6 +297,12 @@ uglyURLs = false
         name = "Twitter"
         weight = 3
         pre = "external"
+    [[menu.socials]]
+        url = "mailto:xueq695@gmail.com"
+        name = "Gmail"
+        weight = 4
+        pre = "external"
+
  
  ## 链接栏
     [[menu.links]]
@@ -297,8 +316,8 @@ uglyURLs = false
         weight = 2
         pre = "internal"
     [[menu.links]]
-        pageref = "/blog/"
-        name = "blog"
+        pageref = "/rss.xml"
+        name = "rss"
         weight = 3
         pre = "internal"
 
@@ -490,7 +509,7 @@ uglyURLs = false
     # 列表页面
 
     # 宽度
-    listWidth = 45
+    listWidth = 48
     # 说明：如果留空（""），则用 42 作为默认值
     #      单位：em
 
@@ -659,7 +678,7 @@ uglyURLs = false
     # Mermaid (https://github.com/mermaid-js/mermaid)
 
     # 是否开启（全局设置）
-    enableMermaid = true
+    enableMermaid = false
     # 说明：文章的 Front Matter 中的 `mermaid`
     #      的优先级高于此处
 
@@ -809,7 +828,7 @@ uglyURLs = false
     # 注意：只支持 HSL 颜色值
 
     # 文章的内容宽度
-    postWidth = 45
+    postWidth = 48
     # 说明：如果留空（""），则用 42 作为默认值
     #      单位：em
 
@@ -1043,7 +1062,8 @@ uglyURLs = false
     # 页脚
     fontFamilyFooter = "'Source Code Pro', 'Noto Serif SC', monospace"
     # 主体
-    fontFamilyBody = "'Amstelvar', Georgia, -apple-system, 'Arial', 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif"  # 'Noto Serif SC', 'EB Garamond', 'Noto Serif SC', serif
+    #fontFamilyBody = "Charter, Georgia, 'Helvetica Neue', Arial, 'Songti SC', 'SimSun', 'Hiragino Sans GB','宋体', 'Microsoft YaHei', 'STKaiti', 'Kai', 'Kaiti SC', 'KaiTi', 'KaiTi_GB2312', '楷体', sans-serif"
+    fontFamilyBody = "-apple-system, system-ui, BlinkMacSystemFont, 'Noto Serif SC', Arial, 'Amstelvar', 'Josefin Sans', 'Hiragino Sans GB', 'Microsoft Yahei', 'ST Heiti', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'"
 
     # 网络字体链接
     fontsLink = "https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Noto+Serif+SC:wght@400;500;700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap"
@@ -1170,7 +1190,7 @@ uglyURLs = false
     # 文章的 Git 版本信息
 
     # 是否开启
-    enablePostGitInfo = true
+    enablePostGitInfo = false
 
     # 是否显示（全局设置）
     displayPostGitInfo = false
@@ -1211,7 +1231,7 @@ uglyURLs = false
     # 文章分享
 
     # 是否开启
-    enablePostShare = true
+    enablePostShare = false
 
     # 是否显示（全局设置）
     displayPostShare = true
@@ -1343,9 +1363,9 @@ uglyURLs = false
     displaySiteCopyright = false
 
     # 自定义页脚（支持 Markdown）
-    customFooter = ""
+    customFooter = "浙ICP备2022025879号"
 
-    displayBusuanziSiteUVAndPV = false
+    displayBusuanziSiteUVAndPV = true
     busuanziSiteUVText = "本站访客数"
     busuanziSiteUVIcon = "user"
     busuanziSitePVText = "本站访问量"
@@ -1481,19 +1501,18 @@ uglyURLs = false
 
 
     ######################################
-    # 定制第三方库的地址
-
-        [params.lib]
+    [params.lib]
         host = "https://cdn.jsdelivr.net"
-        # Note: set it to root("/") and set
-        #       the path below if you want to host
-        #       the lib directly from “local”.
-        #       I.e. set path to "js/lib.min.js",
-        #       and put this file to your
-        #       /static/js/lib.min.js
+        # 说明：设置为根（"/"）且将下方对应 path
+        #      设置，如果你想要直接从「本地」
+        #      加载某个库的话。比如：
+        #      将 path 设置为 "js/lib.min.js"，
+        #      并将文件放到你的 /static/js/lib.min.js
     [params.lib.path]
         clipboard = "/npm/clipboard-polyfill@2.8.6/dist/clipboard-polyfill.min.js"
         instantsearch = "/npm/instantsearch.js@2/dist/instantsearch.min.js"
+        gitalk = "/npm/gitalk@1/dist/gitalk.min.js"
+        gitalk_css = "/npm/gitalk@1/dist/gitalk.css"
         instantpage = "/npm/instant.page@5.1.0/instantpage.min.js"
         katex = "/npm/katex@0.13.0/dist/katex.min.js"
         katex_css = "/npm/katex@0.13.0/dist/katex.min.css"
@@ -1506,5 +1525,8 @@ uglyURLs = false
         mathjax = "/npm/mathjax@3.1.2/es5/tex-mml-chtml.js"
         medium_zoom = "/npm/medium-zoom@latest/dist/medium-zoom.min.js"
         mermaid = "/npm/mermaid@8.8.3/dist/mermaid.min.js"
-
+        qrcode = "/npm/qrcode-generator@1.4.4/qrcode.min.js"
+        valine = "/npm/valine@1.4.14/dist/Valine.min.js"
+        busuanzi = "https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"
+        utterances = "https://utteranc.es/client.js"
 
