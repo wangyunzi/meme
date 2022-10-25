@@ -302,6 +302,11 @@ uglyURLs = false
         name = "Gmail"
         weight = 4
         pre = "external"
+    [[menu.socials]]
+        url = "/rss.xml"
+        name = "Rss"
+        weight = 5
+        pre = "external"
 
  
  ## 链接栏
@@ -316,10 +321,10 @@ uglyURLs = false
         weight = 2
         pre = "internal"
     [[menu.links]]
-        pageref = "/rss.xml"
-        name = "rss"
+        pageref = "/friend/"
+        name = "Friend"
         weight = 3
-        pre = "internal"
+        #pre = "internal"
 
 ##########################################
 # 主题配置
