@@ -91,7 +91,7 @@ uglyURLs = false
 
 # 压缩 HTML
 [minify.tdewolff.html]
-    keepWhitespace = true
+    keepWhitespace = false
 
 # 作者信息
 [author]
@@ -256,39 +256,53 @@ uglyURLs = false
         pre = "internal"
     #    post = "pagelines"
         identifier = "photos"
-    #[[menu.main]]
-    #    pageref = "/books/"
-    #    name = "书籍"
-    #    weight = 90
-    #    pre = "internal"
-    #    post = "user-circle"
-    #    identifier = "books"
     [[menu.main]]
-        pageref = "/about/"
-        name = "关于"
+        pageref = "/music/"
+        name = "音乐"
         weight = 11
         pre = "internal"
     #    post = "user-circle"
+        identifier = "music"
+    #[[menu.main]]
+    #    pageref = "/books/"
+    #    name = "书籍"
+    #    weight = 12
+    #    pre = "internal"
+    #    post = "user-circle"
+    #    identifier = "books"
+    #[[menu.main]]
+    #    pageref = "/movies/"
+    #    name = "书籍"
+    #    weight = 13
+    #    pre = "internal"
+    #    post = "user-circle"
+    #    identifier = "movies"
     [[menu.main]]
-        weight = 12
+        pageref = "/about/"
+        name = "关于"
+        weight = 14
+        pre = "internal"
+    #    post = "user-circle"
+    [[menu.main]]
+        weight = 15
         identifier = "theme-switcher"
     [[menu.main]]
-        weight = 13
+        weight = 16
         identifier = "lang-switcher"
-    [[menu.main]]
-        url = "https://travellings.link/"
-        name = "1"
-        weight = 14
-        pre = "external"
-        post = "travelling"
-    [[menu.main]]
-        url = "https://www.foreverblog.cn/go.html"
-    #    name = "·"
-        weight = 15
-        pre = "external"
-        post = "wormhole"
     #[[menu.main]]
-    #    weight = 14
+    #    url = "https://travellings.link/"
+    #    name = "1"
+    #    weight = 17
+    #    pre = "external"
+    #    post = "travelling"
+    #[[menu.main]]
+    #    url = "https://www.foreverblog.cn/go.html"
+    #    name = "·"
+    #    weight = 18
+    #    pre = "external"
+    #    post = "wormhole"
+    #[[menu.main]]
+    #    weight = 19
     #    identifier = "search"
     #    post = "user-circle"
     
@@ -1525,7 +1539,7 @@ uglyURLs = false
     ### https://cdn.jsdelivr.net
     ### https://jsd.cky.codes
     [params.lib]
-        host = "https://cdn.jsdelivr.net"
+        host = "https://jsd.cky.codes"
         # 说明：设置为根（"/"）且将下方对应 path
         #      设置，如果你想要直接从「本地」
         #      加载某个库的话。比如：
