@@ -277,7 +277,7 @@ uglyURLs = false
         identifier = "lang-switcher"
     [[menu.main]]
         url = "https://travellings.link/"
-        name = "·"
+        name = "1"
         weight = 14
         pre = "external"
         post = "travelling"
