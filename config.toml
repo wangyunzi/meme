@@ -275,22 +275,23 @@ uglyURLs = false
     [[menu.main]]
         weight = 13
         identifier = "lang-switcher"
-    #[[menu.main]]
-    #    weight = 14
-    #    identifier = "search"
-    #    post = "user-circle"
     [[menu.main]]
         url = "https://travellings.link/"
-        name = "1"
-        weight = 15
+        name = "·"
+        weight = 14
         pre = "external"
         post = "travelling"
     [[menu.main]]
         url = "https://www.foreverblog.cn/go.html"
-    #    name = "2"
-        weight = 16
+    #    name = "·"
+        weight = 15
         pre = "external"
         post = "wormhole"
+    #[[menu.main]]
+    #    weight = 14
+    #    identifier = "search"
+    #    post = "user-circle"
+    
     
     
     
