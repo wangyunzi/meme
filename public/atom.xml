@@ -4,13 +4,13 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">长街短梦</title>
     <subtitle type="html">假若人生如一条长街，我就不愿意错过这街上的每一处细小的风景。 假若人生不过是长街上的一个短梦，我愿意把这短梦做的生机盎然。</subtitle>
-    <updated>2022-10-26T07:59:10&#43;08:00</updated>
-    <id>https://example.com/</id>
-    <link rel="alternate" type="text/html" href="https://example.com/" />
-    <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
+    <updated>2022-10-26T09:01:34&#43;08:00</updated>
+    <id>https://wangyunzi.com/</id>
+    <link rel="alternate" type="text/html" href="https://wangyunzi.com/" />
+    <link rel="self" type="application/atom&#43;xml" href="https://wangyunzi.com/atom.xml" />
     <author>
             <name>王云子</name>
-            <uri>https://example.com/</uri>
+            <uri>https://wangyunzi.com/</uri>
             
                 <email>xueq695@gmail.com</email>
             </author>
@@ -18,8 +18,8 @@
     <generator uri="https://gohugo.io/" version="0.99.1">Hugo</generator>
         <entry>
             <title type="text">一周杂记</title>
-            <link rel="alternate" type="text/html" href="https://example.com/life/2022-10-23/" />
-            <id>https://example.com/life/2022-10-23/</id>
+            <link rel="alternate" type="text/html" href="https://wangyunzi.com/life/2022-10-23/" />
+            <id>https://wangyunzi.com/life/2022-10-23/</id>
             <updated>2022-10-21T20:19:18&#43;08:00</updated>
             <published>2022-10-21T20:19:18&#43;08:00</published>
             <author>
@@ -44,7 +44,7 @@
                     
                     
                         
-                            <category scheme="https://example.com/life/" term="life\" label="life\" />
+                            <category scheme="https://wangyunzi.com/life/" term="life\" label="life\" />
                         
                     
                 
@@ -57,13 +57,13 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E5%9B%BE%E4%B9%A6%E9%A6%86/" term="图书馆" label="图书馆" />
+                                <category scheme="https://wangyunzi.com/tags/%E5%9B%BE%E4%B9%A6%E9%A6%86/" term="图书馆" label="图书馆" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E7%A7%8B%E5%A4%A9/" term="秋天" label="秋天" />
+                                <category scheme="https://wangyunzi.com/tags/%E7%A7%8B%E5%A4%A9/" term="秋天" label="秋天" />
                             
                         
                     
@@ -73,8 +73,8 @@
     
         <entry>
             <title type="text">拿什么拯救你,我的睡眠</title>
-            <link rel="alternate" type="text/html" href="https://example.com/life/2022-10-16/" />
-            <id>https://example.com/life/2022-10-16/</id>
+            <link rel="alternate" type="text/html" href="https://wangyunzi.com/life/2022-10-16/" />
+            <id>https://wangyunzi.com/life/2022-10-16/</id>
             <updated>2022-10-16T21:05:39&#43;08:00</updated>
             <published>2022-10-16T21:05:39&#43;08:00</published>
             <author>
@@ -98,7 +98,7 @@
                     
                     
                         
-                            <category scheme="https://example.com/life/" term="life\" label="life\" />
+                            <category scheme="https://wangyunzi.com/life/" term="life\" label="life\" />
                         
                     
                 
@@ -111,13 +111,13 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E7%9D%A1%E7%9C%A0/" term="睡眠" label="睡眠" />
+                                <category scheme="https://wangyunzi.com/tags/%E7%9D%A1%E7%9C%A0/" term="睡眠" label="睡眠" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E7%83%A6%E6%81%BC/" term="烦恼" label="烦恼" />
+                                <category scheme="https://wangyunzi.com/tags/%E7%83%A6%E6%81%BC/" term="烦恼" label="烦恼" />
                             
                         
                     
@@ -127,8 +127,8 @@
     
         <entry>
             <title type="text">沉默的大多数</title>
-            <link rel="alternate" type="text/html" href="https://example.com/read/2022-10-16/" />
-            <id>https://example.com/read/2022-10-16/</id>
+            <link rel="alternate" type="text/html" href="https://wangyunzi.com/read/2022-10-16/" />
+            <id>https://wangyunzi.com/read/2022-10-16/</id>
             <updated>2022-10-16T18:22:12&#43;08:00</updated>
             <published>2022-10-16T18:22:12&#43;08:00</published>
             <author>
@@ -460,7 +460,7 @@
                     
                     
                         
-                            <category scheme="https://example.com/read/" term="read\" label="read\" />
+                            <category scheme="https://wangyunzi.com/read/" term="read\" label="read\" />
                         
                     
                 
@@ -473,13 +473,13 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E7%8E%8B%E5%B0%8F%E6%B3%A2/" term="王小波" label="王小波" />
+                                <category scheme="https://wangyunzi.com/tags/%E7%8E%8B%E5%B0%8F%E6%B3%A2/" term="王小波" label="王小波" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E6%B2%89%E9%BB%98%E7%9A%84%E5%A4%A7%E5%A4%9A%E6%95%B0/" term="沉默的大多数" label="沉默的大多数" />
+                                <category scheme="https://wangyunzi.com/tags/%E6%B2%89%E9%BB%98%E7%9A%84%E5%A4%A7%E5%A4%9A%E6%95%B0/" term="沉默的大多数" label="沉默的大多数" />
                             
                         
                     
@@ -489,8 +489,8 @@
     
         <entry>
             <title type="text">国庆放假之回家历险记</title>
-            <link rel="alternate" type="text/html" href="https://example.com/life/2022-09-30/" />
-            <id>https://example.com/life/2022-09-30/</id>
+            <link rel="alternate" type="text/html" href="https://wangyunzi.com/life/2022-09-30/" />
+            <id>https://wangyunzi.com/life/2022-09-30/</id>
             <updated>2022-09-30T21:34:52&#43;08:00</updated>
             <published>2022-09-30T21:34:52&#43;08:00</published>
             <author>
@@ -519,7 +519,7 @@
                     
                     
                         
-                            <category scheme="https://example.com/life/" term="life\" label="life\" />
+                            <category scheme="https://wangyunzi.com/life/" term="life\" label="life\" />
                         
                     
                 
@@ -532,7 +532,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E5%9B%BD%E5%BA%86%E5%81%87%E6%9C%9F/" term="国庆假期" label="国庆假期" />
+                                <category scheme="https://wangyunzi.com/tags/%E5%9B%BD%E5%BA%86%E5%81%87%E6%9C%9F/" term="国庆假期" label="国庆假期" />
                             
                         
                     
@@ -542,8 +542,8 @@
     
         <entry>
             <title type="text">你是什么颜色的灵魂</title>
-            <link rel="alternate" type="text/html" href="https://example.com/life/2022-09-24/" />
-            <id>https://example.com/life/2022-09-24/</id>
+            <link rel="alternate" type="text/html" href="https://wangyunzi.com/life/2022-09-24/" />
+            <id>https://wangyunzi.com/life/2022-09-24/</id>
             <updated>2022-09-24T21:43:24&#43;08:00</updated>
             <published>2022-09-24T21:43:24&#43;08:00</published>
             <author>
@@ -603,7 +603,7 @@
                     
                     
                         
-                            <category scheme="https://example.com/life/" term="life\" label="life\" />
+                            <category scheme="https://wangyunzi.com/life/" term="life\" label="life\" />
                         
                     
                 
@@ -616,7 +616,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E5%BF%83%E7%90%86%E5%AD%A6/" term="心理学" label="心理学" />
+                                <category scheme="https://wangyunzi.com/tags/%E5%BF%83%E7%90%86%E5%AD%A6/" term="心理学" label="心理学" />
                             
                         
                     
@@ -626,8 +626,8 @@
     
         <entry>
             <title type="text">《每天懂一点趣味心理学》</title>
-            <link rel="alternate" type="text/html" href="https://example.com/read/2022-09-23/" />
-            <id>https://example.com/read/2022-09-23/</id>
+            <link rel="alternate" type="text/html" href="https://wangyunzi.com/read/2022-09-23/" />
+            <id>https://wangyunzi.com/read/2022-09-23/</id>
             <updated>2022-09-23T20:11:31&#43;08:00</updated>
             <published>2022-09-23T20:11:31&#43;08:00</published>
             <author>
@@ -894,7 +894,7 @@
                     
                     
                         
-                            <category scheme="https://example.com/read/" term="read\" label="read\" />
+                            <category scheme="https://wangyunzi.com/read/" term="read\" label="read\" />
                         
                     
                 
@@ -907,7 +907,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E5%BF%83%E7%90%86%E5%AD%A6/" term="心理学" label="心理学" />
+                                <category scheme="https://wangyunzi.com/tags/%E5%BF%83%E7%90%86%E5%AD%A6/" term="心理学" label="心理学" />
                             
                         
                     
@@ -917,8 +917,8 @@
     
         <entry>
             <title type="text">《山月记》笔记</title>
-            <link rel="alternate" type="text/html" href="https://example.com/read/2022-09-21/" />
-            <id>https://example.com/read/2022-09-21/</id>
+            <link rel="alternate" type="text/html" href="https://wangyunzi.com/read/2022-09-21/" />
+            <id>https://wangyunzi.com/read/2022-09-21/</id>
             <updated>2022-09-21T22:12:13&#43;08:00</updated>
             <published>2022-09-21T22:12:13&#43;08:00</published>
             <author>
@@ -1074,7 +1074,7 @@
                     
                     
                         
-                            <category scheme="https://example.com/read/" term="read\" label="read\" />
+                            <category scheme="https://wangyunzi.com/read/" term="read\" label="read\" />
                         
                     
                 
@@ -1087,13 +1087,13 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E5%B1%B1%E6%9C%88%E8%AE%B0/" term="《山月记》" label="《山月记》" />
+                                <category scheme="https://wangyunzi.com/tags/%E5%B1%B1%E6%9C%88%E8%AE%B0/" term="《山月记》" label="《山月记》" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E6%95%B4%E7%90%86/" term="整理" label="整理" />
+                                <category scheme="https://wangyunzi.com/tags/%E6%95%B4%E7%90%86/" term="整理" label="整理" />
                             
                         
                     
@@ -1103,8 +1103,8 @@
     
         <entry>
             <title type="text">我与思源的初遇</title>
-            <link rel="alternate" type="text/html" href="https://example.com/life/2022-09-16/" />
-            <id>https://example.com/life/2022-09-16/</id>
+            <link rel="alternate" type="text/html" href="https://wangyunzi.com/life/2022-09-16/" />
+            <id>https://wangyunzi.com/life/2022-09-16/</id>
             <updated>2022-09-16T21:14:36&#43;08:00</updated>
             <published>2022-09-16T21:14:36&#43;08:00</published>
             <author>
@@ -1138,7 +1138,7 @@
                     
                     
                         
-                            <category scheme="https://example.com/life/" term="life\" label="life\" />
+                            <category scheme="https://wangyunzi.com/life/" term="life\" label="life\" />
                         
                     
                 
@@ -1151,7 +1151,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E6%80%9D%E6%BA%90/" term="思源" label="思源" />
+                                <category scheme="https://wangyunzi.com/tags/%E6%80%9D%E6%BA%90/" term="思源" label="思源" />
                             
                         
                     
@@ -1161,8 +1161,8 @@
     
         <entry>
             <title type="text">蛋黄酥</title>
-            <link rel="alternate" type="text/html" href="https://example.com/life/2022-09-13/" />
-            <id>https://example.com/life/2022-09-13/</id>
+            <link rel="alternate" type="text/html" href="https://wangyunzi.com/life/2022-09-13/" />
+            <id>https://wangyunzi.com/life/2022-09-13/</id>
             <updated>2022-09-13T14:11:34&#43;08:00</updated>
             <published>2022-09-13T14:11:34&#43;08:00</published>
             <author>
@@ -1187,7 +1187,7 @@
                     
                     
                         
-                            <category scheme="https://example.com/life/" term="life\" label="life\" />
+                            <category scheme="https://wangyunzi.com/life/" term="life\" label="life\" />
                         
                     
                 
@@ -1200,7 +1200,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/" term="Tags" label="Tags" />
+                                <category scheme="https://wangyunzi.com/tags/" term="Tags" label="Tags" />
                             
                         
                     
@@ -1210,8 +1210,8 @@
     
         <entry>
             <title type="text">读《他人即地狱》整理</title>
-            <link rel="alternate" type="text/html" href="https://example.com/read/2022-09-13/" />
-            <id>https://example.com/read/2022-09-13/</id>
+            <link rel="alternate" type="text/html" href="https://wangyunzi.com/read/2022-09-13/" />
+            <id>https://wangyunzi.com/read/2022-09-13/</id>
             <updated>2022-09-13T13:50:58&#43;08:00</updated>
             <published>2022-09-13T13:50:58&#43;08:00</published>
             <author>
@@ -1299,7 +1299,7 @@
                     
                     
                         
-                            <category scheme="https://example.com/read/" term="read\" label="read\" />
+                            <category scheme="https://wangyunzi.com/read/" term="read\" label="read\" />
                         
                     
                 
@@ -1312,7 +1312,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E5%81%8F%E8%A7%81/" term="偏见" label="偏见" />
+                                <category scheme="https://wangyunzi.com/tags/%E5%81%8F%E8%A7%81/" term="偏见" label="偏见" />
                             
                         
                     

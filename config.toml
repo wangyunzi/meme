@@ -1,7 +1,7 @@
 ##########################################
 # 站点配置
 
-baseURL = "https://example.com/"
+baseURL = "https://wangyunzi.com/"
 title = "长街短梦"
 languageCode = "zh-CN"
 hasCJKLanguage = true
@@ -874,7 +874,7 @@ uglyURLs = false
     publishedDateIcon = "calendar-alt"
 
     # 是否显示修改时间
-    displayModifiedDate = true
+    displayModifiedDate = false
     # 修改时间的图标
     modifiedDateIcon = "calendar-check"
 
@@ -1081,7 +1081,7 @@ uglyURLs = false
     ######################################
     ## 字号（单位：px）
 
-    fontSize = 17
+    fontSize = 16
 
     ######################################
     ## 制表符的宽度

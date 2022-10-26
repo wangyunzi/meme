@@ -10,7 +10,7 @@ indent: false
 ---
 <!-- <audio src="原来你也在这里-刘若英.m4a" preload="none" controls=smallconsole allowfullscreen></audio> -->
 
-**更新时间：2022-10-15**
+**更新时间：2022-10-26**
 
 <div align=center>  <!-- 可选的项：right，left，center -->
     <img src="海绵宝宝.jpg" width="" height="" alt="图片转载自https://i.pinimg.com/564x/73/02/fd/7302fda480fe5fde524fef65811c018e.jpg">  <!-- src处填写路径（本地或网络） width 和 height 就是控制图片的大小的-->
@@ -48,10 +48,11 @@ indent: false
 - [Github](https://github.com/wangyunzi)
 
 #### 🎉关于博客
-- [Sulv's Blog](https://www.sulvblog.cn/)这个大佬的博客里面有搭建这个博客的教程
-- [ Frytea](https://www.frytea.com/)我用的主题是这个大佬改造过papermood主题
-- [木木木木木](https://immmmm.com/)至于豆瓣书单网页使用的是这个大佬的代码
+<!-- - [Sulv's Blog](https://www.sulvblog.cn/)这个大佬的博客里面有搭建这个博客的教程 -->
+<!-- - [ Frytea](https://www.frytea.com/)我用的主题是这个大佬改造过papermood主题 -->
+<!-- - [木木木木木](https://immmmm.com/)至于豆瓣书单网页使用的是这个大佬的代码 -->
 - 博客部分网络图片来自[Pixabay](https://pixabay.com/zh/)、[pinterest](https://www.pinterest.com/),若侵权请告知博主，博主将会第一时间删除
+- 博客主题使用的是一款简洁、美观的主题[meme](https://github.com/reuixiy/hugo-theme-meme)
 
 #### 🕊️我的箴言
 
