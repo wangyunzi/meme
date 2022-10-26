@@ -1539,17 +1539,16 @@ uglyURLs = false
     ### https://cdn.jsdelivr.net
     ### https://jsd.cky.codes
     [params.lib]
-        host = "https://jsd.cky.codes"
-        # 说明：设置为根（"/"）且将下方对应 path
-        #      设置，如果你想要直接从「本地」
-        #      加载某个库的话。比如：
-        #      将 path 设置为 "js/lib.min.js"，
-        #      并将文件放到你的 /static/js/lib.min.js
+        host = "https://cdn.jsdelivr.net"
+        # Note: set it to root("/") and set
+        #       the path below if you want to host
+        #       the lib directly from “local”.
+        #       I.e. set path to "js/lib.min.js",
+        #       and put this file to your
+        #       /static/js/lib.min.js
     [params.lib.path]
         clipboard = "/npm/clipboard-polyfill@2.8.6/dist/clipboard-polyfill.min.js"
         instantsearch = "/npm/instantsearch.js@2/dist/instantsearch.min.js"
-        gitalk = "/npm/gitalk@1/dist/gitalk.min.js"
-        gitalk_css = "/npm/gitalk@1/dist/gitalk.css"
         instantpage = "/npm/instant.page@5.1.0/instantpage.min.js"
         katex = "/npm/katex@0.13.0/dist/katex.min.js"
         katex_css = "/npm/katex@0.13.0/dist/katex.min.css"
@@ -1562,8 +1561,4 @@ uglyURLs = false
         mathjax = "/npm/mathjax@3.1.2/es5/tex-mml-chtml.js"
         medium_zoom = "/npm/medium-zoom@latest/dist/medium-zoom.min.js"
         mermaid = "/npm/mermaid@8.8.3/dist/mermaid.min.js"
-        qrcode = "/npm/qrcode-generator@1.4.4/qrcode.min.js"
-        valine = "/npm/valine@1.4.14/dist/Valine.min.js"
-        busuanzi = "https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"
-        utterances = "https://utteranc.es/client.js"
 
