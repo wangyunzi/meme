@@ -257,7 +257,7 @@ uglyURLs = false
     #    post = "pagelines"
         identifier = "photos"
     [[menu.main]]
-        pageref = "others/music"
+        pageref = "/music/"
         name = "音乐"
         weight = 11
         pre = "internal"
