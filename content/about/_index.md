@@ -52,7 +52,7 @@ indent: false
 <!-- - [ Frytea](https://www.frytea.com/)我用的主题是这个大佬改造过papermood主题 -->
 <!-- - [木木木木木](https://immmmm.com/)至于豆瓣书单网页使用的是这个大佬的代码 -->
 - 博客部分网络图片来自[Pixabay](https://pixabay.com/zh/)、[pinterest](https://www.pinterest.com/),若侵权请告知博主，博主将会第一时间删除
-- 博客主题使用的是一款简洁、美观的主题[meme](https://github.com/reuixiy/hugo-theme-meme)
+- 主题:[meme](https://github.com/reuixiy/hugo-theme-meme),一款优雅、简约、现代的主题
 
 #### 🕊️我的箴言
 
