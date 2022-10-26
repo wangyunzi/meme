@@ -25,6 +25,9 @@ eye = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="icon
 user = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon"><path d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"/></svg>'
 sun = '<span class="icon">🌞</span>'
 moon = '<span class="icon">🌙</span>'
+travellings = '<span class="icon"><span><img src="https://blog.wangyunzi.com/travelling.png" width="25" alt="开往-友链接力" title="开往-友链接力" style="display: inline; vertical-align: middle; min-width: 30px;"/></span></span>'
+wormhole = '<span class="icon"><span><img src="https://blog.wangyunzi.com/wormhole.png" width="25" alt="穿梭虫洞-随机访问十年之约友链博客" title="穿梭虫洞-随机访问十年之约友链博客" style="display: inline; vertical-align: middle; min-width: 20px;"/></span></span>'
+
 
 # Social Icons
 rss = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon"><path d="M19.199 24C19.199 13.467 10.533 4.8 0 4.8V0c13.165 0 24 10.835 24 24h-4.801zM3.291 17.415c1.814 0 3.293 1.479 3.293 3.295 0 1.813-1.485 3.29-3.301 3.29C1.47 24 0 22.526 0 20.71s1.475-3.294 3.291-3.295zM15.909 24h-4.665c0-6.169-5.075-11.245-11.244-11.245V8.09c8.727 0 15.909 7.184 15.909 15.91z"/></svg>'

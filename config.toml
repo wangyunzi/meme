@@ -153,8 +153,8 @@ uglyURLs = false
 # Hugo 的输出控制
 [outputs]
     page = ["HTML"]
-    # home = ["HTML", "SectionsAtom", "SectionsRSS", "SearchIndex", "Algolia"]
-    home = ["HTML", "SectionsAtom", "SectionsRSS"]
+    home = ["HTML", "SectionsAtom", "SectionsRSS", "SearchIndex", "Algolia"]
+    #home = ["HTML", "SectionsAtom", "SectionsRSS"]
     section = ["HTML"]
     taxonomy = ["HTML"]
     term = ["HTML"]
@@ -244,9 +244,15 @@ uglyURLs = false
     #    post = "pagelines"
         identifier = "talk"
     [[menu.main]]
+        pageref = "/bb/"
+        name = "哔哔"
+        weight = 9
+        pre = "internal"
+    #    post = "user-circle"
+    [[menu.main]]
         pageref = "/photos/"
         name = "相册"
-        weight = 9
+        weight = 10
         pre = "internal"
     #    post = "pagelines"
         identifier = "photos"
@@ -260,25 +266,34 @@ uglyURLs = false
     [[menu.main]]
         pageref = "/about/"
         name = "关于"
-        weight = 10
+        weight = 11
         pre = "internal"
     #    post = "user-circle"
     [[menu.main]]
-        weight = 11
+        weight = 12
         identifier = "theme-switcher"
     [[menu.main]]
-        weight = 12
+        weight = 13
         identifier = "lang-switcher"
-    # [[menu.main]]
-    #     weight = 13
-    #     identifier = "search"
-    #     post = "search"
     #[[menu.main]]
-    #    pageref = "/bb/"
-    #    name = "哔哔"
     #    weight = 14
-    #    pre = "internal"
+    #    identifier = "search"
     #    post = "user-circle"
+    [[menu.main]]
+        url = "https://travellings.link/"
+    #    name = "1"
+        weight = 15
+        pre = "external"
+        post = "travellings"
+    [[menu.main]]
+        url = "https://www.foreverblog.cn/go.html"
+    #    name = "2"
+        weight = 16
+        pre = "external"
+        post = "wormhole"
+    
+    
+    
 
 
 ## 社交栏
@@ -1485,11 +1500,11 @@ uglyURLs = false
     #      次将生成的 algolia.json 文件上传到
     #      Algolia
 
-    enableAlgoliaSearch = false
+    enableAlgoliaSearch =false
 
-    algoliaAppId = ""
-    algoliaApiKey = ""
-    algoliaIndexName = ""
+    algoliaAppId = "QQOZJT9I08"
+    algoliaApiKey = "7c96d116a3bd2fc39c765c3f6679f678"
+    algoliaIndexName = "wang-yunzi"
     # 说明：https://www.algolia.com/
 
 
