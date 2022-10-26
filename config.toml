@@ -281,10 +281,10 @@ uglyURLs = false
     #    post = "user-circle"
     [[menu.main]]
         url = "https://travellings.link/"
-    #    name = "1"
+        name = "1"
         weight = 15
         pre = "external"
-        post = "travellings"
+        post = "travelling"
     [[menu.main]]
         url = "https://www.foreverblog.cn/go.html"
     #    name = "2"
