@@ -10,6 +10,8 @@ indent: false
 ---
 <!-- <audio src="原来你也在这里-刘若英.m4a" preload="none" controls=smallconsole allowfullscreen></audio> -->
 
+
+
 **更新时间：2022-10-26**
 
 <div align=center>  <!-- 可选的项：right，left，center -->
@@ -29,6 +31,8 @@ indent: false
 #### 🎶最近在听
 - 最近疯狂迷恋粤语歌，喜欢有韵味和时光气息的音乐
 - 喜欢的歌手有张敬轩、刘若英、李健、王菲、莫文蔚....
+
+{{< music auto="https://music.163.com/#/playlist?id=2810974194&creatorId=129593031" >}}
 
 
 #### 🏷️我的博客

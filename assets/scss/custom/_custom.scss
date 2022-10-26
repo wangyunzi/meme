@@ -34,11 +34,23 @@
 // twikoo
 @import "twikoo";
 
-//friend
-@import "friend"
+// 友链
+@import "friend";
 
-// common
-// @import "photos"
+// 相册
+@import "photos";
 
-// pagination
-// @import "pagination"
+// 评论分割
+// @import "pagination";
+
+// 短代码
+@import "shortcodes";
+
+// 顶栏布局
+@import "header-layout";
+
+// 朋友圈
+// @import "fcircle-beta";
+
+// 文章
+@import "post";
