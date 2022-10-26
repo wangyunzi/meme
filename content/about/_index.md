@@ -50,9 +50,9 @@ indent: false
 #### 🎉关于博客
 <!-- - [Sulv's Blog](https://www.sulvblog.cn/)这个大佬的博客里面有搭建这个博客的教程 -->
 <!-- - [ Frytea](https://www.frytea.com/)我用的主题是这个大佬改造过papermood主题 -->
-<!-- - [木木木木木](https://immmmm.com/)至于豆瓣书单网页使用的是这个大佬的代码 -->
-- 博客部分网络图片来自[Pixabay](https://pixabay.com/zh/)、[pinterest](https://www.pinterest.com/),若侵权请告知博主，博主将会第一时间删除
+- 至于豆瓣音乐网页使用的是这个[大佬](https://github.com/lizheming/doumark-action)项目，教程是[木木同学](https://immmmm.com/)
 - 主题:[meme](https://github.com/reuixiy/hugo-theme-meme),一款优雅、简约、现代的主题
+- 博客部分网络图片来自[Pixabay](https://pixabay.com/zh/)、[pinterest](https://www.pinterest.com/),若侵权请告知博主，博主将会第一时间删除
 
 #### 🕊️我的箴言
 
