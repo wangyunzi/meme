@@ -814,10 +814,10 @@ uglyURLs = false
     enableGoogleAnalytics = false
 
     # 跟踪代码的类型
-    trackingCodeType = "gtag"
+    trackingCodeType = "analytics"
     # 说明：gtag 或 analytics
 
-    trackingID = ""
+    trackingID = "G-DJCXPEYLMM"
 
 
     ######################################
