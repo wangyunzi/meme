@@ -7,6 +7,7 @@ toc: true
 tags: 
 categories:
 share:
+tocNum: false
 comments:
 meta: false       # 文章表头
 dropCap:     # 首字下沉

@@ -2,26 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://wangyunzi.com/movies/</loc>
-    <lastmod>2022-10-26T12:17:13+08:00</lastmod>
+    <loc>https://wangyunzi.com/others/shortcodes/</loc>
+    <lastmod>2022-10-26T23:33:01+08:00</lastmod>
   </url><url>
-    <loc>https://wangyunzi.com/music/</loc>
-    <lastmod>2022-10-26T13:29:00+08:00</lastmod>
+    <loc>https://wangyunzi.com/others/</loc>
+    <lastmod>2022-10-26T23:33:01+08:00</lastmod>
   </url><url>
     <loc>https://wangyunzi.com/</loc>
-    <lastmod>2022-10-26T19:32:47+08:00</lastmod>
+    <lastmod>2022-10-26T23:33:01+08:00</lastmod>
   </url><url>
-    <loc>https://wangyunzi.com/search/</loc>
-    <lastmod>2022-10-26T10:18:03+08:00</lastmod>
+    <loc>https://wangyunzi.com/others/movies/</loc>
+    <lastmod>2022-10-26T23:07:29+08:00</lastmod>
+  </url><url>
+    <loc>https://wangyunzi.com/others/music/</loc>
+    <lastmod>2022-10-26T23:09:32+08:00</lastmod>
   </url><url>
     <loc>https://wangyunzi.com/photos/</loc>
-    <lastmod>2022-10-26T13:50:58+08:00</lastmod>
+    <lastmod>2022-10-26T20:56:33+08:00</lastmod>
   </url><url>
     <loc>https://wangyunzi.com/friend/</loc>
     <lastmod>2022-10-25T20:02:24+08:00</lastmod>
   </url><url>
-    <loc>https://wangyunzi.com/books/</loc>
-    <lastmod>2022-10-24T14:14:05+08:00</lastmod>
+    <loc>https://wangyunzi.com/others/books/</loc>
+    <lastmod>2022-10-26T22:59:31+08:00</lastmod>
   </url><url>
     <loc>https://wangyunzi.com/life/</loc>
     <lastmod>2022-10-25T18:49:10+08:00</lastmod>
@@ -177,7 +180,7 @@
     <lastmod>2022-10-25T18:49:10+08:00</lastmod>
   </url><url>
     <loc>https://wangyunzi.com/about/</loc>
-    <lastmod>2022-10-26T19:32:47+08:00</lastmod>
+    <lastmod>2022-10-26T22:03:30+08:00</lastmod>
   </url><url>
     <loc>https://wangyunzi.com/read/2022-05-10/</loc>
     <lastmod>2022-09-23T23:26:33+08:00</lastmod>
@@ -193,9 +196,6 @@
   </url><url>
     <loc>https://wangyunzi.com/tags/%E5%86%99%E4%BD%9C/</loc>
     <lastmod>2022-09-23T23:26:33+08:00</lastmod>
-  </url><url>
-    <loc>https://wangyunzi.com/blogroll/</loc>
-    <lastmod>2022-10-24T14:14:05+08:00</lastmod>
   </url><url>
     <loc>https://wangyunzi.com/bb/</loc>
     <lastmod>2022-08-21T12:41:26+08:00</lastmod>

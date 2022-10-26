@@ -8,7 +8,8 @@ tags:
 categories:
 share:
 comments:
-meta:        # 文章表头
+meta: 
+tocNum:       # 文章表头
 dropCap:     # 首字下沉
 indent:      # 段排首缩
 gitinfo: false

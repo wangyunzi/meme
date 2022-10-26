@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
+    <meta charset="UTF-8" />
+
+    <meta name="generator" content="Hugo 0.99.1" /><meta name="theme-color" content="#fff" />
+    <meta name="color-scheme" content="light dark">
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+    <title>hugo短代码记录 | 长街短梦</title>
+
+    <link rel="stylesheet" href="/css/meme.min.css" />
+
+    
+    
+        <script src="/js/meme.min.js"></script>
+
+    
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" media="print" onload="this.media='all'" />
+        <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" /></noscript>
+
+    <meta name="author" content="王云子" /><meta name="description" content="这是博主自己用的主页，需要用的时候打开这个" />
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#2a6df4" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="长街短梦" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="长街短梦" />
+    <meta name="msapplication-starturl" content="../../" />
+    <meta name="msapplication-TileColor" content="#fff" />
+    <meta name="msapplication-TileImage" content="../../icons/mstile-150x150.png" />
+    <link rel="manifest" href="/manifest.json" />
+
+    
+    
+
+    
+    <link rel="canonical" href="https://wangyunzi.com/others/shortcodes/" />
+    
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "datePublished": "2022-10-26T22:53:11+08:00",
+        "dateModified": "2022-10-26T23:33:01+08:00",
+        "url": "https://wangyunzi.com/others/shortcodes/",
+        "name": "hugo短代码记录",
+        "description": "这是博主自己用的主页，需要用的时候打开这个",
+        "image": "https://wangyunzi.com/icons/apple-touch-icon.png",
+        "license": "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)",
+        "publisher": {
+            "@type": "Organization",
+            "name": "长街短梦",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://wangyunzi.com/icons/apple-touch-icon.png"
+            },
+            "url": "https://wangyunzi.com/"
+        },
+        "mainEntityOfPage": {
+            "@type": "WebSite",
+            "@id": "https://wangyunzi.com/"
+        }
+    }
+</script>
+
+    
+
+<meta name="twitter:card" content="summary" />
+
+<meta name="twitter:site" content="@YunziWang" />
+<meta name="twitter:creator" content="@YunziWang" />
+
+    
+
+
+
+<meta property="og:title" content="hugo短代码记录" />
+<meta property="og:description" content="这是博主自己用的主页，需要用的时候打开这个" />
+<meta property="og:url" content="https://wangyunzi.com/others/shortcodes/" />
+<meta property="og:site_name" content="长街短梦" />
+<meta property="og:locale" content="zh" /><meta property="og:image" content="https://wangyunzi.com/icons/apple-touch-icon.png" />
+    <meta property="og:type" content="website" />
+
+
+    
+    
+
+    
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=ZCOOL&#43;XiaoWei&amp;text=GuanQir%27sBlog%e9%95%bf%e8%a1%97%e7%9f%ad%e6%a2%a6&amp;display=swap" media="print" onload="this.media='all'" />
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=ZCOOL&#43;XiaoWei&amp;text=GuanQir%27sBlog%e9%95%bf%e8%a1%97%e7%9f%ad%e6%a2%a6&amp;display=swap" /></noscript>
+
+
+</head>
+
+    <body>
+        <div class="container">
+            
+    <header class="header">
+        
+            <div class="header-wrapper">
+                <div class="header-inner single">
+                    
+    <div class="site-brand">
+        
+            <a href="/" class="brand">长街短梦</a>
+        
+    </div>
+
+                    <div id="tp-weather-widget"></div>
+                    <script>
+                        (function(a,h,g,f,e,d,c,b){b=function(){d=h.createElement(g);c=h.getElementsByTagName(g)[0];d.src=e;d.charset="utf-8";d.async=1;c.parentNode.insertBefore(d,c)};a["SeniverseWeatherWidgetObject"]=f;a[f]||(a[f]=function(){(a[f].q=a[f].q||[]).push(arguments)});a[f].l=+new Date();if(a.attachEvent){a.attachEvent("onload",b)}else{a.addEventListener("load",b,false)}}(window,document,"script","SeniverseWeatherWidget","//cdn.sencdn.com/widget2/static/js/bundle.js?t="+parseInt((new Date().getTime() / 100000000).toString(),10)));
+                        window.SeniverseWeatherWidget('show', {
+                          flavor: "slim",
+                          location: "WX4FBXXFKE4F",
+                          geolocation: true,
+                          language: "zh-Hans",
+                          unit: "c",
+                          theme: "auto",
+                          token: "0225a20f-7f8d-4d1a-920f-d55dc9885d82",
+                          hover: "enabled",
+                          container: "tp-weather-widget"
+                        })
+                      </script>
+                    <nav class="nav">
+    <ul class="menu" id="menu">
+        
+            
+        
+        
+        
+        
+            
+                <li class="menu-item"><a href="/life/"><span class="menu-item-name">生活</span></a>
+                </li>
+            
+        
+            
+                <li class="menu-item"><a href="/read/"><span class="menu-item-name">阅读</span></a>
+                </li>
+            
+        
+            
+                <li class="menu-item"><a href="/friend/"><span class="menu-item-name">友链</span></a>
+                </li>
+            
+        
+            
+                <li class="menu-item"><a href="/friends/"><span class="menu-item-name">朋友圈</span></a>
+                </li>
+            
+        
+            
+                <li class="menu-item"><a href="/talk/"><span class="menu-item-name">说说</span></a>
+                </li>
+            
+        
+            
+                <li class="menu-item"><a href="/bb/"><span class="menu-item-name">哔哔</span></a>
+                </li>
+            
+        
+            
+                <li class="menu-item"><a href="/photos/"><span class="menu-item-name">相册</span></a>
+                </li>
+            
+        
+            
+                <li class="menu-item"><a href="/others/music/"><span class="menu-item-name">音乐</span></a>
+                </li>
+            
+        
+            
+                <li class="menu-item"><a href="/about/"><span class="menu-item-name">关于</span></a>
+                </li>
+            
+        
+            
+                
+                    
+                    
+                        <li class="menu-item">
+                            <a id="theme-switcher" href="#"><span class="icon theme-icon-light">🌞</span><span class="icon theme-icon-dark">🌙</span></a>
+                        </li>
+                    
+                
+            
+        
+            
+                
+            
+        
+
+        <a href="https://travellings.link/" target="_blank" rel="noopener" style="margin-life:200px" title="开往-友链接力">
+            <img
+                src="https://blog.wangyunzi.com/travelling.png"
+                width="25"
+                alt="开往-友链接力"
+                title="开往-友链接力"
+                style="display: inline; vertical-align: middle; min-width: 30px;"
+            />
+        </a>  
+        <a href="https://www.foreverblog.cn/go.html" target="_blank" rel="noopener" style="margin-life:200px" title="穿梭虫洞-随机访问十年之约友链博客">
+            <img
+                src="https://blog.wangyunzi.com/wormhole.png"
+                width="25"
+                alt="穿梭虫洞-随机访问十年之约友链博客"
+                title="穿梭虫洞-随机访问十年之约友链博客"
+                style="display: inline; vertical-align: middle; min-width: 20px;"
+            />
+        </a>  
+    
+    </ul>
+</li>
+</nav>
+
+
+
+                    
+
+
+
+   
+    
+    
+
+
+
+
+
+                </div>
+            </div>
+            
+            
+    <input type="checkbox" id="nav-toggle" aria-hidden="true" />
+    <label for="nav-toggle" class="nav-toggle"></label>
+    <label for="nav-toggle" class="nav-curtain"></label>
+
+
+        
+    </header>
+
+
+
+
+            
+            
+    <main class="main single" id="main">
+    <div class="main-inner">
+
+        
+
+        <article class="content post h-entry" data-align="justify" data-type="others" data-indent="true" data-toc-num="true">
+
+            <h1 class="post-title p-name">hugo短代码记录</h1>
+
+            
+
+            
+                <div class="post-description p-summary">这是博主自己用的主页，需要用的时候打开这个</div>
+                
+            
+
+            
+
+            <nav class="contents">
+  <h2 id="contents" class="contents-title">目录</h2><ol class="toc">
+    <li><a id="contents:引入-ppt-功能" href="#引入-ppt-功能">引入 ppt 功能</a></li>
+    <li><a id="contents:bilibili-视频" href="#bilibili-视频">bilibili 视频</a></li>
+    <li><a id="contents:博客文章内链" href="#博客文章内链">博客文章内链</a></li>
+    <li><a id="contents:豆瓣电影和书卡" href="#豆瓣电影和书卡">豆瓣电影和书卡</a></li>
+    <li><a id="contents:align" href="#align">align</a></li>
+    <li><a id="contents:github" href="#github">github</a></li>
+    <li><a id="contents:notice" href="#notice">notice</a></li>
+    <li><a id="contents:simple-notice" href="#simple-notice">simple-notice</a></li>
+    <li><a id="contents:quote" href="#quote">quote</a></li>
+    <li><a id="contents:quote-center" href="#quote-center">quote-center</a></li>
+    <li><a id="contents:参考链接非常感谢以下大佬提供的代码" href="#参考链接非常感谢以下大佬提供的代码">参考链接（非常感谢以下大佬提供的代码）</a></li>
+  </ol>
+</nav><div class="post-body e-content">
+                <h2 id="引入-ppt-功能"><a href="#引入-ppt-功能" class="anchor-link">#</a><a href="#contents:引入-ppt-功能" class="headings">引入 ppt 功能</a></h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{a{<span class="p">&lt;</span> <span class="nt">ppt</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;ppt网址&#34;</span> <span class="p">&gt;</span>}} 
+</span></span><span class="line"><span class="cl"><span class="gh"># 使用的时候把字母a去掉，防止被识别生效
+</span></span></span></code></pre></div><h2 id="bilibili-视频"><a href="#bilibili-视频" class="anchor-link">#</a><a href="#contents:bilibili-视频" class="headings">bilibili 视频</a></h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{a{<span class="p">&lt;</span> <span class="nt">bilibili</span> <span class="na">BV1xW4y1a7NK</span> <span class="p">&gt;</span>}}  
+</span></span><span class="line"><span class="cl"><span class="gh"># 使用的时候把字母a去掉，我加上是为了防止被识别生效
+</span></span></span><span class="line"><span class="cl"><span class="gh"># BV1Ab4y117G2 指的是 bilibili 链接中的 bvid
+</span></span></span><span class="line"><span class="cl"><span class="gh"># 如果有集数（默认第一集），例如要播放第5集，则这样使用：{a{&lt; bilibili BV1xW4y1a7NK 5 &gt;}}
+</span></span></span></code></pre></div><h2 id="博客文章内链"><a href="#博客文章内链" class="anchor-link">#</a><a href="#contents:博客文章内链" class="headings">博客文章内链</a></h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{a{<span class="p">&lt;</span> <span class="nt">innerlink</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;posts/tech/go_slice_map_thread_safety.md&#34;</span> <span class="p">&gt;</span>}}  
+</span></span><span class="line"><span class="cl"><span class="gh"># 使用的时候把字母a去掉，我加上是为了防止被识别生效
+</span></span></span><span class="line"><span class="cl"><span class="gh"># 注意：结尾要加md，开头不用加域名
+</span></span></span><span class="line"><span class="cl"><span class="gh"></span>
+</span></span><span class="line"><span class="cl"><span class="gh"># 卡片获取的文章长度默认是70，需要在config.yaml配置文件添加 summaryLength: 140，即设置为140
+</span></span></span></code></pre></div><h2 id="豆瓣电影和书卡"><a href="#豆瓣电影和书卡" class="anchor-link">#</a><a href="#contents:豆瓣电影和书卡" class="headings">豆瓣电影和书卡</a></h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{a{<span class="p">&lt;</span> <span class="nt">douban</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;直接放网址如：https://book.douban.com/subject/20394150/&#34;</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl"><span class="gh"># 使用的时候把字母a去掉，我加上是为了防止被识别生效
+</span></span></span></code></pre></div><h2 id="align"><a href="#align" class="anchor-link">#</a><a href="#contents:align" class="headings">align</a></h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">align</span> <span class="na">left</span> <span class="err">&#34;</span><span class="na">文字居左</span><span class="err">&#34;</span> <span class="p">&gt;</span>}}
+</span></span></code></pre></div>
+<p style="text-align:left">文字居左</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">align</span> <span class="na">center</span> <span class="err">&#34;</span><span class="na">文字居中</span><span class="err">&#34;</span> <span class="p">&gt;</span>}}
+</span></span></code></pre></div>
+<p style="text-align:center">文字居中</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">align</span> <span class="na">right</span> <span class="err">&#34;</span><span class="na">文字居右</span><span class="err">&#34;</span> <span class="p">&gt;</span>}}
+</span></span></code></pre></div>
+<p style="text-align:right">文字居右</p>
+<h2 id="github"><a href="#github" class="anchor-link">#</a><a href="#contents:github" class="headings">github</a></h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">github</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;Organic-Carbon-Estimating&#34;</span> <span class="na">link</span><span class="o">=</span><span class="s">&#34;https://github.com/guanqr/Organic-Carbon-Estimating&#34;</span> <span class="na">description</span><span class="o">=</span><span class="s">&#34;A program used in estimating organic carbon stocks in oceans. 计算指定海域的有机碳存量，包括颗粒有机碳与溶解有机碳，数据依赖于 NASA 中分辨率成像光谱仪 MODIS 遥感产品。&#34;</span> <span class="na">color</span><span class="o">=</span><span class="s">&#34;#e16737&#34;</span> <span class="na">language</span><span class="o">=</span><span class="s">&#34;MATLAB&#34;</span> <span class="p">&gt;</span>}}
+</span></span></code></pre></div>
+
+<div class="github">
+    <div class="logo">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon github-icon" viewBox="0 0 16 16"><path fill-rule="evenodd" clip-rule="evenodd" d="M2 2.5C2 1.83696 2.26339 1.20107 2.73223 0.732233C3.20108 0.263392 3.83696 0 4.5 0L13.25 0C13.4489 0 13.6397 0.0790176 13.7803 0.21967C13.921 0.360322 14 0.551088 14 0.75V13.25C14 13.4489 13.921 13.6397 13.7803 13.7803C13.6397 13.921 13.4489 14 13.25 14H10.75C10.5511 14 10.3603 13.921 10.2197 13.7803C10.079 13.6397 10 13.4489 10 13.25C10 13.0511 10.079 12.8603 10.2197 12.7197C10.3603 12.579 10.5511 12.5 10.75 12.5H12.5V10.5H4.5C4.30308 10.5 4.11056 10.5582 3.94657 10.6672C3.78257 10.7762 3.65442 10.9312 3.57816 11.1128C3.50191 11.2943 3.48096 11.4943 3.51793 11.6878C3.5549 11.8812 3.64816 12.0594 3.786 12.2C3.92524 12.3422 4.0023 12.5338 4.00024 12.7328C3.99818 12.9318 3.91716 13.1218 3.775 13.261C3.63285 13.4002 3.4412 13.4773 3.24222 13.4752C3.04325 13.4732 2.85324 13.3922 2.714 13.25C2.25571 12.7829 1.99929 12.1544 2 11.5V2.5ZM12.5 1.5V9H4.5C4.144 9 3.806 9.074 3.5 9.208V2.5C3.5 2.23478 3.60536 1.98043 3.79289 1.79289C3.98043 1.60536 4.23478 1.5 4.5 1.5H12.5ZM5 12.25V15.5C5 15.5464 5.01293 15.5919 5.03734 15.6314C5.06175 15.6709 5.09667 15.7028 5.1382 15.7236C5.17972 15.7444 5.22621 15.7532 5.27245 15.749C5.31869 15.7448 5.36286 15.7279 5.4 15.7L6.85 14.613C6.89328 14.5805 6.94591 14.563 7 14.563C7.05409 14.563 7.10673 14.5805 7.15 14.613L8.6 15.7C8.63714 15.7279 8.68131 15.7448 8.72755 15.749C8.77379 15.7532 8.82028 15.7444 8.8618 15.7236C8.90333 15.7028 8.93826 15.6709 8.96266 15.6314C8.98707 15.5919 9 15.5464 9 15.5V12.25C9 12.1837 8.97366 12.1201 8.92678 12.0732C8.87989 12.0263 8.81631 12 8.75 12H5.25C5.1837 12 5.12011 12.0263 5.07322 12.0732C5.02634 12.1201 5 12.1837 5 12.25Z"/></svg>
+        <a class="name" href=https://github.com/guanqr/Organic-Carbon-Estimating target="_blank">Organic-Carbon-Estimating</a>
+    </div>
+    <div class="description">A program used in estimating organic carbon stocks in oceans. 计算指定海域的有机碳存量，包括颗粒有机碳与溶解有机碳，数据依赖于 NASA 中分辨率成像光谱仪 MODIS 遥感产品。</div> 
+    <div class="language">
+        <span class="language-color" style="background-color: #e16737"></span>
+        <span class="language-name">MATLAB</span>
+    </div>
+</div>
+<h2 id="notice"><a href="#notice" class="anchor-link">#</a><a href="#contents:notice" class="headings">notice</a></h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">notice</span> <span class="na">notice-warning</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">十里青山远，潮平路带沙。数声啼鸟怨年华。又是凄凉时候，在天涯。白露收残月，清风散晓霞。绿杨堤畔问荷花。记得年时沽酒，那人家。
+</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">notice</span> <span class="p">&gt;</span>}}
+</span></span></code></pre></div>
+
+
+<div class="notice notice-warning" >
+    <div class="notice-title"><svg xmlns="http://www.w3.org/2000/svg" class="icon notice-icon" viewBox="0 0 576 512"><path d="M570 440c18 32-5 72-42 72H48c-37 0-60-40-42-72L246 24c19-32 65-32 84 0l240 416zm-282-86a46 46 0 100 92 46 46 0 000-92zm-44-165l8 136c0 6 5 11 12 11h48c7 0 12-5 12-11l8-136c0-7-5-13-12-13h-64c-7 0-12 6-12 13z"/></svg></div><p>十里青山远，潮平路带沙。数声啼鸟怨年华。又是凄凉时候，在天涯。白露收残月，清风散晓霞。绿杨堤畔问荷花。记得年时沽酒，那人家。</p></div>
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">notice</span> <span class="na">notice-info</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">十里青山远，潮平路带沙。数声啼鸟怨年华。又是凄凉时候，在天涯。白露收残月，清风散晓霞。绿杨堤畔问荷花。记得年时沽酒，那人家。
+</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">notice</span> <span class="p">&gt;</span>}}
+</span></span></code></pre></div>
+
+
+<div class="notice notice-info" >
+    <div class="notice-title"><svg xmlns="http://www.w3.org/2000/svg" class="icon notice-icon" viewBox="0 0 512 512"><path d="M256 8a248 248 0 100 496 248 248 0 000-496zm0 110a42 42 0 110 84 42 42 0 010-84zm56 254c0 7-5 12-12 12h-88c-7 0-12-5-12-12v-24c0-7 5-12 12-12h12v-64h-12c-7 0-12-5-12-12v-24c0-7 5-12 12-12h64c7 0 12 5 12 12v100h12c7 0 12 5 12 12v24z"/></svg></div><p>十里青山远，潮平路带沙。数声啼鸟怨年华。又是凄凉时候，在天涯。白露收残月，清风散晓霞。绿杨堤畔问荷花。记得年时沽酒，那人家。</p></div>
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">notice</span> <span class="na">notice-note</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">十里青山远，潮平路带沙。数声啼鸟怨年华。又是凄凉时候，在天涯。白露收残月，清风散晓霞。绿杨堤畔问荷花。记得年时沽酒，那人家。
+</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">notice</span> <span class="p">&gt;</span>}}
+</span></span></code></pre></div>
+
+
+<div class="notice notice-note" >
+    <div class="notice-title"><svg xmlns="http://www.w3.org/2000/svg" class="icon notice-icon" viewBox="0 0 512 512"><path d="M504 256a248 248 0 11-496 0 248 248 0 01496 0zm-248 50a46 46 0 100 92 46 46 0 000-92zm-44-165l8 136c0 6 5 11 12 11h48c7 0 12-5 12-11l8-136c0-7-5-13-12-13h-64c-7 0-12 6-12 13z"/></svg></div><p>十里青山远，潮平路带沙。数声啼鸟怨年华。又是凄凉时候，在天涯。白露收残月，清风散晓霞。绿杨堤畔问荷花。记得年时沽酒，那人家。</p></div>
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">notice</span> <span class="na">notice-tip</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">十里青山远，潮平路带沙。数声啼鸟怨年华。又是凄凉时候，在天涯。白露收残月，清风散晓霞。绿杨堤畔问荷花。记得年时沽酒，那人家。
+</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">notice</span> <span class="p">&gt;</span>}}
+</span></span></code></pre></div>
+
+
+<div class="notice notice-tip" >
+    <div class="notice-title"><svg xmlns="http://www.w3.org/2000/svg" class="icon notice-icon" viewBox="0 0 512 512"><path d="M504 256a248 248 0 11-496 0 248 248 0 01496 0zM227 387l184-184c7-6 7-16 0-22l-22-23c-7-6-17-6-23 0L216 308l-70-70c-6-6-16-6-23 0l-22 23c-7 6-7 16 0 22l104 104c6 7 16 7 22 0z"/></svg></div><p>十里青山远，潮平路带沙。数声啼鸟怨年华。又是凄凉时候，在天涯。白露收残月，清风散晓霞。绿杨堤畔问荷花。记得年时沽酒，那人家。</p></div>
+
+<h2 id="simple-notice"><a href="#simple-notice" class="anchor-link">#</a><a href="#contents:simple-notice" class="headings">simple-notice</a></h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">simple-notice</span> <span class="na">simple-notice-warning</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">十里青山远，潮平路带沙。数声啼鸟怨年华。又是凄凉时候，在天涯。白露收残月，清风散晓霞。绿杨堤畔问荷花。记得年时沽酒，那人家。
+</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">simple-notice</span> <span class="p">&gt;</span>}}
+</span></span></code></pre></div>
+<div class="simple-notice simple-notice-warning" >
+    <div class="simple-notice-title"></div><p>十里青山远，潮平路带沙。数声啼鸟怨年华。又是凄凉时候，在天涯。白露收残月，清风散晓霞。绿杨堤畔问荷花。记得年时沽酒，那人家。</p></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">simple-notice</span> <span class="na">simple-notice-info</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">十里青山远，潮平路带沙。数声啼鸟怨年华。又是凄凉时候，在天涯。白露收残月，清风散晓霞。绿杨堤畔问荷花。记得年时沽酒，那人家。
+</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">simple-notice</span> <span class="p">&gt;</span>}}
+</span></span></code></pre></div>
+<div class="simple-notice simple-notice-info" >
+    <div class="simple-notice-title"></div><p>十里青山远，潮平路带沙。数声啼鸟怨年华。又是凄凉时候，在天涯。白露收残月，清风散晓霞。绿杨堤畔问荷花。记得年时沽酒，那人家。</p></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">simple-notice</span> <span class="na">simple-notice-note</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">十里青山远，潮平路带沙。数声啼鸟怨年华。又是凄凉时候，在天涯。白露收残月，清风散晓霞。绿杨堤畔问荷花。记得年时沽酒，那人家。
+</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">simple-notice</span> <span class="p">&gt;</span>}}
+</span></span></code></pre></div>
+<div class="simple-notice simple-notice-note" >
+    <div class="simple-notice-title"></div><p>十里青山远，潮平路带沙。数声啼鸟怨年华。又是凄凉时候，在天涯。白露收残月，清风散晓霞。绿杨堤畔问荷花。记得年时沽酒，那人家。</p></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">simple-notice</span> <span class="na">simple-notice-tip</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">十里青山远，潮平路带沙。数声啼鸟怨年华。又是凄凉时候，在天涯。白露收残月，清风散晓霞。绿杨堤畔问荷花。记得年时沽酒，那人家。
+</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">simple-notice</span> <span class="p">&gt;</span>}}
+</span></span></code></pre></div>
+<div class="simple-notice simple-notice-tip" >
+    <div class="simple-notice-title"></div><p>十里青山远，潮平路带沙。数声啼鸟怨年华。又是凄凉时候，在天涯。白露收残月，清风散晓霞。绿杨堤畔问荷花。记得年时沽酒，那人家。</p></div>
+<h2 id="quote"><a href="#quote" class="anchor-link">#</a><a href="#contents:quote" class="headings">quote</a></h2>
+<p>中文：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">quote</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">十里青山远，潮平路带沙。数声啼鸟怨年华。又是凄凉时候，在天涯。白露收残月，清风散晓霞。绿杨堤畔问荷花。记得年时沽酒，那人家。
+</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">quote</span> <span class="p">&gt;</span>}}
+</span></span></code></pre></div><blockquote class="quote" style="border-left: none;">
+        <p>十里青山远，潮平路带沙。数声啼鸟怨年华。又是凄凉时候，在天涯。白露收残月，清风散晓霞。绿杨堤畔问荷花。记得年时沽酒，那人家。</p></blockquote>
+<p>英文：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">quote</span> <span class="na">en</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">To see a world in a grain of sand. And a heaven in a wild flower. Hold infinity in the palm of your hand. And eternity in an hour.
+</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">quote</span> <span class="p">&gt;</span>}}
+</span></span></code></pre></div><blockquote class="quote en" style="border-left: none;">
+        <p>To see a world in a grain of sand. And a heaven in a wild flower. Hold infinity in the palm of your hand. And eternity in an hour.</p></blockquote>
+<h2 id="quote-center"><a href="#quote-center" class="anchor-link">#</a><a href="#contents:quote-center" class="headings">quote-center</a></h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">quote-center</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">十里青山远，潮平路带沙<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>数声啼鸟怨年华<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>又是凄凉时候，在天涯<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>白露收残月，清风散晓霞<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>绿杨堤畔问荷花<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>记得年时沽酒，那人家
+</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">quote-center</span> <span class="p">&gt;</span>}}
+</span></span></code></pre></div><blockquote class="quote-center">
+        <p>十里青山远，潮平路带沙<br>数声啼鸟怨年华<br>又是凄凉时候，在天涯<br>白露收残月，清风散晓霞<br>绿杨堤畔问荷花<br>记得年时沽酒，那人家</p></blockquote> 
+<hr>
+<p>需要以下格式：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{<span class="err">&lt;</span>/* myshortcode */&gt;}}
+</span></span></code></pre></div><p>渲染结果：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">myshortcode</span> <span class="p">&gt;</span>}}
+</span></span></code></pre></div><h2 id="参考链接非常感谢以下大佬提供的代码"><a href="#参考链接非常感谢以下大佬提供的代码" class="anchor-link">#</a><a href="#contents:参考链接非常感谢以下大佬提供的代码" class="headings">参考链接（非常感谢以下大佬提供的代码）</a></h2>
+<ul>
+<li><a href="https://www.sulvblog.cn/posts/blog/shortcodes/" target="_blank" rel="noopener">Hugo博客自定义shortcodes</a></li>
+<li><a href="https://guanqr.com/tech/website/hugo-shortcodes-customization/" target="_blank" rel="noopener">自定义 Hugo Shortcodes 简码</a></li>
+<li><a href="https://www.andbible.com/post/hugo-content-management-shortcodes/" target="_blank" rel="noopener">Hugo框架中文文档 短代码</a></li>
+<li><a href="https://matnoble.me/tech/hugo/shortcodes-practice-tutorial-for-hugo/" target="_blank" rel="noopener">在 Hugo 博客上实践 Shortcodes 短代码, 太强大了</a></li>
+<li><a href="https://immmmm.com/hugo-shortcodes-music/" target="_blank" rel="noopener">Hugo 音乐短代码</a></li>
+</ul>
+
+            </div>
+
+            
+
+
+        </article>
+
+        
+
+        
+
+
+        
+
+
+        
+
+
+        
+    
+    
+
+
+
+        
+
+
+        
+
+
+        
+
+
+        
+
+
+        
+    
+
+
+
+        <div>
+  <div class="pagination__title">
+      <span class="pagination__title-h" style="font-size: 20px;">💬评论</span>
+      <hr />
+  </div>
+<div id="tcomment"></div>
+<script src="https://cdn.staticfile.org/twikoo/1.6.7/twikoo.all.min.js"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.1.8/css/lightgallery.css">
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.1.8/lightgallery.min.js"></script>
+<script>
+twikoo.init({
+  envId: 'https://www.wangyunzi.life/', 
+  el: '#tcomment', 
+  
+  
+  
+
+  onCommentLoaded: function () {
+    var commentContents = document.getElementsByClassName('tk-content');
+    for (var i = 0; i < commentContents.length; i++) {
+      var commentItem = commentContents[i];
+      var imgEls = commentItem.getElementsByTagName('img');
+      if (imgEls.length > 0) {
+        for (var j = 0; j < imgEls.length; j++) {
+          var imgEl = imgEls[j];
+          var aEl = document.createElement('a');
+          aEl.setAttribute('class', 'tk-lg-link');
+          aEl.setAttribute('href', imgEl.getAttribute('src'));
+          aEl.setAttribute('data-src', imgEl.getAttribute('src'));
+          aEl.appendChild(imgEl.cloneNode(false));
+          imgEl.parentNode.insertBefore(aEl, imgEl.nextSibling);
+          imgEl.remove();
+        }
+        lightGallery(commentItem, {
+          selector: '.tk-lg-link',
+          share: false
+        });
+      }
+    }
+  }
+})
+</script>
+
+
+    </div>
+</main>
+
+
+            
+    <div id="back-to-top" class="back-to-top">
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon arrow-up"><path d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z"/></svg></a>
+    </div>
+
+
+            
+    <footer id="footer" class="footer">
+        <div class="footer-inner">
+            <div class="site-info">2022&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon footer-icon"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>&nbsp;王云子</div><div class="custom-footer">浙ICP备2022025879号</div>
+                <div class="busuanzi-site-uv-and-pv">
+                    <span id="busuanzi_container_site_uv">本站访客数&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon busuanzi-site-uv"><path d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"/></svg>&nbsp;<span id="busuanzi_value_site_uv"></span></span>&nbsp;|&nbsp;<span id="busuanzi_container_site_pv">本站访问量&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="icon busuanzi-site-pv"><path d="M288 144a110.94 110.94 0 0 0-31.24 5 55.4 55.4 0 0 1 7.24 27 56 56 0 0 1-56 56 55.4 55.4 0 0 1-27-7.24A111.71 111.71 0 1 0 288 144zm284.52 97.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400c-98.65 0-189.09-55-237.93-144C98.91 167 189.34 112 288 112s189.09 55 237.93 144C477.1 345 386.66 400 288 400z"/></svg>&nbsp;<span id="busuanzi_value_site_pv"></span></span>
+                </div>
+
+            
+
+
+            
+
+
+
+
+<script type="text/javascript" src="https://jsd.cky.codes/npm/live2d-widget@3.1.4/lib/L2Dwidget.min.js"></script>
+<script type="text/javascript" src="https://jsd.cky.codes/npm/live2d-widget@3.1.4/lib/L2Dwidget.0.min.js"></script>
+
+<script type="text/javascript">
+    L2Dwidget.init({
+        model: {
+            scale: 0.5,
+            hHeadPos: 0.5,
+            vHeadPos: 0.618,
+            jsonPath: 'https://jsd.cky.codes/gh/DomathID/live2d-model@main/Miku/miku.model.json',       
+        },
+        display: {
+            superSample: 9,     
+            width: 300,         
+            height: 400,        
+            position: 'left',   
+            hOffset: 0,         
+            vOffset: 0,         
+        },
+        mobile: {
+            show: false,         
+            scale: 1,           
+            motion: true,       
+        },
+        react: {
+            opacityDefault: 1,  
+            opacityOnHover: 1,  
+        },
+    });
+</script>
+
+
+
+<script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+<text class="poem_sentence"></text>
+<text class="poem_info"></text>
+<script type="text/javascript">
+  jinrishici.load(function(result) {
+    var sentence = document.querySelector(".poem_sentence")
+    var info = document.querySelector(".poem_info")
+    sentence.innerHTML = result.data.content
+    info.innerHTML = '——' + result.data.origin.author
+  });
+</script>
+
+
+<div tidio>
+<script src="//code.tidio.co/zxwjohnqcamnvsjxvyagslc95ynv4yqu.js" async></script>
+</div>
+
+
+
+
+        </div>
+    </footer>
+
+
+        </div>
+        <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+                navigator.serviceWorker.register('\/sw.js');
+            });
+        }
+    </script>
+
+
+        
+
+
+
+
+
+
+    
+
+
+
+    <script src="/js/medium-zoom.min.js"></script>
+
+<script>
+    mediumZoom(document.querySelectorAll('div.post-body img'), {
+        background: 'hsla(var(--color-bg-h), var(--color-bg-s), var(--color-bg-l), 0.95)'
+    })
+</script>
+
+
+
+    <script src="https://jsd.cky.codes/npm/instant.page@5.1.0/instantpage.min.js" type="module" defer></script>
+
+
+
+    
+        <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    
+
+
+
+
+    </body>
+</html>

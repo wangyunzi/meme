@@ -1,9 +1,10 @@
 ---
-title: "搜索"
-slug: "search"
-layout: "search"
-description:
-date: 2022-10-26T10:17:04+08:00
+title: "我的观影"
+date: 2022-10-26T12:13:00+08:00
+slug: "movies"
+layout: "movies"
+escription:
+date: 2022-10-26T12:13:52+08:00
 toc: 
 tags: 
 categories:

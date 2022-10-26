@@ -39,6 +39,7 @@ indent: false
 #### 🏷️我的博客
 近来迷上折腾各式各样的博客，所以大大小小的完成了几个小小的博客，但是真正使用的只有两个博客，其他的博客各有优缺点，人生安得两全法，索性放弃折腾，如果感兴趣的可以溜达着去看看
 
+- [我的上任博客，耐看、整洁、大方，只是我看习惯了眼睛疼]
 - [另外一个主要的hugo博客，同样非常好看](https://wangyunzi.vercel.app/)
 - [还是一个hugo博客](https://yunya.vercel.app)
 - [notion搭建的博客，非常interesting](https://wangyunziya.vercel.app)
@@ -55,8 +56,11 @@ indent: false
 #### 🎉关于博客
 <!-- - [Sulv's Blog](https://www.sulvblog.cn/)这个大佬的博客里面有搭建这个博客的教程 -->
 <!-- - [ Frytea](https://www.frytea.com/)我用的主题是这个大佬改造过papermood主题 -->
+- 博客主题
+{{< github name="hugo-theme-meme" link="https://github.com/reuixiy/hugo-theme-meme" description="MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。MemE 主题专注于优雅、简约、现代，以及代码的正确性。同时，希望你将像欣赏一个模因一样欣赏 MemE，希望你将像分享一个模因一样分享 MemE，就像你的博客和文章所做的那样😝！" color="#e16737" language="Go" >}}
+
 - 至于豆瓣音乐网页使用的是这个[大佬](https://github.com/lizheming/doumark-action)项目，教程是[木木同学](https://immmmm.com/)
-- 主题:[meme](https://github.com/reuixiy/hugo-theme-meme),一款优雅、简约、现代的主题
+
 - 博客部分网络图片来自[Pixabay](https://pixabay.com/zh/)、[pinterest](https://www.pinterest.com/),若侵权请告知博主，博主将会第一时间删除
 
 #### 🕊️我的箴言
@@ -66,12 +70,15 @@ indent: false
 {{< /quote >}}
 
 
+
 #### 👻短期目标
 {{< imgcap src="书.jpg" title="2022年下半年" alt="2022年下半年" width="200" height="50" align="left">}}
 
 - [ ] 每个月写一篇博客
 - [ ] 期末考试全科过
 - [ ] ~~一个月跑步60公里~~（已经懈怠两个月了，既然完不成目标不要这个目标😅😅）
+
+#### 其他页面
 
 
 

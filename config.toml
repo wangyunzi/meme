@@ -257,14 +257,14 @@ uglyURLs = false
     #    post = "pagelines"
         identifier = "photos"
     [[menu.main]]
-        pageref = "/music/"
+        pageref = "others/music"
         name = "音乐"
         weight = 11
         pre = "internal"
     #    post = "user-circle"
         identifier = "music"
     #[[menu.main]]
-    #    pageref = "/books/"
+    #    pageref = "others/books/"
     #    name = "书籍"
     #    weight = 12
     #    pre = "internal"
@@ -351,10 +351,10 @@ uglyURLs = false
         weight = 2
         pre = "internal"
     [[menu.links]]
-        pageref = "/friend/"
-        name = "Friend"
+        pageref = "/others"
+        name = "others"
         weight = 3
-        #pre = "internal"
+        pre = "internal"
 
 ##########################################
 # 主题配置
@@ -955,10 +955,10 @@ uglyURLs = false
     #      的优先级高于此处
 
     # 是否显示目录标题
-    displayTOCTitle = false
+    displayTOCTitle = true
 
     # 是否显示数字（全局设置）
-    displayTOCNum = false
+    displayTOCNum = true
     # 说明：文章的 Front Matter 中的 `tocNum`
     #      的优先级高于此处
 
@@ -1171,7 +1171,7 @@ uglyURLs = false
     ## 大型小写（英文）
 
     # 是否开启（全局设置）
-    enableSmallCaps = true
+    enableSmallCaps = false
     # 说明：只会应用到分节标题和目录标题
     #      文章的 Front Matter 中的 `smallCaps`
     #      的优先级高于此处
@@ -1444,7 +1444,7 @@ uglyURLs = false
     # 是否开启复制
     enableCopy = true
     # 是否开启自动隐藏
-    enableCopyAutoHide = true
+    enableCopyAutoHide = false
 
 
     ######################################
