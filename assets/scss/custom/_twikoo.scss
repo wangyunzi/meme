@@ -168,4 +168,19 @@ img {
 }
 
 
+.el-textarea__inner {
+	min-height: 100px !important;
+}
+.el-textarea {
+	background-image: url(https://s2.loli.net/2022/02/06/gy6AcWI4MTjrNVx.gif);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right;
+	background-color: rgba(0, 0, 255, 0);
+	resize: vertical;
+	&:focus-within {
+		background-position-y: 800px;
+		transition: all 0.2s ease-in-out 0s;
+	}
+}
 
