@@ -1,10 +1,10 @@
 // 顶栏布局
 
 .brand {
-    font-family: 'ZCOOL XiaoWei', serif;
-    font-weight: bold;
+    font-family: 'Noto Serif SC', serif;
+    font-weight: 1000;
     white-space: nowrap;
-    font-size: 0.618cm;
+    font-size: 0.6cm;
 }
 
 @if ($headerLayoutFlex) {
@@ -12,20 +12,20 @@
         line-height: 1;
     }
     .nav {
-        font-size: 0.94em;
-        margin-top: 0.3em;
+        font-size: 1em;
+        margin-top: 0.1em;
     }
     .home .poetry {
-        padding: 10em 1em;
+        padding: 7em 1em;
     }
     .menu-item {
-        .tags, .categories, .life, .tech, .cards, .series, .archives, .friends, .about {
+        .tags, .categories, .life, .read, .cards, .others, .archives, .friends, .friend, .about {
             display: none;
         }
     }
     .header-wrapper {
-        padding: 1em 0;
-        // box-shadow: var(--color-contrast-low) 0 1px 0 0;
+        padding: 0.7em 0;
+        box-shadow: var(--color-contrast-low) 0 1px 0 0;
     }
     .nav-curtain {
         backdrop-filter: none;
@@ -39,12 +39,12 @@
             grid-template-columns: 1fr 1fr 1fr 1fr;
         }
         .menu-item {
-            .tags, .categories, .life, .tech, .cards, .series, .archives, .friends, .about {
+            .tags, .categories, .life, .read, .cards, .others, .archives, .friends, .friend, .about {
                 display: inline-block;
             }
         }
         .menu-item-name {
-            font-size: 90%;
+            font-size: 100%;
         }
     }
     .nav-toggle {

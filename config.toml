@@ -22,7 +22,7 @@ defaultContentLanguageInSubdir = false
 pluralizeListTitles = false
 
 # 摘要的字数限制
-summaryLength = 42
+summaryLength = 140
 
 # 是否开启 GitHub 风格的 Emoji 书写方式
 enableEmoji = true
@@ -713,12 +713,12 @@ uglyURLs = false
     # Mermaid (https://github.com/mermaid-js/mermaid)
 
     # 是否开启（全局设置）
-    enableMermaid = false
+    enableMermaid = true
     # 说明：文章的 Front Matter 中的 `mermaid`
     #      的优先级高于此处
 
     mermaidTheme = 'default'
-    mermaidThemeDark = 'light'
+    mermaidThemeDark = 'default'
 
 
     ######################################
@@ -970,7 +970,7 @@ uglyURLs = false
     # 分节标题锚点
 
     # 是否开启（全局设置）
-    enableHeadingsAnchor = true
+    enableHeadingsAnchor = false
     # 说明：文章的 Front Matter 中的 `anchor`
     #      的优先级高于此处
 
@@ -1081,11 +1081,11 @@ uglyURLs = false
 # 品牌栏
     fontFamilySiteBrand = "'Noto Serif SC', serif"
     # 菜单栏
-    fontFamilyMenu = "'Amstelvar', Georgia, -apple-system, 'Arial', 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif, 'EB Garamond', serif"
+    fontFamilyMenu = ""  ##'Amstelvar', Georgia, -apple-system, 'Arial', 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif, 'EB Garamond', serif
     # 文章标题、文章副标题、列表标题、列表的年份和月份标题、相关文章标题、文章上下篇标题、表格的表头、定义列表中的术语
-    fontFamilyTitle = "'Noto Serif SC', 'EB Garamond', serif"
+    fontFamilyTitle = ""   ###'Noto Serif SC', 'EB Garamond', serif
     # 分节标题、目录标题
-    fontFamilyHeadings = "'Noto Serif SC', 'EB Garamond', serif"  #'Noto Serif SC', 'EB Garamond', serif
+    fontFamilyHeadings = ""    ##'Noto Serif SC', 'EB Garamond', serif"  #'Noto Serif SC', 'EB Garamond', serif
     # 代码、上标、文章元信息、文章更新徽章、文章的 Git 版本信息、极简页脚、不蒜子站点浏览计数
     fontFamilyCode = "'JetBrains Mono', Consolas, 'Ubuntu Mono', 'DejaVu Sans Mono', Monaco, 'Courier New', monospace"    #"'Source Code Pro', 'Noto Serif SC', monospace"
     # 引用
@@ -1097,6 +1097,7 @@ uglyURLs = false
     # 页脚
     fontFamilyFooter = "'Source Code Pro', 'Noto Serif SC', monospace"
     # 主体
+    #fontFamilyBody = "-apple-system, system-ui, BlinkMacSystemFont, 'Noto Serif SC', Arial, 'Amstelvar', 'Josefin Sans', 'Hiragino Sans GB', 'Microsoft Yahei', 'ST Heiti', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'"
     #fontFamilyBody = "Charter, Georgia, 'Helvetica Neue', Arial, 'Songti SC', 'SimSun', 'Hiragino Sans GB','宋体', 'Microsoft YaHei', 'STKaiti', 'Kai', 'Kaiti SC', 'KaiTi', 'KaiTi_GB2312', '楷体', sans-serif"
     fontFamilyBody = "-apple-system, system-ui, BlinkMacSystemFont, 'Noto Serif SC', Arial, 'Amstelvar', 'Josefin Sans', 'Hiragino Sans GB', 'Microsoft Yahei', 'ST Heiti', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'"
 
@@ -1121,7 +1122,7 @@ uglyURLs = false
     ######################################
     ## 行间距
 
-    lineHeight = 2.6
+    lineHeight = 2.5
     # 说明：只会应用到文章的段落和目录
 
     ######################################
@@ -1225,15 +1226,15 @@ uglyURLs = false
     # 文章的 Git 版本信息
 
     # 是否开启
-    enablePostGitInfo = false
+    enablePostGitInfo = true
 
     # 是否显示（全局设置）
-    displayPostGitInfo = false
+    displayPostGitInfo = true
     # 说明：文章的 Front Matter 中的 `gitinfo`
     #      的优先级高于此处
 
     # 仓库地址
-    repoURL = "https://github.com/wangyunzi/wangyunzi"
+    repoURL = "https://github.com/wangyunzi/wangyunzi.com"
     # 编辑地址
     repoEditURL = "https://github.com/wangyunzi/wangyunzi/master"
 
@@ -1438,7 +1439,7 @@ uglyURLs = false
     # 是否开启竖直滚动
     enableOverflowY = true
     # 最大高度
-    maxHeight = 20
+    maxHeight = 30
     # 单位：em
 
     # 是否开启复制

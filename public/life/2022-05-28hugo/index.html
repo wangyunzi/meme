@@ -30,7 +30,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" media="print" onload="this.media='all'" />
         <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" /></noscript>
 
-    <meta name="author" content="王云子" /><meta name="description" content="继hexo搭建博客之后，完成hugo搭建博客就相对简单多了，因为hugo博客的搭建环……" />
+    <meta name="author" content="王云子" /><meta name="description" content="继hexo搭建博客之后，完成hugo搭建博客就相对简单多了，因为hugo博客的搭建环境和hexo博客搭建环境是一样的，而且两个博客的部署都是一样的只需要记住一些简单常用的命令即可。 如果非要我选择一个博客来当自己的主站使用的话，我应该会选hugo博客，但是对于我来说，hugo博客的……" />
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#2a6df4" />
@@ -60,7 +60,7 @@
         "dateModified": "2022-10-24T14:14:05+08:00",
         "url": "https://wangyunzi.com/life/2022-05-28hugo/",
         "headline": "我的博客搭建历程——hugo",
-        "description": "继hexo搭建博客之后，完成hugo搭建博客就相对简单多了，因为hugo博客的搭建环……",
+        "description": "继hexo搭建博客之后，完成hugo搭建博客就相对简单多了，因为hugo博客的搭建环境和hexo博客搭建环境是一样的，而且两个博客的部署都是一样的只需要记住一些简单常用的命令即可。 如果非要我选择一个博客来当自己的主站使用的话，我应该会选hugo博客，但是对于我来说，hugo博客的……",
         "inLanguage" : "zh-CN",
         "articleSection": "life",
         "wordCount":  1590 ,
@@ -103,7 +103,7 @@
 
 
 <meta property="og:title" content="我的博客搭建历程——hugo" />
-<meta property="og:description" content="继hexo搭建博客之后，完成hugo搭建博客就相对简单多了，因为hugo博客的搭建环……" />
+<meta property="og:description" content="继hexo搭建博客之后，完成hugo搭建博客就相对简单多了，因为hugo博客的搭建环境和hexo博客搭建环境是一样的，而且两个博客的部署都是一样的只需要记住一些简单常用的命令即可。 如果非要我选择一个博客来当自己的主站使用的话，我应该会选hugo博客，但是对于我来说，hugo博客的……" />
 <meta property="og:url" content="https://wangyunzi.com/life/2022-05-28hugo/" />
 <meta property="og:site_name" content="长街短梦" />
 <meta property="og:locale" content="zh" /><meta property="og:image" content="https://blog.wangyunzi.com/article/image-20220528173536193.png" />
@@ -351,11 +351,11 @@ twikoo.getCommentsCount({
 <!-- more -->
 <p>如果非要我选择一个博客来当自己的主站使用的话，我应该会选hugo博客，但是对于我来说，hugo博客的致命打击就是主题好看的太少了，吸引我的是他的速度，我前面搭建的hugo博客速度真的是非常快，hexo博客也有他的缺点，比如我这个博客最大的缺点就是css和图片渲染太慢了，打开我的博客第一眼看到的就是我的白板，极其影响浏览博客的观感，而且一些icon有时候也会比较慢，我刚开始时以为是我用阿里云图床慢的原因，后来发现其实这就是hexo博客的缺点。</p>
 <p>话不多说了，直接上步骤吧！</p>
-<h2 id="安装chocolatey"><a href="#安装chocolatey" class="anchor-link">#</a>安装CHOCOLATEY</h2>
+<h2 id="安装chocolatey">安装CHOCOLATEY</h2>
 <p>其实我也不知道这是什么东西，可以去<a href="https://docs.chocolatey.org/en-us/choco/setup#more-install-options" target="_blank" rel="noopener">官网</a>浏览了解，我当时是稀里糊涂的安装的，因为后面安装hugo需要，官网上写了两种安装方式，我不知到这两种有啥区别，我选择简单的一种，打开终端输入</p>
 <p>（ Install with cmd.exe）：</p>
 <pre tabindex="0"><code>@&#34;%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe&#34; -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command &#34;[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString(&#39;https://community.chocolatey.org/install.ps1&#39;))&#34; &amp;&amp; SET &#34;PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin&#34;
-</code></pre><h2 id="安装hugo"><a href="#安装hugo" class="anchor-link">#</a>安装hugo</h2>
+</code></pre><h2 id="安装hugo">安装hugo</h2>
 <p>还是老规矩，自己去<a href="https://gohugo.io/getting-started/installing" target="_blank" rel="noopener">官网</a>浏览，这里我们选择用到前面的**Chocolatey (Windows)**安装，这里也可以用两种方式安装，分别是：</p>
 <pre tabindex="0"><code>choco install hugo -confirm
 </code></pre><p>and</p>
@@ -366,14 +366,14 @@ twikoo.getCommentsCount({
 </code></pre><p>就会出现下面：</p>
 <p><img src="https://blog.wangyunzi.com/article/image-20220528173536193.png" alt="image-20220528173536193"></p>
 <p>这里注意和hexo检查版本的代码不一样。</p>
-<h2 id="建立博客"><a href="#建立博客" class="anchor-link">#</a>建立博客</h2>
+<h2 id="建立博客">建立博客</h2>
 <p>为博客创建本地项目：</p>
 <pre tabindex="0"><code>hugo new site blog-name
 </code></pre><p>进入博客：</p>
 <pre tabindex="0"><code>cd blog-name
 </code></pre><p>生成静态文件public</p>
 <pre tabindex="0"><code>hugo
-</code></pre><h2 id="更换主题"><a href="#更换主题" class="anchor-link">#</a>更换主题</h2>
+</code></pre><h2 id="更换主题">更换主题</h2>
 <p>由于前面我说过hexo主题我很难找到自己喜欢的，但是我认为有几个主题不错，分别是：</p>
 <div class="table-container"><table>
 <thead>
@@ -384,7 +384,7 @@ twikoo.getCommentsCount({
 </thead>
 </table></div>
 <p>自己选择喜欢的去更换即可。</p>
-<h2 id="发布文章"><a href="#发布文章" class="anchor-link">#</a>发布文章</h2>
+<h2 id="发布文章">发布文章</h2>
 <p>新建文章</p>
 <pre tabindex="0"><code>hugo new post/我的第一篇文章.md
 </code></pre><p>本地预览</p>
@@ -397,7 +397,7 @@ twikoo.getCommentsCount({
 <pre tabindex="0"><code>git add . 
 git commit -m &#39;first commit&#39; 
 git push -u origin master
-</code></pre><h2 id="引用图片"><a href="#引用图片" class="anchor-link">#</a>引用图片</h2>
+</code></pre><h2 id="引用图片">引用图片</h2>
 <p>一般博客文章引用图片都是需要相对路径，在hugo博客里面的数据都是放在<code>static</code>目录下的，所以我们需要将图片放置在这个文件夹下面，步骤如下：</p>
 <p>1.在文章目录下，hugo博客一般都是<code>D:\Blog\wangyunzi\content\posts</code>这样的目录下面的，然后新建专门放文件图片的文件夹；</p>
 <p>2.写文章时本来需要引用这个文件夹的图片的相对路径，比如<code>![](images/blog.jpg)</code>，我们需要将它改为<code>![](/images/blog.jpg)</code>,这样后面才会图片不会出错；</p>
@@ -405,7 +405,7 @@ git push -u origin master
 <p>最后经过我实践之后发现上面的步骤有点臃肿，固将步骤更改为下：</p>
 <p>1.<code>static</code>目录下直接新建放置图片的文件夹比如说<code>D:\Blog\wangyunzi\static\imgs</code>,要用的图片直接放进去;</p>
 <p>2.引用图片的时候直接按照<code>![](/imgs/blog.jpg)</code>这样的格式写就可以了。</p>
-<h2 id="总结"><a href="#总结" class="anchor-link">#</a>总结</h2>
+<h2 id="总结">总结</h2>
 <p>最后关于图片的使用其实一般有两种方式，一种就是上面的直接使用本地图片上传，还有就是会使用图床。在刚开始接触博客的时候我一直坚信本地上传图片是最好的，因为图床不仅折腾起来有点麻烦，最重要的是需要花费money，这对一个贫穷的大学生无疑是一个不小的打击。但是在后面的接触中，我慢慢“真香”了，图床使用起来确实方便了许多，而且移动性比较方便，有时候引用速度比本都引用还要快一点。目前我使用的是阿里云储存oss当做图床，感觉还不错，没有太大的问题。但是可能是我比较放肆的缘故，今天阿里云突然发给我一个<strong>余量预警</strong>，犹如一个晴天霹雳，因为一元钱优惠买的40G储存才几天时间几乎就被我花光了，太难了，以后还是悠着点用吧。</p>
 <img src=" https://blog.wangyunzi.com/article/image-20220528191205618.png" width="" height="200">
 
@@ -537,6 +537,7 @@ twikoo.init({
 </script>
 
 
+
     </div>
 </main>
 
@@ -634,6 +635,19 @@ twikoo.init({
 
 
 
+
+    <script src="https://jsd.cky.codes/npm/mermaid@8.8.3/dist/mermaid.min.js"></script>
+<script>
+    const mermaidConfig = {
+        startOnLoad: true,
+        flowchart: {
+            useMaxWidth: false,
+            htmlLabels: true
+        },
+        theme: 'default'
+    };
+    mermaid.initialize(mermaidConfig);
+</script>
 
 
 

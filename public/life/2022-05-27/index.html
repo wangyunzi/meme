@@ -349,13 +349,13 @@ twikoo.getCommentsCount({
             <div class="post-body e-content">
                 <p>hexo搭建博客学习经过只是作为自己的经验总结，并不作为教程使用，主要是将博客搭建在github上。里面包含自己搭建博客的一些踩的坑，虽然不是很全面，但是可以大概了解。</p>
 <!-- more -->
-<h2 id="前言"><a href="#前言" class="anchor-link">#</a>前言</h2>
+<h2 id="前言">前言</h2>
 <p>如果大家想要了解<a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">hexo</a>，可以去<a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">hexo</a>官方文档看一下,这里主要以纯教程为主。以下的博客搭建主要是在windows下进行，搭建需要<strong>NodeJS</strong>和<a href="https://git-scm.com/downloads" target="_blank" rel="noopener"><strong>git</strong></a>，强烈推荐在CSDN上搜索就会有一大堆详细的教程，前期还需要准备一个<strong>github</strong>账号，但是对于第一次安装git需要仔细一点，最好找一个全面的教程一步步跟着做，这些我没有写的但是提到的步骤我都会列在我的文末参考资料。</p>
-<h2 id="实践操作"><a href="#实践操作" class="anchor-link">#</a>实践操作</h2>
-<h3 id="github账号"><a href="#github账号" class="anchor-link">#</a>Github账号</h3>
+<h2 id="实践操作">实践操作</h2>
+<h3 id="github账号">Github账号</h3>
 <p>创建一个GitHub账号，新建一个仓库，仓库名字一定要写成<em><strong>name.github.io</strong></em>这样的形式，name可以随便改，选择选择public，然后创建仓库。</p>
 <img src="https://blog.wangyunzi.com/article/image-20220527152530735.png" alt="image-20220527152530735" style="zoom: 50%;" />
-<h3 id="安装hexo"><a href="#安装hexo" class="anchor-link">#</a>安装hexo</h3>
+<h3 id="安装hexo">安装hexo</h3>
 <p>1.打开电脑终端输入以下代码：</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="nx">npm</span> <span class="nx">install</span> <span class="o">-</span><span class="nx">g</span> <span class="nx">hexo</span><span class="o">-</span><span class="nx">cli</span>
 </span></span></code></pre></div><p>2.查看hexo版本：</p>
@@ -371,7 +371,7 @@ twikoo.getCommentsCount({
 </code></pre><p>7.本地测试</p>
 <pre tabindex="0"><code>hexo s
 </code></pre><p>此时一个简单的博客就完成了。</p>
-<h3 id="安装主题"><a href="#安装主题" class="anchor-link">#</a>安装主题</h3>
+<h3 id="安装主题">安装主题</h3>
 <p>hexo博客官网有很多主题，也可以在github上直接搜索hexo主题 ，可以选择一个你最喜欢，我用的是volantis主题。以下步骤在D:\Blog\myblog下进行</p>
 <p>1.依然是终端打开博客，将主题下载下来</p>
 <pre tabindex="0"><code>git clone https://github.com/xaoxuu/hexo-theme-volantis themes/Volantis
@@ -382,7 +382,7 @@ twikoo.getCommentsCount({
 theme: landscape
 </code></pre><p>将landscape改为volantis。</p>
 <p>4.接下来就是艰难的主题修改了，用的啥主题就是看主题文档，看着给的提示修改。</p>
-<h3 id="部署到github"><a href="#部署到github" class="anchor-link">#</a>部署到Github</h3>
+<h3 id="部署到github">部署到Github</h3>
 <p>1.打开上个步骤目录下的配置文件<code>_config.yml</code>，然后找到如下代码修改：</p>
 <pre tabindex="0"><code>deploy:
   type: git
@@ -405,7 +405,7 @@ theme: landscape
 hexo g
 hexo d
 </code></pre><p>到此，博客就布置的差不多啦。</p>
-<h3 id="部署到github和vercel"><a href="#部署到github和vercel" class="anchor-link">#</a>部署到github和vercel</h3>
+<h3 id="部署到github和vercel">部署到github和vercel</h3>
 <p>由于后来安装的博客越来越多，发现继续使用name.github.io这个行不通了，具体原理我也说不通，后来虽然我发现也可以布置两个这样的博客，但是有点复杂，就果断选择放弃了，于是选择将文件push到github上，然后github与vercel链接，这样vercel就会给你一个类似name.vercel.app这样的免费域名，在vercel上你可以拥有无数个博客，这也是我后来逐渐喜欢上vercel的原因，最后我发现可以不push到github上，直接push到vercel上，这也是一个非常不错的办法，在我末尾的参考文献可以找到。（此部分可以选择看或不看）</p>
 <p>1.同样，新建一个博客，可以私密也可以公开，我建议最好设置成私密的。</p>
 <p><img src="https://blog.wangyunzi.com/article/2.jpg" alt="2"></p>
@@ -433,7 +433,7 @@ git push -u origin master
 <p><img src="https://blog.wangyunzi.com/article/5.jpg" alt="5"></p>
 <p>8.打开网址看一下，这样以后别人打开你的这个网址就看到你的博客啦：</p>
 <p><img src="https://blog.wangyunzi.com/article/6.jpg" alt="6"></p>
-<h3 id="直接部署到vercel"><a href="#直接部署到vercel" class="anchor-link">#</a>直接部署到vercel</h3>
+<h3 id="直接部署到vercel">直接部署到vercel</h3>
 <p>虽然在参考文献里面已经有了一篇比较完整的文章了，但是我在按照步骤进行的时候还是出现了一点小问题，主要是我实际操作和他的有一些不一样，所以我来捋顺一下我的整个步骤，为此我新开了一篇hexo博客演示😂😂。</p>
 <p>1.首先安装vercel</p>
 <pre tabindex="0"><code>npm install -g vercel 
@@ -455,7 +455,7 @@ git push -u origin master
 <pre tabindex="0"><code>hexo cl 
 hexo g 
 vercel --prod --confirm 
-</code></pre><h2 id="总结"><a href="#总结" class="anchor-link">#</a>总结</h2>
+</code></pre><h2 id="总结">总结</h2>
 <p>以上差不多就是我一整个hexo搭建博客的历程，虽然现在自己操作这些流程非常顺畅没遇到啥问题，但是像当初的我只要做一个步骤就会出现一个错误，一连串报错常常让我措手不及，浏览器打开的网页比我写论文时打开的网页都还要多😪，真真就是“一把辛酸泪”。接下来还是会慢慢记述自己用hugo搭建博客和notion搭建博客的历程。其实对于我自己来说，弄这些博客的步骤都是比较混乱的一个状态，都是出现一个错误然后上网搜索一个错误，没有正常、完整的步骤，所以现在也算是一个复盘的过程，以便于自己日后若是忘记了也可以回顾一下。最后想对自己说，你慢慢回去删除那些因为需要演示建立的仓库以及截图的样子真美，写完一篇文章，桌面上布满了截图。</p>
 <blockquote>
 <p>See you later!</p>
@@ -589,6 +589,7 @@ twikoo.init({
 </script>
 
 
+
     </div>
 </main>
 
@@ -686,6 +687,19 @@ twikoo.init({
 
 
 
+
+    <script src="https://jsd.cky.codes/npm/mermaid@8.8.3/dist/mermaid.min.js"></script>
+<script>
+    const mermaidConfig = {
+        startOnLoad: true,
+        flowchart: {
+            useMaxWidth: false,
+            htmlLabels: true
+        },
+        theme: 'default'
+    };
+    mermaid.initialize(mermaidConfig);
+</script>
 
 
 

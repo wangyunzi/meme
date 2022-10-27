@@ -8,7 +8,7 @@
 @import "shortcodes";
 
 // 正文设定
-@import "post";
+// @import "post";
 
 // 订阅
 @import "subscription";
@@ -50,10 +50,11 @@
 @import "header-layout";
 
 // 朋友圈
-// @import "fcircle-beta";
+// @import "friends";
 
 // 文章
 @import "post";
 
-// 分享github卡片
-// @import "github"
+// 其他
+@import "common"
+

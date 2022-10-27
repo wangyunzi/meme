@@ -57,7 +57,7 @@
         "@context": "https://schema.org",
         "@type": "WebPage",
         "datePublished": "2022-10-26T22:53:11+08:00",
-        "dateModified": "2022-10-26T23:33:01+08:00",
+        "dateModified": "2022-10-27T19:58:30+08:00",
         "url": "https://wangyunzi.com/others/shortcodes/",
         "name": "hugo短代码记录",
         "description": "这是博主自己用的主页，需要用的时候打开这个",
@@ -266,7 +266,7 @@
 
         
 
-        <article class="content post h-entry" data-align="justify" data-type="others" data-indent="true" data-toc-num="true">
+        <article class="content post h-entry" data-align="justify" data-type="others">
 
             <h1 class="post-title p-name">hugo短代码记录</h1>
 
@@ -281,37 +281,272 @@
 
             <nav class="contents">
   <h2 id="contents" class="contents-title">目录</h2><ol class="toc">
-    <li><a id="contents:引入-ppt-功能" href="#引入-ppt-功能">引入 ppt 功能</a></li>
-    <li><a id="contents:bilibili-视频" href="#bilibili-视频">bilibili 视频</a></li>
-    <li><a id="contents:博客文章内链" href="#博客文章内链">博客文章内链</a></li>
-    <li><a id="contents:豆瓣电影和书卡" href="#豆瓣电影和书卡">豆瓣电影和书卡</a></li>
-    <li><a id="contents:align" href="#align">align</a></li>
-    <li><a id="contents:github" href="#github">github</a></li>
-    <li><a id="contents:notice" href="#notice">notice</a></li>
-    <li><a id="contents:simple-notice" href="#simple-notice">simple-notice</a></li>
-    <li><a id="contents:quote" href="#quote">quote</a></li>
-    <li><a id="contents:quote-center" href="#quote-center">quote-center</a></li>
-    <li><a id="contents:参考链接非常感谢以下大佬提供的代码" href="#参考链接非常感谢以下大佬提供的代码">参考链接（非常感谢以下大佬提供的代码）</a></li>
+    <li>
+      <ol>
+        <li>
+          <ol>
+            <li><a id="contents:引入-ppt-功能" href="#引入-ppt-功能">引入 ppt 功能</a></li>
+            <li><a id="contents:bilibili-视频" href="#bilibili-视频">bilibili 视频</a></li>
+            <li><a id="contents:博客文章内链" href="#博客文章内链">博客文章内链</a></li>
+            <li><a id="contents:豆瓣电影和书卡" href="#豆瓣电影和书卡">豆瓣电影和书卡</a></li>
+            <li><a id="contents:align" href="#align">align</a></li>
+            <li><a id="contents:github" href="#github">github</a></li>
+            <li><a id="contents:notice" href="#notice">notice</a></li>
+            <li><a id="contents:simple-notice" href="#simple-notice">simple-notice</a></li>
+            <li><a id="contents:quote" href="#quote">quote</a></li>
+            <li><a id="contents:quote-center" href="#quote-center">quote-center</a></li>
+            <li><a id="contents:参考链接非常感谢以下大佬提供的代码" href="#参考链接非常感谢以下大佬提供的代码">参考链接（非常感谢以下大佬提供的代码）</a></li>
+          </ol>
+        </li>
+      </ol>
+    </li>
   </ol>
 </nav><div class="post-body e-content">
-                <h2 id="引入-ppt-功能"><a href="#引入-ppt-功能" class="anchor-link">#</a><a href="#contents:引入-ppt-功能" class="headings">引入 ppt 功能</a></h2>
+                <h4 id="引入-ppt-功能"><a href="#contents:引入-ppt-功能" class="headings">引入 ppt 功能</a></h4>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{a{<span class="p">&lt;</span> <span class="nt">ppt</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;ppt网址&#34;</span> <span class="p">&gt;</span>}} 
 </span></span><span class="line"><span class="cl"><span class="gh"># 使用的时候把字母a去掉，防止被识别生效
-</span></span></span></code></pre></div><h2 id="bilibili-视频"><a href="#bilibili-视频" class="anchor-link">#</a><a href="#contents:bilibili-视频" class="headings">bilibili 视频</a></h2>
+</span></span></span></code></pre></div><h4 id="bilibili-视频"><a href="#contents:bilibili-视频" class="headings">bilibili 视频</a></h4>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{a{<span class="p">&lt;</span> <span class="nt">bilibili</span> <span class="na">BV1xW4y1a7NK</span> <span class="p">&gt;</span>}}  
-</span></span><span class="line"><span class="cl"><span class="gh"># 使用的时候把字母a去掉，我加上是为了防止被识别生效
+</span></span><span class="line"><span class="cl"><span class="gh"># 使用的时候把字母a去掉，防止被识别生效
 </span></span></span><span class="line"><span class="cl"><span class="gh"># BV1Ab4y117G2 指的是 bilibili 链接中的 bvid
 </span></span></span><span class="line"><span class="cl"><span class="gh"># 如果有集数（默认第一集），例如要播放第5集，则这样使用：{a{&lt; bilibili BV1xW4y1a7NK 5 &gt;}}
-</span></span></span></code></pre></div><h2 id="博客文章内链"><a href="#博客文章内链" class="anchor-link">#</a><a href="#contents:博客文章内链" class="headings">博客文章内链</a></h2>
+</span></span></span></code></pre></div><h4 id="博客文章内链"><a href="#contents:博客文章内链" class="headings">博客文章内链</a></h4>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{a{<span class="p">&lt;</span> <span class="nt">innerlink</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;posts/tech/go_slice_map_thread_safety.md&#34;</span> <span class="p">&gt;</span>}}  
-</span></span><span class="line"><span class="cl"><span class="gh"># 使用的时候把字母a去掉，我加上是为了防止被识别生效
+</span></span><span class="line"><span class="cl"><span class="gh"># 使用的时候把字母a去掉，防止被识别生效
 </span></span></span><span class="line"><span class="cl"><span class="gh"># 注意：结尾要加md，开头不用加域名
-</span></span></span><span class="line"><span class="cl"><span class="gh"></span>
-</span></span><span class="line"><span class="cl"><span class="gh"># 卡片获取的文章长度默认是70，需要在config.yaml配置文件添加 summaryLength: 140，即设置为140
-</span></span></span></code></pre></div><h2 id="豆瓣电影和书卡"><a href="#豆瓣电影和书卡" class="anchor-link">#</a><a href="#contents:豆瓣电影和书卡" class="headings">豆瓣电影和书卡</a></h2>
+</span></span></span><span class="line"><span class="cl"><span class="gh"># 卡片获取的文章长度默认是70，需要在config.yaml配置文件添加 summaryLength: 140，即设置为140
+</span></span></span></code></pre></div><div style="height: 100px;margin: 1em auto;position: relative;
+        box-shadow: 0 2px 4px rgb(0 0 0 / 25%), 0 0 2px rgb(0 0 0 / 25%);
+        border-radius: 15px;padding: 23px;max-width: 780px;background: var(--entry);">
+    
+    
+    <div style="font-size: 22px; font-weight: 600">
+        <a target="_blank" href="https://wangyunzi.com/others/shortcodes/" style="box-shadow: none">hugo短代码记录</a>
+    </div>
+    <span style="font-size: 14px; color: #999">
+        日期: 2022-10-26
+        
+    
+</div>
+
+<h4 id="豆瓣电影和书卡"><a href="#contents:豆瓣电影和书卡" class="headings">豆瓣电影和书卡</a></h4>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{a{<span class="p">&lt;</span> <span class="nt">douban</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;直接放网址如：https://book.douban.com/subject/20394150/&#34;</span> <span class="p">&gt;</span>}}
-</span></span><span class="line"><span class="cl"><span class="gh"># 使用的时候把字母a去掉，我加上是为了防止被识别生效
-</span></span></span></code></pre></div><h2 id="align"><a href="#align" class="anchor-link">#</a><a href="#contents:align" class="headings">align</a></h2>
+</span></span><span class="line"><span class="cl"><span class="gh"># 使用的时候把字母a去掉，防止被识别生效
+</span></span></span></code></pre></div><!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title></title>
+    <style>
+        .post-preview {
+            max-width: 780px;
+            height: 200px;
+            margin: 1em auto;
+            position: relative;
+            display: flex;
+             
+            background: var(--entry);
+            border-radius: 15px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, .25), 0 0 2px rgba(0, 0, 0, .25);
+        }
+
+        .dark .post-preview {
+             
+            background: var(--entry);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, .5), 0 0 2px rgba(0, 0, 0, .5);
+        }
+
+        .post-preview--meta {
+            width: 80%;
+            padding: 23px;
+            overflow: hidden;
+        }
+
+        .post-preview--middle {
+            line-height: 28px;
+        }
+
+        .post-preview--title {
+            font-size: 22px;
+            margin: 0 !important;
+        }
+
+        .post-preview--title a {
+            text-decoration: none;
+        }
+
+        .post-preview--date {
+            font-size: 14px;
+            color: #999;
+        }
+
+        .post-preview--excerpt {
+            font-size: 14px;
+            line-height: 1.825;
+        }
+
+        .post-preview--excerpt p {
+            display: inline;
+            margin: 0;
+        }
+
+        .post-preview--image {
+            height: 200px !important;
+            width: 25%;
+            float: right;
+            border-radius: 0 15px 15px 0;
+        }
+
+        .post-preview img {
+            margin: unset;
+            width: 20%;
+            border-radius: 0 15px 15px 0;
+        }
+
+        @media (max-width: 550px) {
+            .post-preview {
+                width: 95%;
+            }
+
+            .post-preview--excerpt {
+                display: none;
+            }
+
+            .post-preview--middle {
+                line-height: 19px;
+            }
+        }
+
+        .rating {
+            display: block;
+            line-height: 15px;
+        }
+
+        .rating-star {
+            display: inline-block;
+            width: 75px;
+            height: 15px;
+            background-repeat: no-repeat;
+            background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAAClCAYAAAAUAAAYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA5xJREFUeNrs3T9rFEEcxvG7qEQIglaCICKkin9AUEtBKxU7wS61VlYivgWj70TtNFj5BqzE7qxEWwsxKIoYn4UtluFmbm8nczvzm+/BjxyuDwNzu3uXD0+46f7LC5PA45Hm+WTYw1x2LRDc0jzTXB+wqMlsaLPutz8fDFjYZHYauAz3NBvt83XNnyUWNpn1nVm3OsHmsb3EomazzZnVXKMPNcc0xzUnNKc0Rzv/77fms+Z7O3vt9b1eU7bZrNN68l5zcolX4ofmsuZXTdnmMvyi2dR86Bmcac62P6vKrnVubpc0bxYE32nOab45N8YqsvPeDfcD4SOav4HjprPuu+H5BTt9LXDMfNbdLPfT678Fx6vKupt1o/O8+R3pkOaJ5/iktqx7z/qp+aq5q/nY+fczmheaK03Gs7D5rLtZdzSvA6/Ebc2u55j57HQB0TzW7AzkjiKzny6+2hlKNE8juMNcFqKBaIZndRlCNBBNgmx7ZkE0fbLtZkE0EA1EM17WuQwhGogGooFoss6296y52cNO+J6HLJoPaFdbsvA9zGerIxrPh85eWYgGooFoDiQbuAxp0UA0EVmdWbRo+ma1WbRoIBqIZtzsnHdDWjQQDUQD0WSbde5ZS2UhmtqJJtSEiVkXooFoIJre2VATJmZdiKZ2ogk1YSb8oVMvDeUPnSAaiCaPJkzMuhANRAPRQDQpsqEmTMy6EI11oolpwkA0EA1EcyDZmCYMRAPR+LMxTZjqiCamCQPRQDQQzehNGIgGooFoIJpVZ2OaMBBN7USTqgkD0UA0EE3vbKomDERTO9GkasKYJJpUTRiIBqKBaEZvwkA0EA1EA9GkyKZqwkA01olmrCYMRAPRQDR9LkO+0QmiKbAJUyTRjNWEgWggGohm9CYMRAPRQDQQzZDsWE0YiMYC0eTYhIFoIJrKiCbHJgxEY4FocmzCZEs0OTZhIBqIpjKiybEJA9FANBANROPL5tiEgWhKIJoSmzAQDURjjGhKbMJANCUQTYlNmNGIpsQmDEQD0RgjmhKbMBANRAPR1Es0JTZhIJpciMZaEwaigWgKJBprTRiIJheisdaESUo01powEA1EUyDRWGvCQDQQDURjm2isNWEgmlURzWw2q4pZIBqIJkOiCVyGJpkFolkV0ejMMvel28mIRptl7ku3IRqIpjCimfNuaJpZIBqIBqIpm2ice5Z5ZonJupvVkMRu4JW4qXnrOWY++1+AAQBw9BJSCTeN9wAAAABJRU5ErkJggg==);
+            overflow: hidden;
+        }
+
+        .allstar10 {
+            background-position: 0px 0px;
+        }
+
+        .allstar9 {
+            background-position: 0px -15px;
+        }
+
+        .allstar8 {
+            background-position: 0px -30px;
+        }
+
+        .allstar7 {
+            background-position: 0px -45px;
+        }
+
+        .allstar6 {
+            background-position: 0px -60px;
+        }
+
+        .allstar5 {
+            background-position: 0px -75px;
+        }
+
+        .allstar4 {
+            background-position: 0px -90px;
+        }
+
+        .allstar3 {
+            background-position: 0px -105px;
+        }
+
+        .allstar2 {
+            background-position: 0px -120px;
+        }
+
+        .allstar1 {
+            background-position: 0px -135px;
+        }
+
+        .allstar0 {
+            background-position: 0px -150px;
+        }
+
+
+        .rating-average {
+            color: #777;
+            display: inline-block;
+            font-size: 13px;
+            margin-left: 10px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+            integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.douban_item').each(function () {
+                var _this = $(this);
+                var strs = _this.attr('urlstring').toString();
+                var db_reg = /^https\:\/\/(movie|book)\.douban\.com\/subject\/([0-9]+)\/?/;
+                if (db_reg.test(strs)) {
+                    var db_type = strs.replace(db_reg, "$1");
+                    var db_id = strs.replace(db_reg, "$2").toString();
+                    var db_api = "https://douban.edui.fun/";
+                    if (db_type === 'movie') {
+                        var ls_item = 'movie' + db_id;
+                        var url = db_api + "movies/" + db_id;
+                        if (localStorage.getItem(ls_item) == null || localStorage.getItem(ls_item) === 'undefined') {
+                            $.ajax({
+                                url: url, type: 'GET', dataType: "json", success: function (data) {
+                                    localStorage.setItem(ls_item, JSON.stringify(data));
+                                    movieShow(_this, ls_item, strs)
+                                }
+                            })
+                        } else {
+                            movieShow(_this, ls_item, strs)
+                        }
+                    } else if (db_type === 'book') {
+                        var ls_item = 'book' + db_id;
+                        var url = db_api + "v2/book/id/" + db_id;
+                        if (localStorage.getItem(ls_item) == null || localStorage.getItem(ls_item) === 'undefined') {
+                            $.ajax({
+                                url: url, type: 'GET', dataType: 'json', success: function (data) {
+                                    localStorage.setItem('book' + db_id, JSON.stringify(data));
+                                    bookShow(_this, ls_item, strs)
+                                }
+                            })
+                        } else {
+                            bookShow(_this, ls_item, strs)
+                        }
+                    }
+                }
+            });
+        });
+
+        function movieShow(_this, ls_item, str) {
+            var storage = localStorage.getItem(ls_item);
+            var data = JSON.parse(storage);
+            var db_star = Math.ceil(data.rating);
+            $("<div class='post-preview'><div class='post-preview--meta'><div class='post-preview--middle'><div class='post-preview--title'><a target='_blank' style='box-shadow: none; font-weight: bolder;' href='" + str + "'>" + data.name + "</a></div><div class='rating'><div class='rating-star allstar" + db_star + "'></div><div class='rating-average'>" + data.rating + "</div></div><time class='post-preview--date'>导演：" + data.director + " / 类型：" + data.genre + " / " + data.year + "</time><section style='max-height:75px;overflow:hidden;' class='post-preview--excerpt'>" + data.intro.replace(/\s*/g, "") + "</section></div></div><img referrerpolicy='no-referrer' loading='lazy' class='post-preview--image' src=" + data.img + "></div>").replaceAll(_this)
+        }
+
+        function bookShow(_this, ls_item, str) {
+            var storage = localStorage.getItem(ls_item);
+            var data = JSON.parse(storage);
+            var db_star = Math.ceil(data.rating.average);
+            $("<div class='post-preview'><div class='post-preview--meta'><div class='post-preview--middle'><div class='post-preview--title'><a target='_blank' style='box-shadow: none; font-weight: bolder;' href='" + str + "'>" + data.title + "</a></div><div class='rating'><div class='rating-star allstar" + db_star + "'></div><div class='rating-average'>" + data.rating.average + "</div></div><time class='post-preview--date'>作者：" + data.author + " / 出版："+ data.pubdate +" / "+ data.publisher +" </time><section style='max-height:75px;overflow:hidden;' class='post-preview--excerpt'>" + data.summary.replace(/\s*/g, "") + "</section></div></div><img referrerpolicy='no-referrer' loading='lazy' class='post-preview--image' src=" + data.images.medium + "></div>").replaceAll(_this)
+        }
+    </script>
+</head>
+<body>
+<div class="douban_show">
+    <div id="dbhttps://book.douban.com/subject/20394150/" urlstring="https://book.douban.com/subject/20394150/" class="douban_item post-preview"></div>
+</div>
+</body>
+</html>
+<h4 id="align"><a href="#contents:align" class="headings">align</a></h4>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">align</span> <span class="na">left</span> <span class="err">&#34;</span><span class="na">文字居左</span><span class="err">&#34;</span> <span class="p">&gt;</span>}}
 </span></span></code></pre></div>
 <p style="text-align:left">文字居左</p>
@@ -321,7 +556,7 @@
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">align</span> <span class="na">right</span> <span class="err">&#34;</span><span class="na">文字居右</span><span class="err">&#34;</span> <span class="p">&gt;</span>}}
 </span></span></code></pre></div>
 <p style="text-align:right">文字居右</p>
-<h2 id="github"><a href="#github" class="anchor-link">#</a><a href="#contents:github" class="headings">github</a></h2>
+<h4 id="github"><a href="#contents:github" class="headings">github</a></h4>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">github</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;Organic-Carbon-Estimating&#34;</span> <span class="na">link</span><span class="o">=</span><span class="s">&#34;https://github.com/guanqr/Organic-Carbon-Estimating&#34;</span> <span class="na">description</span><span class="o">=</span><span class="s">&#34;A program used in estimating organic carbon stocks in oceans. 计算指定海域的有机碳存量，包括颗粒有机碳与溶解有机碳，数据依赖于 NASA 中分辨率成像光谱仪 MODIS 遥感产品。&#34;</span> <span class="na">color</span><span class="o">=</span><span class="s">&#34;#e16737&#34;</span> <span class="na">language</span><span class="o">=</span><span class="s">&#34;MATLAB&#34;</span> <span class="p">&gt;</span>}}
 </span></span></code></pre></div>
 
@@ -336,7 +571,7 @@
         <span class="language-name">MATLAB</span>
     </div>
 </div>
-<h2 id="notice"><a href="#notice" class="anchor-link">#</a><a href="#contents:notice" class="headings">notice</a></h2>
+<h4 id="notice"><a href="#contents:notice" class="headings">notice</a></h4>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">notice</span> <span class="na">notice-warning</span> <span class="p">&gt;</span>}}
 </span></span><span class="line"><span class="cl">十里青山远，潮平路带沙。数声啼鸟怨年华。又是凄凉时候，在天涯。白露收残月，清风散晓霞。绿杨堤畔问荷花。记得年时沽酒，那人家。
 </span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">notice</span> <span class="p">&gt;</span>}}
@@ -344,7 +579,7 @@
 
 
 <div class="notice notice-warning" >
-    <div class="notice-title"><svg xmlns="http://www.w3.org/2000/svg" class="icon notice-icon" viewBox="0 0 576 512"><path d="M570 440c18 32-5 72-42 72H48c-37 0-60-40-42-72L246 24c19-32 65-32 84 0l240 416zm-282-86a46 46 0 100 92 46 46 0 000-92zm-44-165l8 136c0 6 5 11 12 11h48c7 0 12-5 12-11l8-136c0-7-5-13-12-13h-64c-7 0-12 6-12 13z"/></svg></div><p>十里青山远，潮平路带沙。数声啼鸟怨年华。又是凄凉时候，在天涯。白露收残月，清风散晓霞。绿杨堤畔问荷花。记得年时沽酒，那人家。</p></div>
+    <div class="notice-title"><svg xmlns="http://www.w3.org/2000/svg" class="icon notice-icon" viewBox="0 0 576 512"><path d="M570 440c18 32-5 72-42 72H48c-37 0-60-40-42-72L246 24c19-32 65-32 84 0l240 416zm-282-86a46 46 0 100 92 46 46 0 000-92zm-44-165l8 136c0 6 5 11 12 11h48c7 0 12-5 12-11l8-136c0-7-5-13-12-13h-64c-7 0-12 6-12 13z"/></svg></div><p style="text-indent:0"><span class="drop-cap">十</span>里青山远，潮平路带沙。数声啼鸟怨年华。又是凄凉时候，在天涯。白露收残月，清风散晓霞。绿杨堤畔问荷花。记得年时沽酒，那人家。</p></div>
 
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">notice</span> <span class="na">notice-info</span> <span class="p">&gt;</span>}}
 </span></span><span class="line"><span class="cl">十里青山远，潮平路带沙。数声啼鸟怨年华。又是凄凉时候，在天涯。白露收残月，清风散晓霞。绿杨堤畔问荷花。记得年时沽酒，那人家。
@@ -373,7 +608,7 @@
 <div class="notice notice-tip" >
     <div class="notice-title"><svg xmlns="http://www.w3.org/2000/svg" class="icon notice-icon" viewBox="0 0 512 512"><path d="M504 256a248 248 0 11-496 0 248 248 0 01496 0zM227 387l184-184c7-6 7-16 0-22l-22-23c-7-6-17-6-23 0L216 308l-70-70c-6-6-16-6-23 0l-22 23c-7 6-7 16 0 22l104 104c6 7 16 7 22 0z"/></svg></div><p>十里青山远，潮平路带沙。数声啼鸟怨年华。又是凄凉时候，在天涯。白露收残月，清风散晓霞。绿杨堤畔问荷花。记得年时沽酒，那人家。</p></div>
 
-<h2 id="simple-notice"><a href="#simple-notice" class="anchor-link">#</a><a href="#contents:simple-notice" class="headings">simple-notice</a></h2>
+<h4 id="simple-notice"><a href="#contents:simple-notice" class="headings">simple-notice</a></h4>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">simple-notice</span> <span class="na">simple-notice-warning</span> <span class="p">&gt;</span>}}
 </span></span><span class="line"><span class="cl">十里青山远，潮平路带沙。数声啼鸟怨年华。又是凄凉时候，在天涯。白露收残月，清风散晓霞。绿杨堤畔问荷花。记得年时沽酒，那人家。
 </span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">simple-notice</span> <span class="p">&gt;</span>}}
@@ -398,7 +633,7 @@
 </span></span></code></pre></div>
 <div class="simple-notice simple-notice-tip" >
     <div class="simple-notice-title"></div><p>十里青山远，潮平路带沙。数声啼鸟怨年华。又是凄凉时候，在天涯。白露收残月，清风散晓霞。绿杨堤畔问荷花。记得年时沽酒，那人家。</p></div>
-<h2 id="quote"><a href="#quote" class="anchor-link">#</a><a href="#contents:quote" class="headings">quote</a></h2>
+<h4 id="quote"><a href="#contents:quote" class="headings">quote</a></h4>
 <p>中文：</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">quote</span> <span class="p">&gt;</span>}}
 </span></span><span class="line"><span class="cl">十里青山远，潮平路带沙。数声啼鸟怨年华。又是凄凉时候，在天涯。白露收残月，清风散晓霞。绿杨堤畔问荷花。记得年时沽酒，那人家。
@@ -411,7 +646,7 @@
 </span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">quote</span> <span class="p">&gt;</span>}}
 </span></span></code></pre></div><blockquote class="quote en" style="border-left: none;">
         <p>To see a world in a grain of sand. And a heaven in a wild flower. Hold infinity in the palm of your hand. And eternity in an hour.</p></blockquote>
-<h2 id="quote-center"><a href="#quote-center" class="anchor-link">#</a><a href="#contents:quote-center" class="headings">quote-center</a></h2>
+<h4 id="quote-center"><a href="#contents:quote-center" class="headings">quote-center</a></h4>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">quote-center</span> <span class="p">&gt;</span>}}
 </span></span><span class="line"><span class="cl">十里青山远，潮平路带沙<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>数声啼鸟怨年华<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>又是凄凉时候，在天涯<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>白露收残月，清风散晓霞<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>绿杨堤畔问荷花<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>记得年时沽酒，那人家
 </span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">quote-center</span> <span class="p">&gt;</span>}}
@@ -422,7 +657,7 @@
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{<span class="err">&lt;</span>/* myshortcode */&gt;}}
 </span></span></code></pre></div><p>渲染结果：</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">myshortcode</span> <span class="p">&gt;</span>}}
-</span></span></code></pre></div><h2 id="参考链接非常感谢以下大佬提供的代码"><a href="#参考链接非常感谢以下大佬提供的代码" class="anchor-link">#</a><a href="#contents:参考链接非常感谢以下大佬提供的代码" class="headings">参考链接（非常感谢以下大佬提供的代码）</a></h2>
+</span></span></code></pre></div><h4 id="参考链接非常感谢以下大佬提供的代码"><a href="#contents:参考链接非常感谢以下大佬提供的代码" class="headings">参考链接（非常感谢以下大佬提供的代码）</a></h4>
 <ul>
 <li><a href="https://www.sulvblog.cn/posts/blog/shortcodes/" target="_blank" rel="noopener">Hugo博客自定义shortcodes</a></li>
 <li><a href="https://guanqr.com/tech/website/hugo-shortcodes-customization/" target="_blank" rel="noopener">自定义 Hugo Shortcodes 简码</a></li>
@@ -470,6 +705,21 @@
         
     
 
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+
+    
+
 
 
         <div>
@@ -515,6 +765,7 @@ twikoo.init({
   }
 })
 </script>
+
 
 
     </div>
@@ -615,7 +866,32 @@ twikoo.init({
 
 
 
+    <script src="https://jsd.cky.codes/npm/mermaid@8.8.3/dist/mermaid.min.js"></script>
+<script>
+    const mermaidConfig = {
+        startOnLoad: true,
+        flowchart: {
+            useMaxWidth: false,
+            htmlLabels: true
+        },
+        theme: 'default'
+    };
+    mermaid.initialize(mermaidConfig);
+</script>
 
+
+
+    
+
+        
+
+        
+
+        
+
+        
+
+        
 
     
 
