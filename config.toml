@@ -1236,7 +1236,7 @@ uglyURLs = false
     # 仓库地址
     repoURL = "https://github.com/wangyunzi/wangyunzi.com"
     # 编辑地址
-    repoEditURL = "https://github.com/wangyunzi/wangyunzi/master"
+    repoEditURL = "https://github.com/wangyunzi/wangyunzi.com/master"
 
     # Git 的图标
     gitIcon = "code-branch"
