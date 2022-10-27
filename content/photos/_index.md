@@ -1,5 +1,5 @@
 ---
-title: "相册"
+title: ""
 slug: "photos"
 date: 2022-10-25T20:33:06+08:00
 description: 每个独一无二不可刻画的瞬间

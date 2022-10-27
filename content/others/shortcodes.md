@@ -45,6 +45,13 @@ tocNum: false
 ```
 {{< douban src="https://book.douban.com/subject/20394150/" >}}
 
+#### 轮播图
+```markdown
+{< imgloop "URL1,URL2,URL3,URL4,URL5" >}} 
+//实际使用时在前面多加入一个{
+```
+{{< imgloop "https://i.pinimg.com/564x/af/42/76/af42760c48f90d504d9d590e453260a2.jpg,https://i.pinimg.com/564x/ff/dd/79/ffdd792f92f5c04dc0af639d94f13f08.jpg,https://i.pinimg.com/564x/86/ed/45/86ed45e7100efb62b02e04f3a9d0f4ba.jpg,https://i.pinimg.com/564x/86/ed/45/86ed45e7100efb62b02e04f3a9d0f4ba.jpg,https://i.pinimg.com/564x/c7/67/e3/c767e363d2c53c350be3ecfe4756f29a.jpg" >}} 
+
 #### align
 ```markdown
 {{</* align left "文字居左" */>}}
