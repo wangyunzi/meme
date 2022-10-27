@@ -39,12 +39,11 @@ indent: false
 #### 🏷️我的博客
 近来迷上折腾各式各样的博客，所以大大小小的完成了几个小小的博客，但是真正使用的只有两个博客，其他的博客各有优缺点，人生安得两全法，索性放弃折腾，如果感兴趣的可以溜达着去看看
 
-- [我的上任博客，耐看、整洁、大方](https://shyun.netlify.app)
-- [另外一个主要的hugo博客，同样非常好看](https://wangyunzi.vercel.app/)
-- [还是一个hugo博客](https://yunya.vercel.app)
-- [notion搭建的博客，非常interesting](https://wangyunziya.vercel.app)
-- [notion搭建的博客，简洁、美观、可爱](https://yazi.vercel.app)
-- [一个hexo搭建的博客，主题可塑性强，有着很多其他静态博客都没有的功能](https://yunzi.vercel.app)
+- [我的上任博客，耐看、整洁、大方](https://shyun.wangyunzi.com/)
+- [另外一个主要的hugo博客，同样非常好看](https://yunya.wangyunzi.com/)
+- [notion搭建的博客，非常interesting](https://notion.wangyunzi.com/)
+- [notion搭建的博客，简洁、美观、可爱](https://yazi.wangyunzi.com)
+- [一个hexo搭建的博客，主题可塑性强，有着很多其他静态博客都没有的功能](https://yunzi.wangyunzi.com)
 
 #### 🐸联系方式
 - [Twitter](https://twitter.com/YunziWang)
