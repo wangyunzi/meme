@@ -12,7 +12,7 @@ indent: false
 
 
 
-**更新时间：2022-10-26**
+**更新时间：2022-10-27**
 
 <div align=center>  <!-- 可选的项：right，left，center -->
     <img src="海绵宝宝.jpg" width="" height="" alt="图片转载自https://i.pinimg.com/564x/73/02/fd/7302fda480fe5fde524fef65811c018e.jpg">  <!-- src处填写路径（本地或网络） width 和 height 就是控制图片的大小的-->
@@ -39,7 +39,7 @@ indent: false
 #### 🏷️我的博客
 近来迷上折腾各式各样的博客，所以大大小小的完成了几个小小的博客，但是真正使用的只有两个博客，其他的博客各有优缺点，人生安得两全法，索性放弃折腾，如果感兴趣的可以溜达着去看看
 
-- [我的上任博客，耐看、整洁、大方，只是我看习惯了眼睛疼](https://shyun.netlify.app)
+- [我的上任博客，耐看、整洁、大方](https://shyun.netlify.app)
 - [另外一个主要的hugo博客，同样非常好看](https://wangyunzi.vercel.app/)
 - [还是一个hugo博客](https://yunya.vercel.app)
 - [notion搭建的博客，非常interesting](https://wangyunziya.vercel.app)
