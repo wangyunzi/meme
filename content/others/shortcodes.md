@@ -45,8 +45,7 @@ tocNum: false
 ```
 {{< douban src="https://book.douban.com/subject/20394150/" >}}
 
-#### imgloop
-轮播图
+#### imgloop轮播图
 ```markdown
 {< imgloop "URL1,URL2,URL3,URL4,URL5" >}} 
 //实际使用时在前面多加入一个{
