@@ -1,15 +1,15 @@
 ---
 title: "博客日记"
 slug: "bloglogs"
-description: 
+description: "记录每次改造博客"
 date: 2022-10-28T08:51:17+08:00
-toc: 
+toc: true
 tags: 
 categories:
 share:
 comments:
 meta: false
-tocNum:       # 文章表头
+tocNum: false      # 文章表头
 dropCap:     # 首字下沉
 indent: false     #标题居中
 align:      # 段排首缩
@@ -19,4 +19,8 @@ gitinfo: true
 displayCopyright: false
 ---
 
-记录每次改造博客
+### 2022/10/28
+- 改动：更换live2d模型
+- [Live 2D所有模型展示图，看板娘图形合集](https://cloud.tencent.com/developer/article/2048383)
+
+
