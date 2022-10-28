@@ -23,6 +23,8 @@ displayCopyright: false
 {{< friend name="McLsk888’s Blog" url="https://mclsk888.top" logo="https://mclsk888.top/logo.png" word="....." >}}
 {{< friend name="上杉九月的博客" url="https://blog.sakurasep.site/" logo="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/touxiang.jpg" word="分享生活，探索未来！" >}}
 {{< friend name="一加大贝" url="https://tianheg.xyz/" logo="https://tianheg.xyz/images/logo.svg" word="学习技术，热爱生活" >}}
+{{< friend name="荷戟独彷徨" url="https://guanqr.com/" logo="https://cdn.jsdelivr.net/gh/guanqr/blog/static/icons/android-chrome-512x512.png" word="爱光学，爱生活，爱创造" >}}
+{{< friend name="数学小兵儿" url="https://matnoble.me/" logo="https://matnoble.me/icons/android-chrome-512x512.png" word="数学＆计算机 我都爱" >}}
 {{< friend name="Amnesia's Blog" url="https://amnesia-f.vercel.app/" logo="https://npm.arcitcgn.cn/aciano-cdn@1.0.10/avatar.jpg" word="零碎的岛屿总会找到海" >}}
 {{< friend name="UyoAhz" url="https://uyoahz.cn/" logo="https://q1.qlogo.cn/g?b=qq&nk=2496091142&s=640" word="集中精神，以气御剪" >}}
 {{< friend name="宏的自留地" url="https://arcitcgn.cn" logo="https://cdn.afdelivr.top/npm/arcitcgn-assets-public@2022.7.24/CDN/Personal%20assets/avatar-1.jpg" word="一名初中生的小破站" >}}
