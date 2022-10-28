@@ -2,7 +2,7 @@
 title: "博客日记"
 slug: "bloglogs"
 description: "记录每次改造博客"
-layout: "bloglogs"
+# layout: "bloglogs"
 date: 2022-10-28T08:51:17+08:00
 toc: true
 tags: 

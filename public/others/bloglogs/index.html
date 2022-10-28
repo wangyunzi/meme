@@ -57,7 +57,7 @@
         "@context": "https://schema.org",
         "@type": "WebPage",
         "datePublished": "2022-10-28T08:51:17+08:00",
-        "dateModified": "2022-10-28T16:24:17+08:00",
+        "dateModified": "2022-10-28T17:23:25+08:00",
         "url": "https://wangyunzi.com/others/bloglogs/",
         "name": "博客日记",
         "description": "记录每次改造博客",
@@ -261,29 +261,129 @@
 
             
             
-<main class="main single" id="main">
-<div class="main-inner">
+    <main class="main single" id="main">
+    <div class="main-inner">
+
+        
+
+        <article class="content post h-entry" data-align="justify" data-type="others">
+
+            <h1 class="post-title p-name">博客日记</h1>
+
+            
+
+            
+                <div class="post-description p-summary">记录每次改造博客</div>
+                
+            
+
+            
+
+            <nav class="contents">
+  <h2 id="contents" class="contents-title">目录</h2><ol class="toc">
+    <li>
+      <ol>
+        <li><a id="contents:20221028" href="#20221028">2022/10/28</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav><div class="post-body e-content">
+                <h3 id="20221028"><a href="#contents:20221028" class="headings">2022/10/28</a></h3>
+<ul>
+<li>改动：更换live2d模型</li>
+<li><a href="https://cloud.tencent.com/developer/article/2048383" target="_blank" rel="noopener">Live 2D所有模型展示图，看板娘图形合集</a></li>
+</ul>
+
+            </div>
+
+            
 
 
-    <div class="container">
-        <div class="page-header">
-            <h1 id="timeline" ><center>博客改造日记</center></h1>
-        </div>
-        <ul class="timeline">
-            <li>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4 class="timeline-title">2022-10-28</h4>
-                </div>
-                <div class="timeline-body">
-                  <p>更换live2d模型,<a href="https://cloud.tencent.com/developer/article/2048383" target="_blank" rel="noopener noreferrer" style="color:blueviolet;">Live 2D所有模型展示图,看板娘图形合集</a></p>
-                </div>
-              </div>
-            </li>
-        </ul>
+        </article>
+
+        
+
+        
+
+
+        
+
+
+        
+
+
+        
+    
+    
+
+
+
+        
+
+
+        
+
+
+        
+
+
+        
+
+
+        
+    
+
+
+
+        
+
+<div>
+  <div class="pagination__title">
+      <span class="pagination__title-h" style="font-size: 20px;">💬评论</span>
+      <hr />
+  </div>
+<div id="tcomment"></div>
+<script src="https://cdn.staticfile.org/twikoo/1.6.7/twikoo.all.min.js"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.1.8/css/lightgallery.css">
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.1.8/lightgallery.min.js"></script>
+<script>
+twikoo.init({
+  envId: 'https://twikoo.wangyunzi.com/', 
+  el: '#tcomment', 
+  
+  
+  
+
+  onCommentLoaded: function () {
+    var commentContents = document.getElementsByClassName('tk-content');
+    for (var i = 0; i < commentContents.length; i++) {
+      var commentItem = commentContents[i];
+      var imgEls = commentItem.getElementsByTagName('img');
+      if (imgEls.length > 0) {
+        for (var j = 0; j < imgEls.length; j++) {
+          var imgEl = imgEls[j];
+          var aEl = document.createElement('a');
+          aEl.setAttribute('class', 'tk-lg-link');
+          aEl.setAttribute('href', imgEl.getAttribute('src'));
+          aEl.setAttribute('data-src', imgEl.getAttribute('src'));
+          aEl.appendChild(imgEl.cloneNode(false));
+          imgEl.parentNode.insertBefore(aEl, imgEl.nextSibling);
+          imgEl.remove();
+        }
+        lightGallery(commentItem, {
+          selector: '.tk-lg-link',
+          share: false
+        });
+      }
+    }
+  }
+})
+</script>
+
+
+
     </div>
-
-</div>
 </main>
 
 

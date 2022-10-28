@@ -1,126 +1,52 @@
-.timeline {
-    list-style: none;
-    padding: 10px 0 20px;
+.ui-timeLine>.item {
+    width: 80%;
+    display: block;
     position: relative;
-  }
-  .timeline:before {
+    text-align: justify;
+    word-break: break-all;
+    padding-left: 60px;
+    padding-right: 10px;
+}
+.ui-timeLine .line, .ui-timeLine>.activeLine {
+    position: absolute;
+    left: 29px;
+    width: 4px;
+    height: 100%;
+    background-color: #eee;
+}
+.ui-timeLine .dot {
+    z-index: 100;
+    display: inline-block;
+    position: absolute;
+    left: 25px;
     top: 0;
-    bottom: 0;
-    position: absolute;
-    content: " ";
-    width: 3px;
-    background-color: #eeeeee;
-    left: 50%;
-    margin-left: -1.5px;
-  }
-  .timeline > li {
-    margin-bottom: 10px;
+    padding: 3px;
+    border: 3px solid #eee;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 3px 3px 8px #ccc;
+}
+.ui-timeLine .active {
+    border: 3px solid rgba(132, 43, 171, .8);
+}
+.ui-timeLine>.item>.box {
+    padding: 15px 3px 6px;
+}
+.ui-timeLine>.item .cbox {
+    display: flex;
+    align-items: center;
     position: relative;
-  }
-  .timeline > li:before,
-  .timeline > li:after {
-    content: " ";
-    display: table;
-  }
-  .timeline > li:after {
-    clear: both;
-  }
-  .timeline > li:before,
-  .timeline > li:after {
-    content: " ";
-    display: table;
-  }
-  .timeline > li:after {
-    clear: both;
-  }
-  .timeline > li > .timeline-panel {
-    width: 41%;
-    float: left;
-    border: 1px solid #d4d4d4;
-    border-radius: 2px;
-    padding: 20px;
-    position: relative;
-    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
-  }
-  .timeline > li > .timeline-panel:before {
-    position: absolute;
-    top: 26px;
-    right: -15px;
-    display: inline-block;
-    border-top: 15px solid transparent;
-    border-left: 15px solid #ccc;
-    border-right: 0 solid #ccc;
-    border-bottom: 15px solid transparent;
-    content: " ";
-  }
-  .timeline > li > .timeline-panel:after {
-    position: absolute;
-    top: 27px;
-    right: -14px;
-    display: inline-block;
-    border-top: 14px solid transparent;
-    border-left: 14px solid #fff;
-    border-right: 0 solid #fff;
-    border-bottom: 14px solid transparent;
-    content: " ";
-  }
-//   .timeline > li > .timeline-badge {
-//     color: #fff;
-//     width: 25px;
-//     height: 25px;
-//     line-height: 10px;
-//     font-size: 1.4em;
-//     text-align: center;
-//     position: absolute;
-//     top: 16px;
-//     left: 50%;
-//     margin-left: -25px;
-//     background-color: #999999;
-//     z-index: 100;
-//     border-top-right-radius: 50%;
-//     border-top-left-radius: 50%;
-//     border-bottom-right-radius: 50%;
-//     border-bottom-left-radius: 50%;
-//   }
-  .timeline > li.timeline-inverted > .timeline-panel {
-    float: right;
-  }
-  .timeline > li.timeline-inverted > .timeline-panel:before {
-    border-left-width: 0;
-    border-right-width: 15px;
-    left: -15px;
-    right: auto;
-  }
-  .timeline > li.timeline-inverted > .timeline-panel:after {
-    border-left-width: 0;
-    border-right-width: 14px;
-    left: -14px;
-    right: auto;
-  }
-  .timeline-badge.primary {
-    background-color: #2e6da4 !important;
-  }
-  .timeline-badge.success {
-    background-color: #3f903f !important;
-  }
-  .timeline-badge.warning {
-    background-color: #f0ad4e !important;
-  }
-  .timeline-badge.danger {
-    background-color: #d9534f !important;
-  }
-  .timeline-badge.info {
-    background-color: #5bc0de !important;
-  }
-  .timeline-title {
-    margin-top: 0;
-    color: inherit;
-  }
-  .timeline-body > p,
-  .timeline-body > ul {
-    margin-bottom: 0;
-  }
-  .timeline-body > p + p {
-    margin-top: 5px;
-  }
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px #ccc;
+    background-image: linear-gradient(45deg, rgba(0, 200, 255, 0.4) 0%, rgba(132, 43, 171, 0.4) 100%);
+    // background-image: linear-gradient(90deg, #f795331a 0, #f370551a 15%, #ef4e7b1a 30%, #a166ab1a 44%, #5073b81a 58%, #1098ad1a 72%, #07b39b1a 86%, #6dba821a 100%);
+}
+.ui-timeLine>.item .cbox>div{
+    margin:0 10px;
+    color: #FFFFFF;
+}
+.imageContent img{
+    width: 60px;height: 90px;
+    border-radius: 60%;
+}
