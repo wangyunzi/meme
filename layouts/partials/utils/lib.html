@@ -94,6 +94,11 @@
     {{- $path = $.Site.Params.lib.path.valine | default $defalut -}}
 {{- end -}}
 
+{{- if eq $type "twikoo" -}}
+    {{- $defalut := "/npm/twikoo@1.6.7/dist/twikoo.all.min.js" -}}
+    {{- $path = $.Site.Params.lib.path.twikoo | default $defalut -}}
+{{- end -}}
+
 <!--
 
   Third-party services
