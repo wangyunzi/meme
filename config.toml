@@ -1401,7 +1401,7 @@ uglyURLs = false
     displaySiteCopyright = false
 
     # 自定义页脚（支持 Markdown）
-    customFooter = "浙ICP备2022025879号"
+    customFooter = ""
 
     displayBusuanziSiteUVAndPV = true
     busuanziSiteUVText = "本站访客数"
