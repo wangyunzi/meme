@@ -65,6 +65,12 @@ displayCopyright: false
 ​	{{< figure src="https://blog.wangyunzi.com/life/2022-10/11.jpg" link="https://blog.wangyunzi.com/life/2022-10/11.jpg" caption="鸽子鸽子" caption-position="bottom" caption-effect="fade" >}}
 {{< figure src="https://blog.wangyunzi.com/life/2022-10/12.jpg" link="https://blog.wangyunzi.com/life/2022-10/12.jpg" caption="丹桂飘香" caption-position="bottom" caption-effect="fade" >}}
 {{< figure src="https://blog.wangyunzi.com/life/2022-10/13.jpg" link="https://blog.wangyunzi.com/life/2022-10/13.jpg" caption="可爱的鸽子" caption-position="bottom" caption-effect="fade" >}}
+{{< figure src="https://blog.wangyunzi.com/life/2022-10/14.jpg" link="https://blog.wangyunzi.com/life/2022-10/13.jpg" caption="修狗" caption-position="bottom" caption-effect="fade" >}}
+{{< figure src="https://blog.wangyunzi.com/life/2022-10/15.jpg" link="https://blog.wangyunzi.com/life/2022-10/13.jpg" caption="可爱的" caption-position="bottom" caption-effect="fade" >}}
+{{< figure src="https://blog.wangyunzi.com/life/2022-10/16.jpg" link="https://blog.wangyunzi.com/life/2022-10/13.jpg" caption="柔顺的猫猫" caption-position="bottom" caption-effect="fade" >}}
+{{< figure src="https://blog.wangyunzi.com/life/2022-10/17.jpg" link="https://blog.wangyunzi.com/life/2022-10/13.jpg" caption="猫猫可爱" caption-position="bottom" caption-effect="fade" >}}
+{{< figure src="https://blog.wangyunzi.com/life/2022-10/18.jpg" link="https://blog.wangyunzi.com/life/2022-10/13.jpg" caption="大大的眼睛" caption-position="bottom" caption-effect="fade" >}}
+
 
 
 {{< /gallery >}}
