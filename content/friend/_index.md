@@ -47,6 +47,7 @@ displayCopyright: false
 {{< friend name="西瓜撞地球" url="https://bio-w.cn/" logo="https://bio-w.cn/img/avater.jpg" word="我在人间贩卖彩虹" >}}
 {{< friend name="优盟盒子" url="https://www.umsbox.com" logo="https://www.umsbox.com/wp-content/uploads/2022/08/yqlogo.png" word="专注优质网络资源分享的技术博客." >}}
 {{< friend name="绝对值の垃圾站" url="https://absolutevalue.cc/" logo="https://bu.dusays.com/2022/10/11/63456cf24d191.png" word="某啥也不会的初二废物。" >}}
+{{< friend name="SeerSu" url="https://absolutevalue.cc/" logo="https://seersu.me/favicon/avatar.jpg" word="留给自己一片大陆，把无垠的大海留给飞鸟和大鱼" >}}
 
 </div>
 </div>
