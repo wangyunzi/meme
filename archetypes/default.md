@@ -6,6 +6,7 @@ date: {{ .Date }}
 toc: 
 tags: 
 categories:
+draft: 
 share:
 comments:
 meta: 

@@ -2,17 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://wangyunzi.com/2022-11-06/</loc>
-    <lastmod>2022-11-02T16:38:34+08:00</lastmod>
+    <loc>https://wangyunzi.com/life/</loc>
+    <lastmod>2022-11-03T17:22:12+08:00</lastmod>
+  </url><url>
+    <loc>https://wangyunzi.com/tags/</loc>
+    <lastmod>2022-11-03T17:22:12+08:00</lastmod>
+  </url><url>
+    <loc>https://wangyunzi.com/tags/%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2022-11-03T17:22:12+08:00</lastmod>
+  </url><url>
+    <loc>https://wangyunzi.com/tags/%E8%AE%B0%E5%BD%95/</loc>
+    <lastmod>2022-11-03T17:22:12+08:00</lastmod>
+  </url><url>
+    <loc>https://wangyunzi.com/life/2022-11-03/</loc>
+    <lastmod>2022-11-03T17:22:12+08:00</lastmod>
+  </url><url>
+    <loc>https://wangyunzi.com/</loc>
+    <lastmod>2022-11-03T17:22:12+08:00</lastmod>
   </url><url>
     <loc>https://wangyunzi.com/others/</loc>
     <lastmod>2022-10-31T12:43:31+08:00</lastmod>
   </url><url>
     <loc>https://wangyunzi.com/others/websites/</loc>
     <lastmod>2022-10-31T12:41:05+08:00</lastmod>
-  </url><url>
-    <loc>https://wangyunzi.com/</loc>
-    <lastmod>2022-11-03T08:17:55+08:00</lastmod>
   </url><url>
     <loc>https://wangyunzi.com/others/timeline/</loc>
     <lastmod>2022-10-28T16:17:00+08:00</lastmod>
@@ -40,12 +52,6 @@
   </url><url>
     <loc>https://wangyunzi.com/others/books/</loc>
     <lastmod>2022-10-26T22:59:31+08:00</lastmod>
-  </url><url>
-    <loc>https://wangyunzi.com/life/</loc>
-    <lastmod>2022-10-25T18:49:10+08:00</lastmod>
-  </url><url>
-    <loc>https://wangyunzi.com/tags/</loc>
-    <lastmod>2022-10-27T19:27:26+08:00</lastmod>
   </url><url>
     <loc>https://wangyunzi.com/tags/%E7%A7%8B%E5%A4%A9/</loc>
     <lastmod>2022-10-21T20:19:18+08:00</lastmod>
