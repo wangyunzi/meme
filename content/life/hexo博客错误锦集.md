@@ -1,6 +1,7 @@
 ---
 title: hexo博客错误锦集
 date: 2022-05-28 11:49:49
+slug: "2022-05-28"
 categories: [hexo]
 tags:
   - 总结

@@ -1,6 +1,7 @@
 ---
 title: 我的博客搭建历程——hexo
 date: 2022-05-27 15:36:35
+slug: "2022-05-27"
 categories: [Blog]
 tags:
   - Hexo

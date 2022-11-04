@@ -1,6 +1,7 @@
 ---
 title: "原来你也在这里"
 date: "2022-05-11T20:37:34+08:00"
+description: "用笨拙的文字记录最真实的故事"
 meta: false
 comments: true
 dropCap: false

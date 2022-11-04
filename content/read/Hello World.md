@@ -1,6 +1,7 @@
 ---
 title: "Hello World"
 date: 2022-05-10T22:27:06+08:00
+slug: "2022-05-10"
 tags: ["你好","第一次","写作","青春"] 
 dropCap: false
 toc: false
