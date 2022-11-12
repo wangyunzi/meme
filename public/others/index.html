@@ -495,6 +495,28 @@
 
 
 
+
+
+
+    
+    <div tidio>
+        <script src="//code.tidio.co/zxwjohnqcamnvsjxvyagslc95ynv4yqu.js" async></script>
+        </div>
+
+
+
+
+
+
+<a href="https://beian.miit.gov.cn/" target="_blank" style="color:#939393;">浙ICP备2022025879号</a>&nbsp;
+
+    
+
+    <br />
+
+
+
+
 <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
 <text class="poem_sentence"></text>
 <text class="poem_info"></text>
@@ -507,24 +529,27 @@
   });
 </script>
 
-
-<div tidio>
-<script src="//code.tidio.co/zxwjohnqcamnvsjxvyagslc95ynv4yqu.js" async></script>
-</div>
+<br />
 
 
-
-
-<a href="https://beian.miit.gov.cn/" target="_blank" style="color:#939393;">浙ICP备2022025879号</a>&nbsp;
-
-    <span>
-        <a target="_blank" href="https://tyucdn.com/"style="display:inline-block;text-decoration:none;height:20px;color:#939393;">
-            
-            <font color="#939393">本站由天御云高防CDN提供加速服务</font>
-        </a>
-    </span>
    
-
+    <span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
+    <script>
+        var now = new Date(); 
+        function createtime() { 
+            var grt= new Date("05/10/2022 17:38:00");
+            now.setTime(now.getTime()+250); 
+            days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
+            hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 
+            if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum); 
+            mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;} 
+            seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 
+            snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;} 
+            document.getElementById("timeDate").innerHTML = "小破站在风雨中飘摇了"+dnum+" 天 "; 
+            document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒"; 
+        } 
+    setInterval("createtime()",250);
+    </script>
         </div>
     </footer>
 
