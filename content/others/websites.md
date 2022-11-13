@@ -53,3 +53,9 @@ displayCopyright: false
 |                                   |                                  |      |
 |                                   |                                  |      |
 
+### 知识类网站
+
+|      | [Praxis](https://www.praxisframework.org/) |      |
+| ---- | :----------------------------------------: | ---- |
+|      |                                            |      |
+
