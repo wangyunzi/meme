@@ -243,11 +243,11 @@ uglyURLs = false
         pre = "internal"
     #    post = "pagelines"
         identifier = "talk"
-    [[menu.main]]
-        pageref = "/bb/"
-        name = "哔哔"
-        weight = 9
-        pre = "internal"
+    #[[menu.main]]
+    #    pageref = "/bb/"
+    #    name = "哔哔"
+    #    weight = 9
+    #    pre = "internal"
     #    post = "user-circle"
     [[menu.main]]
         pageref = "/photos/"
