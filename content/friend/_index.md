@@ -49,6 +49,7 @@ displayCopyright: false
 {{< friend name="绝对值の垃圾站" url="https://absolutevalue.cc/" logo="https://bu.dusays.com/2022/10/11/63456cf24d191.png" word="某啥也不会的初二废物。" >}}
 {{< friend name="SeerSu" url="https://seersu.me" logo="https://seersu.me/favicon/avatar.jpg" word="留给自己一片大陆，把无垠的大海留给飞鸟和大鱼" >}}
 {{< friend name="胡涂说" url="https://hutusi.com/" logo="https://avatars.githubusercontent.com/u/487036?v=4" word="任抛星汉归园圃，留取乾坤盛酒囊" >}}
+{{< friend name="浮云翩迁之间" url="https://blognas.hwb0307.com" logo="百代繁华一朝都，谁非过客；千秋明月吹角寒，花是主人。" word="https://blognas.hwb0307.com/logo.jpg" >}}
 
 </div>
 </div>
