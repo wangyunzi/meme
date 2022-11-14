@@ -81,7 +81,10 @@ indent: false
 - [ ] ~~一个月跑步60公里~~（已经懈怠两个月了，既然完不成目标不要这个目标😅😅）
 
 
-![:wangyunzi](https://count.zburu.com/get/?name=:wangyunzi)
+<!-- ![:wangyunzi](https://count.zburu.com/get/?name=:wangyunzi) -->
+
+![:wangyunzi](https://count.getloli.com/get/@wangyunzi?theme=asoul)
+
 
 
 
