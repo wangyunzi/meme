@@ -83,6 +83,8 @@ indent: false
 
 <!-- ![:wangyunzi](https://count.zburu.com/get/?name=:wangyunzi) -->
 
+<!-- themes:moebooru/rule34/gelbooru/asoul -->
+
 ![:wangyunzi](https://count.getloli.com/get/@wangyunzi?theme=asoul)
 
 
