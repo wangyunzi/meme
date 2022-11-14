@@ -6,6 +6,6 @@ time=$(date "+%Y-%m-%d %H:%M:%S")
 echo $time
 
 git add .
-git commit -m "first commit 🌈$time"
+git commit -m "🌈$time"
 git push
 exit
