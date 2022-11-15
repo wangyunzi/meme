@@ -50,6 +50,7 @@ displayCopyright: false
 {{< friend name="SeerSu" url="https://seersu.me" logo="https://seersu.me/favicon/avatar.jpg" word="留给自己一片大陆，把无垠的大海留给飞鸟和大鱼" >}}
 {{< friend name="胡涂说" url="https://hutusi.com/" logo="https://avatars.githubusercontent.com/u/487036?v=4" word="任抛星汉归园圃，留取乾坤盛酒囊" >}}
 {{< friend name="浮云翩迁之间" url="https://blognas.hwb0307.com" logo="https://blognas.hwb0307.com/logo.jpg" word="百代繁华一朝都，谁非过客；千秋明月吹角寒，花是主人。" >}}
+{{< friend name="阿波尔的博客" url="https://www.zaqizaba.xyz" logo="https://www.zaqizaba.xyz/favicon.ico" word="来世愿做一只乌鸦" >}}
 
 </div>
 </div>
