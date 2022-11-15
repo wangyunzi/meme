@@ -2,23 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://wangyunzi.com/life/</loc>
+    <lastmod>2022-11-15T18:46:26+08:00</lastmod>
+  </url><url>
+    <loc>https://wangyunzi.com/tags/</loc>
+    <lastmod>2022-11-15T18:46:26+08:00</lastmod>
+  </url><url>
+    <loc>https://wangyunzi.com/life/5/</loc>
+    <lastmod>2022-11-15T18:46:26+08:00</lastmod>
+  </url><url>
+    <loc>https://wangyunzi.com/tags/%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2022-11-15T18:46:26+08:00</lastmod>
+  </url><url>
+    <loc>https://wangyunzi.com/tags/%E6%80%9D%E6%BA%90/</loc>
+    <lastmod>2022-11-15T18:46:26+08:00</lastmod>
+  </url><url>
+    <loc>https://wangyunzi.com/</loc>
+    <lastmod>2022-11-15T18:46:26+08:00</lastmod>
+  </url><url>
     <loc>https://wangyunzi.com/others/</loc>
     <lastmod>2022-11-14T14:09:44+08:00</lastmod>
   </url><url>
     <loc>https://wangyunzi.com/others/commands/</loc>
     <lastmod>2022-11-13T13:04:10+08:00</lastmod>
   </url><url>
-    <loc>https://wangyunzi.com/</loc>
-    <lastmod>2022-11-14T16:40:46+08:00</lastmod>
-  </url><url>
     <loc>https://wangyunzi.com/life/4/</loc>
     <lastmod>2022-11-13T14:53:47+08:00</lastmod>
-  </url><url>
-    <loc>https://wangyunzi.com/life/</loc>
-    <lastmod>2022-11-14T16:40:46+08:00</lastmod>
-  </url><url>
-    <loc>https://wangyunzi.com/tags/</loc>
-    <lastmod>2022-11-14T16:40:46+08:00</lastmod>
   </url><url>
     <loc>https://wangyunzi.com/tags/%E6%84%9F%E6%81%A9/</loc>
     <lastmod>2022-11-13T11:17:46+08:00</lastmod>
@@ -58,9 +67,6 @@
   </url><url>
     <loc>https://wangyunzi.com/life/2022-11-04/</loc>
     <lastmod>2022-11-04T23:04:40+08:00</lastmod>
-  </url><url>
-    <loc>https://wangyunzi.com/tags/%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2022-11-04T21:30:30+08:00</lastmod>
   </url><url>
     <loc>https://wangyunzi.com/tags/%E8%AE%B0%E5%BD%95/</loc>
     <lastmod>2022-11-04T21:30:30+08:00</lastmod>
@@ -154,9 +160,6 @@
   </url><url>
     <loc>https://wangyunzi.com/tags/%E6%95%B4%E7%90%86/</loc>
     <lastmod>2022-11-14T16:40:44+08:00</lastmod>
-  </url><url>
-    <loc>https://wangyunzi.com/tags/%E6%80%9D%E6%BA%90/</loc>
-    <lastmod>2022-09-16T21:14:36+08:00</lastmod>
   </url><url>
     <loc>https://wangyunzi.com/life/2022-09-16/</loc>
     <lastmod>2022-09-16T21:14:36+08:00</lastmod>
