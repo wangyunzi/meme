@@ -42,6 +42,13 @@
     font-weight: 400;
     font-style: italic;
 }
+@font-face {
+    font-family: 'OPPOSans';
+    font-display: swap;
+    src: url('#{$baseRelURL}/fonts/OPPOSansOS2-5000-Medium.woff2') format('woff2');
+    font-weight: 400;
+    font-style: italic;
+}
 
 :root {
     --text-wdth: 90;

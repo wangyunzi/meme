@@ -12,6 +12,9 @@ indent:      # 段排首缩
 gitinfo: false
 displayCopyright: false
 ---
+{{< notice notice-info >}}
+朋友们真的抱歉，由于博主最近一段时间开始忙的飞起，所以先暂停一段时间的友链添加，如果实在想添加友链的，可以留言，但是要等过一段时间才会添加到本博客的页面。敬请谅解！
+{{< /notice >}}
 
 ### 排名不分先后
 <div class="flink" id="article-container">
@@ -51,6 +54,7 @@ displayCopyright: false
 {{< friend name="胡涂说" url="https://hutusi.com/" logo="https://avatars.githubusercontent.com/u/487036?v=4" word="任抛星汉归园圃，留取乾坤盛酒囊" >}}
 {{< friend name="浮云翩迁之间" url="https://blognas.hwb0307.com" logo="https://blognas.hwb0307.com/logo.jpg" word="百代繁华一朝都，谁非过客；千秋明月吹角寒，花是主人。" >}}
 {{< friend name="阿波尔的博客" url="https://www.zaqizaba.xyz" logo="https://www.zaqizaba.xyz/favicon.ico" word="来世愿做一只乌鸦" >}}
+{{< friend name="Echo’s blog" url="https://www.liveout.cn/" logo="https://yy.liveout.cn/photo/photo2.jpg" word="韶华不为少年留 恨悠悠 几时休" >}}
 
 </div>
 </div>
