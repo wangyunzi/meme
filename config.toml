@@ -1103,6 +1103,7 @@ uglyURLs = false
     #fontFamilyBody = "Charter, Georgia, 'Helvetica Neue', Arial, 'Songti SC', 'SimSun', 'Hiragino Sans GB','宋体', 'Microsoft YaHei', 'STKaiti', 'Kai', 'Kaiti SC', 'KaiTi', 'KaiTi_GB2312', '楷体', sans-serif"
     #fontFamilyBody = "-apple-system, system-ui, BlinkMacSystemFont, 'Noto Serif SC', Arial, 'Amstelvar', 'Josefin Sans', 'Hiragino Sans GB', 'Microsoft Yahei', 'ST Heiti', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'"
     fontFamilyBody = "OPPOSans, UbuntuMono, 'Varela Round', 'PingFang SC', 'Microsoft YaHei', Helvetica, Arial"
+    #fontFamilyBody = "HarmonyOS_Sans_SC_Medium, HarmonyOS_Sans_Condensed_Medium_Italic, Georgia, -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif"
 
     # 网络字体链接
     fontsLink = ""
@@ -1116,7 +1117,7 @@ uglyURLs = false
     ######################################
     ## 字号（单位：px）
 
-    fontSize = 18
+    fontSize = 17
 
     ######################################
     ## 制表符的宽度
