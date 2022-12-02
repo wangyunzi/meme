@@ -741,7 +741,7 @@ uglyURLs = false
     disqusShortname = "wangyunzi-meme"
 
     ## Twikoo
-    enabletwikoo = true
+    enabletwikoo = false
     version = "1.6.7" # 填写twikoo的版本
     region = "ap-shanghai" # 环境地域，默认为 ap-shanghai，如果您的环境地域不是上海，需传此参数，请看twikoo官方文档
     id = "https://www.wangyunzi.life/" # 填写个人的twikoo ID
@@ -1102,11 +1102,11 @@ uglyURLs = false
     #fontFamilyBody = "-apple-system, system-ui, BlinkMacSystemFont, 'Noto Serif SC', Arial, 'Amstelvar', 'Josefin Sans', 'Hiragino Sans GB', 'Microsoft Yahei', 'ST Heiti', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'"
     #fontFamilyBody = "Charter, Georgia, 'Helvetica Neue', Arial, 'Songti SC', 'SimSun', 'Hiragino Sans GB','宋体', 'Microsoft YaHei', 'STKaiti', 'Kai', 'Kaiti SC', 'KaiTi', 'KaiTi_GB2312', '楷体', sans-serif"
     #fontFamilyBody = "-apple-system, system-ui, BlinkMacSystemFont, 'Noto Serif SC', Arial, 'Amstelvar', 'Josefin Sans', 'Hiragino Sans GB', 'Microsoft Yahei', 'ST Heiti', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'"
-    fontFamilyBody = "OPPOSans, UbuntuMono, 'Varela Round', 'PingFang SC', 'Microsoft YaHei', Helvetica, Arial"
-    #fontFamilyBody = "HarmonyOS_Sans_SC_Medium, HarmonyOS_Sans_Condensed_Medium_Italic, Georgia, -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif"
+    #fontFamilyBody = "OPPOSans, UbuntuMono, 'Varela Round', 'PingFang SC', 'Microsoft YaHei', Helvetica, Arial"
+    fontFamilyBody = "HarmonyOS_Sans_SC_Medium, HarmonyOS_Sans_Condensed_Medium_Italic, Georgia, -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif"
 
     # 网络字体链接
-    fontsLink = ""
+    fontsLink = "https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Noto+Serif+SC:wght@400;500;700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap"
     # https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Noto+Serif+SC:wght@400;500;700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap
     # 说明：要想读者一定体验到你设置的字体，最好
     #      采用网络字体。MemE 主题目前仅支持
@@ -1117,7 +1117,7 @@ uglyURLs = false
     ######################################
     ## 字号（单位：px）
 
-    fontSize = 17
+    fontSize = 18
 
     ######################################
     ## 制表符的宽度

@@ -3,9 +3,19 @@
 // Magic adjustment for en
 
 @font-face {
+    font-family: '字由点字乐圆体';
+    font-display: swap;
+    src: url('https://s-sh-4319-wangyunzi.oss.dogecdn.com/fonts/%E5%AD%97%E7%94%B1%E7%82%B9%E5%AD%97%E4%B9%90%E5%9C%86%E4%BD%93.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    // font-weight: 100 900;
+    font-stretch: 50% 125%;
+}
+
+@font-face {
     font-family: 'OPPOSans';
     font-display: swap;
-    src: url('#{$baseRelURL}/fonts/OPPOSansOS2-5000-Medium.woff2') format('woff2');
+    src: url('https://s-sh-4319-wangyunzi.oss.dogecdn.com/fonts/OPPOSansOS2-5000-Medium.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     // font-weight: 100 900;
@@ -14,16 +24,16 @@
 @font-face {
     font-family: 'HarmonyOS_Sans_SC_Medium';
     font-display: swap;
-    src: url('#{$baseRelURL}/fonts/HarmonyOS_Sans_SC_Medium.ttf') format('ttf');
-    // font-weight: 400;
+    src: url('https://s-sh-4319-wangyunzi.oss.dogecdn.com/fonts/HarmonyOS_Sans_SC_Medium.woff2') format('woff2');
+    // font-weight: 200;
     font-style: normal;
-    font-weight: 100 900;
-    // font-stretch: 50% 125%;
+    // font-weight: 100 900;
+    font-stretch: 50% 125%;
 }
 @font-face {
     font-family: 'HarmonyOS_Sans_Condensed_Medium_Italic';
     font-display: swap;
-    src: url('#{$baseRelURL}/fonts/HarmonyOS_Sans_Condensed_Medium_Italic.ttf') format('ttf');
+    src: url('https://s-sh-4319-wangyunzi.oss.dogecdn.com/fonts/HarmonyOS_Sans_Condensed_Medium_Italic.woff2') format('ttf');
     font-weight: 400;
     font-style: normal;
     // font-weight: 100 900;
