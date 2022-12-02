@@ -715,7 +715,7 @@ uglyURLs = false
     # Mermaid (https://github.com/mermaid-js/mermaid)
 
     # 是否开启（全局设置）
-    enableMermaid = true
+    enableMermaid = false
     # 说明：文章的 Front Matter 中的 `mermaid`
     #      的优先级高于此处
 
@@ -768,7 +768,7 @@ uglyURLs = false
     # 说明：https://valine.js.org/
 
     ## Waline
-    enableWaline = true
+    enableWaline = false
     walineServerURL = "https://waline.wangyunzi.com/"
     walineWordLimit = 0
     walineMeta = ["nick", "mail", "link"]
