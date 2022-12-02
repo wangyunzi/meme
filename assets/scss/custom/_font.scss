@@ -2,15 +2,6 @@
 
 // Magic adjustment for en
 
-@font-face {
-    font-family: '字由点字乐圆体';
-    font-display: swap;
-    src: url('https://s-sh-4319-wangyunzi.oss.dogecdn.com/fonts/%E5%AD%97%E7%94%B1%E7%82%B9%E5%AD%97%E4%B9%90%E5%9C%86%E4%BD%93.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-    // font-weight: 100 900;
-    font-stretch: 50% 125%;
-}
 
 @font-face {
     font-family: 'OPPOSans';
@@ -38,6 +29,15 @@
     font-style: normal;
     // font-weight: 100 900;
     // font-stretch: 50% 125%;
+}
+@font-face {
+    font-family: '字由点字乐圆体';
+    font-display: swap;
+    src: url('https://s-sh-4319-wangyunzi.oss.dogecdn.com/fonts/%E5%AD%97%E7%94%B1%E7%82%B9%E5%AD%97%E4%B9%90%E5%9C%86%E4%BD%93.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    // font-weight: 100 900;
+    font-stretch: 50% 125%;
 }
 @font-face {
     font-family: 'Amstelvar';
