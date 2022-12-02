@@ -163,7 +163,7 @@
                           unit: "c",
                           theme: "auto",
                           token: "0225a20f-7f8d-4d1a-920f-d55dc9885d82",
-                          hover: "enabled",
+                          hover: "false",
                           container: "tp-weather-widget"
                         })
                       </script>
@@ -451,9 +451,17 @@ twikoo.getCommentsCount({
         
 
         
+            <div id="disqus_thread"></div>
+        
+
+        
+            <div id="tcomment"></div>
+        
 
         
 
+        
+            <div id="waline"></div>
         
 
         
@@ -466,52 +474,6 @@ twikoo.getCommentsCount({
 
 
         
-
-<div>
-  <div class="pagination__title">
-      <span class="pagination__title-h" style="font-size: 20px;">💬评论</span>
-      <hr />
-  </div>
-<div id="tcomment"></div>
-<script src="https://cdn.staticfile.org/twikoo/1.6.7/twikoo.all.min.js"></script>
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.1.8/css/lightgallery.css">
-<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.1.8/lightgallery.min.js"></script>
-<script>
-twikoo.init({
-  envId: 'https://twikoo.wangyunzi.com/', 
-  el: '#tcomment', 
-  
-  
-  
-
-  onCommentLoaded: function () {
-    var commentContents = document.getElementsByClassName('tk-content');
-    for (var i = 0; i < commentContents.length; i++) {
-      var commentItem = commentContents[i];
-      var imgEls = commentItem.getElementsByTagName('img');
-      if (imgEls.length > 0) {
-        for (var j = 0; j < imgEls.length; j++) {
-          var imgEl = imgEls[j];
-          var aEl = document.createElement('a');
-          aEl.setAttribute('class', 'tk-lg-link');
-          aEl.setAttribute('href', imgEl.getAttribute('src'));
-          aEl.setAttribute('data-src', imgEl.getAttribute('src'));
-          aEl.appendChild(imgEl.cloneNode(false));
-          imgEl.parentNode.insertBefore(aEl, imgEl.nextSibling);
-          imgEl.remove();
-        }
-        lightGallery(commentItem, {
-          selector: '.tk-lg-link',
-          share: false
-        });
-      }
-    }
-  }
-})
-</script>
-
-
 
     </div>
 </main>
@@ -546,7 +508,36 @@ twikoo.init({
 
 
 
+<script type="text/javascript" src="https://jsd.cky.codes/npm/live2d-widget@3.1.4/lib/L2Dwidget.min.js"></script>
+<script type="text/javascript" src="https://jsd.cky.codes/npm/live2d-widget@3.1.4/lib/L2Dwidget.0.min.js"></script>
 
+<script type="text/javascript">
+    L2Dwidget.init({
+        model: {
+            scale: 0.5,
+            hHeadPos: 0.5,
+            vHeadPos: 0.618,
+            jsonPath: 'https://unpkg.com/live2d-widget-model-hijiki@1.0.5/assets/hijiki.model.json',       
+        },
+        display: {
+            superSample: 9,     
+            width: 300,         
+            height: 400,        
+            position: 'left',   
+            hOffset: 0,         
+            vOffset: 0,         
+        },
+        mobile: {
+            show: false,         
+            scale: 1,           
+            motion: true,       
+        },
+        react: {
+            opacityDefault: 1,  
+            opacityOnHover: 1,  
+        },
+    });
+</script>
 
 
 
@@ -675,6 +666,87 @@ twikoo.init({
     
 
         
+            <script>
+    function loadComments() {
+        if (!document.getElementById('disqus_thread')) {
+            return;
+        }
+        if (typeof DISQUS === 'undefined') {
+            const disqus_config = function() {
+                this.page.url = 'https:\/\/wangyunzi.com\/life\/26\/';
+                this.page.identifier = '\/life\/26\/';
+                this.page.title = '侵犯';
+            };
+            (function() {
+                const d = document, s = d.createElement('script'); s.async = true;
+                s.src = 'https://wangyunzi-meme.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        } else {
+            DISQUS.reset({
+                reload: true,
+                config: function() {
+                    this.page.url = 'https:\/\/wangyunzi.com\/life\/26\/';
+                    this.page.identifier = '\/life\/26\/';
+                    this.page.title = '侵犯';
+                }
+            });
+        }
+    }
+</script>
+
+        
+
+        
+
+        
+            <link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css">
+<script>
+    function loadComments() {
+        if (typeof Waline === 'undefined') {
+            var getScript = (options) => {
+                var script = document.createElement('script');
+                script.defer = true;
+                script.crossOrigin = 'anonymous';
+                Object.keys(options).forEach((key) => {
+                    script[key] = options[key];
+                });
+                document.body.appendChild(script);
+            };
+            getScript({
+                src: 'https://unpkg.com/@waline/client@v2/dist/waline.js',
+                onload: () => {
+                    newWaline();
+                }
+            });
+        } else {
+            newWaline();
+        }
+    }
+    function newWaline() {
+        const locale = {
+            nick: "昵称*",
+            mail: "邮箱*",
+            placeholder: "请填写正确的昵称和邮箱，方便接收评论回复信息。若随意填写邮箱地址，发布包括但不限于广告、攻击性、无意义等内容文字，将会视该评论为垃圾评论，作删除处理。"
+        };
+        Waline.init({
+            el: '#waline',
+            dark: 'html[data-theme="dark"]',
+            serverURL: 'https:\/\/waline.wangyunzi.com\/',
+            wordLimit:  0 ,          
+            meta: ["nick","mail","link"],
+            pageSize:  10 ,
+            lang: 'zh-CN',
+            highlighter:  true ,
+            emoji: ["https://unpkg.com/@waline/emojis@1.0.1/weibo","https://unpkg.com/@waline/emojis@1.0.1/bilibili"],
+            requiredMeta: ["nick","mail"],
+            login: 'enabled',
+            copyright:  true ,
+            locale
+        });
+    }
+</script>
 
         
 
@@ -683,6 +755,52 @@ twikoo.init({
         
 
         
+            <div>
+  <div class="pagination__title">
+      <span class="pagination__title-h" style="font-size: 20px;">💬评论</span>
+      <hr />
+  </div>
+<div id="tcomment"></div>
+<script src="https://cdn.staticfile.org/twikoo/1.6.7/twikoo.all.min.js"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.1.8/css/lightgallery.css">
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.1.8/lightgallery.min.js"></script>
+<script>
+
+twikoo.init({
+  el: '#tcomment', 
+  version: '1.6.7',
+  envId: 'https:\/\/twikoo.wangyunzi.com\/', 
+  region: 'ap-shanghai', 
+  
+  
+
+  onCommentLoaded: function () {
+    var commentContents = document.getElementsByClassName('tk-content');
+    for (var i = 0; i < commentContents.length; i++) {
+      var commentItem = commentContents[i];
+      var imgEls = commentItem.getElementsByTagName('img');
+      if (imgEls.length > 0) {
+        for (var j = 0; j < imgEls.length; j++) {
+          var imgEl = imgEls[j];
+          var aEl = document.createElement('a');
+          aEl.setAttribute('class', 'tk-lg-link');
+          aEl.setAttribute('href', imgEl.getAttribute('src'));
+          aEl.setAttribute('data-src', imgEl.getAttribute('src'));
+          aEl.appendChild(imgEl.cloneNode(false));
+          imgEl.parentNode.insertBefore(aEl, imgEl.nextSibling);
+          imgEl.remove();
+        }
+        lightGallery(commentItem, {
+          selector: '.tk-lg-link',
+          share: true
+        });
+      }
+    }
+  }
+})
+</script>
+
 
         
 

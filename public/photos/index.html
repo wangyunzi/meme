@@ -147,7 +147,7 @@
                           unit: "c",
                           theme: "auto",
                           token: "0225a20f-7f8d-4d1a-920f-d55dc9885d82",
-                          hover: "enabled",
+                          hover: "false",
                           container: "tp-weather-widget"
                         })
                       </script>
@@ -875,52 +875,6 @@
 
         
 
-<div>
-  <div class="pagination__title">
-      <span class="pagination__title-h" style="font-size: 20px;">💬评论</span>
-      <hr />
-  </div>
-<div id="tcomment"></div>
-<script src="https://cdn.staticfile.org/twikoo/1.6.7/twikoo.all.min.js"></script>
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.1.8/css/lightgallery.css">
-<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.1.8/lightgallery.min.js"></script>
-<script>
-twikoo.init({
-  envId: 'https://twikoo.wangyunzi.com/', 
-  el: '#tcomment', 
-  
-  
-  
-
-  onCommentLoaded: function () {
-    var commentContents = document.getElementsByClassName('tk-content');
-    for (var i = 0; i < commentContents.length; i++) {
-      var commentItem = commentContents[i];
-      var imgEls = commentItem.getElementsByTagName('img');
-      if (imgEls.length > 0) {
-        for (var j = 0; j < imgEls.length; j++) {
-          var imgEl = imgEls[j];
-          var aEl = document.createElement('a');
-          aEl.setAttribute('class', 'tk-lg-link');
-          aEl.setAttribute('href', imgEl.getAttribute('src'));
-          aEl.setAttribute('data-src', imgEl.getAttribute('src'));
-          aEl.appendChild(imgEl.cloneNode(false));
-          imgEl.parentNode.insertBefore(aEl, imgEl.nextSibling);
-          imgEl.remove();
-        }
-        lightGallery(commentItem, {
-          selector: '.tk-lg-link',
-          share: false
-        });
-      }
-    }
-  }
-})
-</script>
-
-
-
     </div>
 </main>
 
@@ -954,7 +908,36 @@ twikoo.init({
 
 
 
+<script type="text/javascript" src="https://jsd.cky.codes/npm/live2d-widget@3.1.4/lib/L2Dwidget.min.js"></script>
+<script type="text/javascript" src="https://jsd.cky.codes/npm/live2d-widget@3.1.4/lib/L2Dwidget.0.min.js"></script>
 
+<script type="text/javascript">
+    L2Dwidget.init({
+        model: {
+            scale: 0.5,
+            hHeadPos: 0.5,
+            vHeadPos: 0.618,
+            jsonPath: 'https://unpkg.com/live2d-widget-model-hijiki@1.0.5/assets/hijiki.model.json',       
+        },
+        display: {
+            superSample: 9,     
+            width: 300,         
+            height: 400,        
+            position: 'left',   
+            hOffset: 0,         
+            vOffset: 0,         
+        },
+        mobile: {
+            show: false,         
+            scale: 1,           
+            motion: true,       
+        },
+        react: {
+            opacityDefault: 1,  
+            opacityOnHover: 1,  
+        },
+    });
+</script>
 
 
 
