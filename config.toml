@@ -741,7 +741,7 @@ uglyURLs = false
     disqusShortname = "wangyunzi-meme"
 
     ## Twikoo
-    enabletwikoo = true
+    enabletwikoo = false
     version = "1.6.7" # 填写twikoo的版本
     region = "ap-shanghai" # 环境地域，默认为 ap-shanghai，如果您的环境地域不是上海，需传此参数，请看twikoo官方文档
     twikooId = "https://twikoo.wangyunzi.com/" # 填写个人的twikoo ID
