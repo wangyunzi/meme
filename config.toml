@@ -737,7 +737,7 @@ uglyURLs = false
     autoLoadComments = true
 
     ## Disqus
-    enableDisqus = true
+    enableDisqus = false
     disqusShortname = "wangyunzi-meme"
 
     ## Twikoo
@@ -768,7 +768,7 @@ uglyURLs = false
     # 说明：https://valine.js.org/
 
     ## Waline
-    enableWaline = false
+    enableWaline = true
     walineServerURL = "https://waline.wangyunzi.com/"
     walineWordLimit = 0
     walineMeta = ["nick", "mail", "link"]
