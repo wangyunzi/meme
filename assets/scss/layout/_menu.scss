@@ -30,7 +30,7 @@
 @if ($headerLayoutFlex) {
   .nav {
     text-align: right;
-    font-size: 80%;
+    font-size: 90%;
   }
   .menu-item {
     margin-left: 0.5em;
@@ -44,7 +44,7 @@
     background: var(--color-contrast-lower);
   }
   .menu-item {
-    margin: 0 1em;
+    margin: 0 2em;
   }
   .menu-item-name {
     display: flex;
