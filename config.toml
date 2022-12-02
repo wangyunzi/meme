@@ -768,7 +768,7 @@ uglyURLs = false
     # 说明：https://valine.js.org/
 
     ## Waline
-    enableWaline = true
+    enableWaline = false
     walineServerURL = "https://waline.wangyunzi.com/"
     walineWordLimit = 0
     walineMeta = ["nick", "mail", "link"]

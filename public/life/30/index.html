@@ -324,7 +324,8 @@
             <span class="post-meta-item busuanzi-page-pv" id="busuanzi_container_page_pv"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="icon post-meta-icon"><path d="M288 144a110.94 110.94 0 0 0-31.24 5 55.4 55.4 0 0 1 7.24 27 56 56 0 0 1-56 56 55.4 55.4 0 0 1-27-7.24A111.71 111.71 0 1 0 288 144zm284.52 97.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400c-98.65 0-189.09-55-237.93-144C98.91 167 189.34 112 288 112s189.09 55 237.93 144C477.1 345 386.66 400 288 400z"/></svg>&nbsp;<span id="busuanzi_value_page_pv"></span></span>
         
     
-    <script>
+    
+<script>
 twikoo.getCommentsCount({
     envId: 'https://twikoo.wangyunzi.com/', 
     
@@ -347,7 +348,7 @@ twikoo.getCommentsCount({
     console.error(err);
   });
 </script>
-<svg t="1666745809854" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3962" width="50000" height="50000"><path d="M512.13274 64C229.33274 64 0.13274 250.2 0.13274 480c0 95.2 39.8 182.4 105.8 252.6C76.13274 811.4 14.13274 878.2 13.13274 879c-13.2 14-16.8 34.4-9.2 52S28.93274 960 48.13274 960c123 0 220-51.4 278.2-92.6C384.13274 885.6 446.53274 896 512.13274 896c282.8 0 512-186.2 512-416S794.93274 64 512.13274 64z m0 736c-53.4 0-106.2-8.2-156.8-24.2l-45.4-14.4-39 27.6c-28.6 20.2-67.8 42.8-115 58 14.6-24.2 28.8-51.4 39.8-80.4l21.2-56.2-41.2-43.6C139.53274 628.2 96.13274 564.4 96.13274 480c0-176.4 186.6-320 416-320s416 143.6 416 320-186.6 320-416 320z" p-id="3963"></path></svg> &nbsp; <span id="comment_count"></span>
+
 </div>
 
             
@@ -452,8 +453,6 @@ twikoo.getCommentsCount({
 
         
 
-        
-            <div id="waline"></div>
         
 
         
@@ -694,54 +693,6 @@ twikoo.init({
         
 
         
-
-        
-            <link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css">
-<script>
-    function loadComments() {
-        if (typeof Waline === 'undefined') {
-            var getScript = (options) => {
-                var script = document.createElement('script');
-                script.defer = true;
-                script.crossOrigin = 'anonymous';
-                Object.keys(options).forEach((key) => {
-                    script[key] = options[key];
-                });
-                document.body.appendChild(script);
-            };
-            getScript({
-                src: 'https://unpkg.com/@waline/client@v2/dist/waline.js',
-                onload: () => {
-                    newWaline();
-                }
-            });
-        } else {
-            newWaline();
-        }
-    }
-    function newWaline() {
-        const locale = {
-            nick: "昵称*",
-            mail: "邮箱*",
-            placeholder: "请填写正确的昵称和邮箱，方便接收评论回复信息。若随意填写邮箱地址，发布包括但不限于广告、攻击性、无意义等内容文字，将会视该评论为垃圾评论，作删除处理。"
-        };
-        Waline.init({
-            el: '#waline',
-            dark: 'html[data-theme="dark"]',
-            serverURL: 'https:\/\/waline.wangyunzi.com\/',
-            wordLimit:  0 ,          
-            meta: ["nick","mail","link"],
-            pageSize:  10 ,
-            lang: 'zh-CN',
-            highlighter:  true ,
-            emoji: ["https://unpkg.com/@waline/emojis@1.0.1/weibo","https://unpkg.com/@waline/emojis@1.0.1/bilibili"],
-            requiredMeta: ["nick","mail"],
-            login: 'enabled',
-            copyright:  true ,
-            locale
-        });
-    }
-</script>
 
         
 
