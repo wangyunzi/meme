@@ -55,7 +55,7 @@ displayCopyright: false
 {{< friend name="浮云翩迁之间" url="https://blognas.hwb0307.com" logo="https://blognas.hwb0307.com/logo.jpg" word="百代繁华一朝都，谁非过客；千秋明月吹角寒，花是主人。" >}}
 {{< friend name="阿波尔的博客" url="https://www.zaqizaba.xyz" logo="https://www.zaqizaba.xyz/favicon.ico" word="来世愿做一只乌鸦" >}}
 {{< friend name="Echo’s blog" url="https://www.liveout.cn/" logo="https://yy.liveout.cn/photo/photo2.jpg" word="韶华不为少年留 恨悠悠 几时休" >}}
-{{< friend name="Echo’s blog" url="https://www.jdeal.cn" logo="https://www.jdeal.cn/favicon.ico" word="Life is like a Design." >}}
+{{< friend name="Jdeal" url="https://www.jdeal.cn" logo="https://www.jdeal.cn/favicon.ico" word="Life is like a Design." >}}
 
 </div>
 </div>
