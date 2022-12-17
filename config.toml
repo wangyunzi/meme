@@ -737,7 +737,7 @@ uglyURLs = false
     autoLoadComments = true
 
     ## Disqus
-    enableDisqus = false
+    enableDisqus = true
     disqusShortname = "wangyunzi-meme"
 
     ## Twikoo
@@ -1151,7 +1151,7 @@ uglyURLs = false
     ## 两端对齐
 
     # 是否开启（全局设置）
-    enableJustify = true
+    enableJustify = false
     # 说明：文章的 Front Matter 中的 `align`
     #      的优先级高于此处
 
