@@ -5,7 +5,7 @@ date: 2022-10-25T15:23:10+08:00
 tags: 
 categories:
 share: false
-comments:
+comments: true
 meta: false        # 文章表头
 dropCap:     # 首字下沉
 indent:      # 段排首缩

@@ -564,86 +564,6 @@ twikoo.getCommentsCount({
 
 
         
-    
-    
-
-
-    <section class="comments">
-        <div class="tabs">
-          <input name="tabs" type="radio" id="tab-1" checked class="input" />
-          <label for="tab-1" class="label">Twikoo</label>
-          <div class="panel">
-            <div id="tcomment"></div>
-            <script src="https://cdn.staticfile.org/twikoo/1.6.7/twikoo.all.min.js"></script>
-            
-            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.1.8/css/lightgallery.css">
-            <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.1.8/lightgallery.min.js"></script>
-            <script>
-            twikoo.init({
-            envId: 'https://twikoo.wangyunzi.com/', 
-            el: '#tcomment', 
-            
-            
-            
-          
-            onCommentLoaded: function () {
-              var commentContents = document.getElementsByClassName('tk-content');
-              for (var i = 0; i < commentContents.length; i++) {
-                var commentItem = commentContents[i];
-                var imgEls = commentItem.getElementsByTagName('img');
-                if (imgEls.length > 0) {
-                  for (var j = 0; j < imgEls.length; j++) {
-                    var imgEl = imgEls[j];
-                    var aEl = document.createElement('a');
-                    aEl.setAttribute('class', 'tk-lg-link');
-                    aEl.setAttribute('href', imgEl.getAttribute('src'));
-                    aEl.setAttribute('data-src', imgEl.getAttribute('src'));
-                    aEl.appendChild(imgEl.cloneNode(false));
-                    imgEl.parentNode.insertBefore(aEl, imgEl.nextSibling);
-                    imgEl.remove();
-                  }
-                  lightGallery(commentItem, {
-                    selector: '.tk-lg-link',
-                    share: true
-                  });
-                }
-              }
-            }
-          })
-          </script>
-          </div>
-          <input name="tabs" type="radio" id="tab-2" class="input" />
-          <label for="tab-2" class="label">Disqus</label>
-          <div class="panel">
-            <div id="disqus_thread"></div>
-            <script>
-                
-
-                
-
-                (function() { 
-                var d = document, s = d.createElement('script');
-                s.src = 'https://wangyunzi-meme.disqus.com/embed.js';
-                s.setAttribute('data-timestamp', +new Date());
-                (d.head || d.body).appendChild(s);
-                })();
-            </script>
-            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-          </div>
-      </section>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
 
 
 
@@ -832,23 +752,6 @@ twikoo.getCommentsCount({
 
 
 
-
-    
-
-        
-
-        
-
-        
-
-        
-
-        
-
-        
-
-
-    
 
 
 
