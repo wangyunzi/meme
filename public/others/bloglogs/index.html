@@ -21,7 +21,7 @@
 
     
     
-        <script src="/js/meme.min.js"></script>
+        <script src="/js/meme.js"></script>
 
     
 
@@ -344,25 +344,17 @@
 
 
         
-    
-
-
-
-        
-
-<div>
-  <div class="pagination__title">
-      <span class="pagination__title-h" style="font-size: 25px;">💬评论</span>
-      <hr />
-  </div>
-<div id="tcomment"></div>
-<script src="https://cdn.staticfile.org/twikoo/1.6.7/twikoo.all.min.js"></script>
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.1.8/css/lightgallery.css">
-<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.1.8/lightgallery.min.js"></script>
-<script>
-
-twikoo.init({
+<div class="pagination__title">
+  <span class="pagination__title-h">欢迎评论</span>
+  <hr />
+</div>
+  <div id="tcomment"></div>
+  <script src="https://cdn.staticfile.org/twikoo/1.6.7/twikoo.all.min.js"></script>
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.1.8/css/lightgallery.css">
+  <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.1.8/lightgallery.min.js"></script>
+  <script>
+  twikoo.init({
   envId: 'https://twikoo.wangyunzi.com/', 
   el: '#tcomment', 
   
@@ -393,9 +385,13 @@ twikoo.init({
     }
   }
 })
-</script>
+  
+  </script>
+<div id="disqus_thread"></div>
+<div id="waline"></div>
 
 
+        
 
     </div>
 </main>

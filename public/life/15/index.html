@@ -21,7 +21,7 @@
 
     
     
-        <script src="/js/meme.min.js"></script>
+        <script src="/js/meme.js"></script>
 
     
 
@@ -435,43 +435,18 @@ twikoo.getCommentsCount({
 
         
     
-
-        
-
-        
-            <div id="disqus_thread"></div>
-        
-
-        
-
-        
-
-        
-
-        
-
-        
-
-
     
-
-
-
-        
-
-<div>
-  <div class="pagination__title">
-      <span class="pagination__title-h" style="font-size: 25px;">💬评论</span>
-      <hr />
-  </div>
-<div id="tcomment"></div>
-<script src="https://cdn.staticfile.org/twikoo/1.6.7/twikoo.all.min.js"></script>
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.1.8/css/lightgallery.css">
-<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.1.8/lightgallery.min.js"></script>
-<script>
-
-twikoo.init({
+<div class="pagination__title">
+  <span class="pagination__title-h">欢迎评论</span>
+  <hr />
+</div>
+  <div id="tcomment"></div>
+  <script src="https://cdn.staticfile.org/twikoo/1.6.7/twikoo.all.min.js"></script>
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.1.8/css/lightgallery.css">
+  <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.1.8/lightgallery.min.js"></script>
+  <script>
+  twikoo.init({
   envId: 'https://twikoo.wangyunzi.com/', 
   el: '#tcomment', 
   
@@ -502,9 +477,13 @@ twikoo.init({
     }
   }
 })
-</script>
+  
+  </script>
+<div id="disqus_thread"></div>
+<div id="waline"></div>
 
 
+        
 
     </div>
 </main>
@@ -721,6 +700,54 @@ twikoo.init({
         
 
         
+
+        
+            <link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css">
+<script>
+    function loadComments() {
+        if (typeof Waline === 'undefined') {
+            var getScript = (options) => {
+                var script = document.createElement('script');
+                script.defer = true;
+                script.crossOrigin = 'anonymous';
+                Object.keys(options).forEach((key) => {
+                    script[key] = options[key];
+                });
+                document.body.appendChild(script);
+            };
+            getScript({
+                src: 'https://unpkg.com/@waline/client@v2/dist/waline.js',
+                onload: () => {
+                    newWaline();
+                }
+            });
+        } else {
+            newWaline();
+        }
+    }
+    function newWaline() {
+        const locale = {
+            nick: "昵称*",
+            mail: "邮箱*",
+            placeholder: "请填写正确的昵称和邮箱，方便接收评论回复信息。若随意填写邮箱地址，发布包括但不限于广告、攻击性、无意义等内容文字，将会视该评论为垃圾评论，作删除处理。"
+        };
+        Waline.init({
+            el: '#waline',
+            dark: 'html[data-theme="dark"]',
+            serverURL: 'https:\/\/waline.wangyunzi.com\/',
+            wordLimit:  0 ,          
+            meta: ["nick","mail","link"],
+            pageSize:  10 ,
+            lang: 'zh-CN',
+            highlighter:  true ,
+            emoji: ["https://unpkg.com/@waline/emojis@1.0.1/weibo","https://unpkg.com/@waline/emojis@1.0.1/bilibili"],
+            requiredMeta: ["nick","mail"],
+            login: 'enabled',
+            copyright:  true ,
+            locale
+        });
+    }
+</script>
 
         
 
