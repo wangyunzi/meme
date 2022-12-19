@@ -446,8 +446,6 @@
     
     
     
-    <div id="disqus_thread"></div>
-    
     
     
     
@@ -523,9 +521,6 @@
         <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
       </div>
   </section>
-
-
-
 
 
 
@@ -717,37 +712,6 @@
 
 
     
-
-        
-            <script>
-    function loadComments() {
-        if (!document.getElementById('disqus_thread')) {
-            return;
-        }
-        if (typeof DISQUS === 'undefined') {
-            const disqus_config = function() {
-                this.page.url = 'https:\/\/wangyunzi.com\/about\/';
-                this.page.identifier = '\/about\/';
-                this.page.title = '原来你也在这里';
-            };
-            (function() {
-                const d = document, s = d.createElement('script'); s.async = true;
-                s.src = 'https://wangyunzi-meme.disqus.com/embed.js';
-                s.setAttribute('data-timestamp', +new Date());
-                (d.head || d.body).appendChild(s);
-            })();
-        } else {
-            DISQUS.reset({
-                reload: true,
-                config: function() {
-                    this.page.url = 'https:\/\/wangyunzi.com\/about\/';
-                    this.page.identifier = '\/about\/';
-                    this.page.title = '原来你也在这里';
-                }
-            });
-        }
-    }
-</script>
 
         
 
