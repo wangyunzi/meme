@@ -22,3 +22,6 @@ const throttle = (fn, wait) => {
 };
 
 const delayTime = 420;
+
+
+
