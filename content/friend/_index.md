@@ -56,6 +56,7 @@ displayCopyright: false
 {{< friend name="阿波尔的博客" url="https://www.zaqizaba.xyz" logo="https://www.zaqizaba.xyz/favicon.ico" word="来世愿做一只乌鸦" >}}
 {{< friend name="Echo’s blog" url="https://www.liveout.cn/" logo="https://yy.liveout.cn/photo/photo2.jpg" word="韶华不为少年留 恨悠悠 几时休" >}}
 {{< friend name="Jdeal" url="https://www.jdeal.cn" logo="https://www.jdeal.cn/favicon.ico" word="Life is like a Design." >}}
+{{< friend name="一蓑烟雨的博客" url="https://easyf12.top/" logo=" https://img.easyf12.top/images/2022/10/15/634a8b4186889.webp" word="竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。" >}}
 
 </div>
 </div>
