@@ -5,14 +5,16 @@
 //     auto !important;
 // }
 
-// body {
-//     cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' width='8px' height='8px'><circle cx='4' cy='4' r='4' opacity='.5'/></svg>") 4 4, auto;
-//   }
+* {
+    cursor: url(https://blog-static.cnblogs.com/files/blogs/409706/BLOG_cursor.ico),
+      auto !important;
+  }
   
 
-* {
-    cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' width='8px' height='8px'><circle cx='4' cy='4' r='4' opacity='.5'/></svg>") 4 4, auto
-}
+// * {
+//     cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' width='16px' height='16px'><circle cx='4' cy='4' r='4' opacity='.5'/></svg>") 6 6, 
+//        auto !important;
+// }
 
 
 #cursor {
@@ -26,20 +28,40 @@
     pointer-events: none;
     transition: 0.2s ease-in-out;
     transition-property: background, opacity, transform;
-    &.hidden {
-      opacity: 0;
-    }
-    &.hover {
-      opacity: 0.1;
-      transform: scale(2.5);
-    }
-    &.active {
-      opacity: 0.5;
-      transform: scale(0.5);
-    }
-  }
+}
 
+#cursor.hidden {
+    opacity: 0;
+}
 
+#cursor.hover {
+    opacity: 0.1;
+    transform: scale(2.5);
+}
+
+#cursor.active {
+    opacity: 0.5;
+    transform: scale(0.5);
+}
+
+/*************************/
+
+// a {
+//     color: rgb(0, 93, 146);
+//     opacity: .7;
+//     transition: opacity .2s;
+//     text-decoration: none;
+// }
+
+// a:hover {
+//     opacity: 1;
+// }
+
+// #clickME {
+//     cursor: pointer;
+//     display: inline-block;
+//     border: 1px solid #000;
+// }
  
 /* a, */
 // img {

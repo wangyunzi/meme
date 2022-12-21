@@ -10,13 +10,13 @@ const getStyle = (el, attr) => {
         return window.getComputedStyle
             ? window.getComputedStyle(el)[attr]
             : el.currentStyle[attr];
-    } catch (e) {}
+    } catch (e) { }
     return "";
 };
 
 class Cursor {
     constructor() {
-        this.pos = {curr: null, prev: null};
+        this.pos = { curr: null, prev: null };
         this.pt = [];
         this.create();
         this.init();
@@ -40,31 +40,29 @@ class Cursor {
         for (let i = 0; i < el.length; i++)
             if (getStyle(el[i], "cursor") == "pointer")
                 this.pt.push(el[i].outerHTML);
-
         document.body.appendChild((this.scr = document.createElement("style")));
-        this.scr.innerHTML = `* {cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' width='8px' height='8px'><circle cx='4' cy='4' r='4' opacity='.5'/></svg>") 4 4, auto}`;
+        this.scr.innerHTML = `* {cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' width='8px' height='8px'><circle cx='4' cy='4' r='4' opacity='.5'/></svg>") 4 4, auto !important}`;
     }
 
     refresh() {
         this.scr.remove();
         this.cursor.classList.remove("hover");
         this.cursor.classList.remove("active");
-        this.pos = {curr: null, prev: null};
+        this.pos = { curr: null, prev: null };
         this.pt = [];
-
         this.create();
         this.init();
         this.render();
     }
 
     init() {
-        document.onmouseover  = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.add("hover");
-        document.onmouseout   = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.remove("hover");
-        document.onmousemove  = e => {(this.pos.curr == null) && this.move(e.clientX - 8, e.clientY - 8); this.pos.curr = {x: e.clientX - 8, y: e.clientY - 8}; this.cursor.classList.remove("hidden");};
+        document.onmouseover = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.add("hover");
+        document.onmouseout = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.remove("hover");
+        document.onmousemove = e => { (this.pos.curr == null) && this.move(e.clientX - 8, e.clientY - 8); this.pos.curr = { x: e.clientX - 8, y: e.clientY - 8 }; this.cursor.classList.remove("hidden"); };
         document.onmouseenter = e => this.cursor.classList.remove("hidden");
         document.onmouseleave = e => this.cursor.classList.add("hidden");
-        document.onmousedown  = e => this.cursor.classList.add("active");
-        document.onmouseup    = e => this.cursor.classList.remove("active");
+        document.onmousedown = e => this.cursor.classList.add("active");
+        document.onmouseup = e => this.cursor.classList.remove("active");
     }
 
     render() {
@@ -81,8 +79,8 @@ class Cursor {
 
 (() => {
     CURSOR = new Cursor();
-    // 需要重新获取列表时，使用 CURSOR.refresh()
-})();
+})();     
+{/* <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"77d07b15994cc099","version":"2022.11.3","r":1,"token":"74f4943bdb7c45ecb3f019b5cfc864d2","si":100}' crossorigin="anonymous"></script> */}
 
 
 //twikoo评论
