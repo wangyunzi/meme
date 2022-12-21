@@ -548,7 +548,7 @@ uglyURLs = false
     # 列表页面
 
     # 宽度
-    listWidth = 50
+    listWidth = 54
     # 说明：如果留空（""），则用 42 作为默认值
     #      单位：em
 
@@ -1279,7 +1279,7 @@ uglyURLs = false
     enablePostShare = false
 
     # 是否显示（全局设置）
-    displayPostShare = false
+    displayPostShare = true
     # 说明：文章的 Front Matter 中的 `share`
     #      的优先级高于此处
 
@@ -1559,7 +1559,7 @@ uglyURLs = false
     # 是否开启
     enableExpiredTip = true
     # 是否显示（全局设置）
-    displayPostExpiredTip = false
+    displayPostExpiredTip = true
     # 说明：文章的 Front Matter 中的 
     # `displayExpiredTip` 的优先级高于此处
 
