@@ -30,7 +30,7 @@ displayCopyright: false
 {{< friend name="数学小兵儿" url="https://matnoble.me/" logo="https://matnoble.me/icons/android-chrome-512x512.png" word="数学＆计算机 我都爱" >}}
 {{< friend name="Amnesia's Blog" url="https://amnesia-f.vercel.app/" logo="https://npm.arcitcgn.cn/aciano-cdn@1.0.10/avatar.jpg" word="零碎的岛屿总会找到海" >}}
 {{< friend name="UyoAhz" url="https://uyoahz.cn/" logo="https://q1.qlogo.cn/g?b=qq&nk=2496091142&s=640" word="集中精神，以气御剪" >}}
-{{< friend name="宏的自留地" url="https://arcitcgn.cn" logo="https://cdn.afdelivr.top/npm/arcitcgn-assets-public@2022.7.24/CDN/Personal%20assets/avatar-1.jpg" word="一名初中生的小破站" >}}
+{{< friend name="宏的自留地" url="https://szraz.cn/" logo="https://cdn.afdelivr.top/npm/arcitcgn-assets-public@2022.7.24/CDN/Personal%20assets/avatar-1.jpg" word="一名初中生的小破站" >}}
 {{< friend name="Sulv’s Blog" url="https://www.sulvblog.cn" logo="https://www.sulvblog.cn/img/Q.gif" word="	一个记录技术、阅读、生活的博客" >}}
 {{< friend name="凡梦星尘空间站" url="https://lisenhui.cn" logo="https://lisenhui.cn/imgs/avatar.png" word="再平凡的人也有属于他的梦想！" >}}
 {{< friend name="Dvel's Blog" url="https://dvel.me/" logo="https://dvel.me/avatar.png" word="Less is More." >}}
