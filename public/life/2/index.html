@@ -458,6 +458,24 @@ twikoo.getCommentsCount({
           
         
           onCommentLoaded: function () {
+            console.log('评论加载完成');
+            
+            const pickerOptions = { 
+  onEmojiSelect: function(d){ $('.el-textarea__inner').val($('.el-textarea__inner').val() + d.native)  },
+  locale: 'zh',theme : 'dark'
+}
+const picker = new EmojiMart.Picker(pickerOptions)
+      
+$('.tk-row-actions-start').append(picker)
+    
+$('em-emoji-picker').attr('tabindex','5')
+$('.OwO').show().click(function(){
+  $('em-emoji-picker').toggle()
+  $('em-emoji-picker').focus()
+})
+$('em-emoji-picker').blur(function(){
+  $('em-emoji-picker').toggle()
+})
             var commentContents = document.getElementsByClassName('tk-content');
             for (var i = 0; i < commentContents.length; i++) {
               var commentItem = commentContents[i];

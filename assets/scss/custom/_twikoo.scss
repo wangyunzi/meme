@@ -218,3 +218,11 @@ img {
     }
 }
 
+//emoji选择器
+em-emoji-picker{
+    display: none;
+    position: absolute;
+    top: 3rem;
+    z-index: 2;
+}
+
