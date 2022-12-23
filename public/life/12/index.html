@@ -136,6 +136,14 @@
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=ZCOOL&#43;XiaoWei&amp;text=GuanQir%27sBlog%e9%95%bf%e8%a1%97%e7%9f%ad%e6%a2%a6&amp;display=swap" /></noscript>
 
 
+<link
+rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"
+/>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script>
+      
+    </script>
 </head>
 
     <body>
@@ -437,85 +445,31 @@ twikoo.getCommentsCount({
           
           
           
-             
-if (document.getElementById('post-comment')) owoBig();
-
-function owoBig() {
-    let flag = 1, 
-        owo_time = '', 
-        m = 3; 
-    
-    let div = document.createElement('div'),
-        body = document.querySelector('body');
-    
-    div.id = 'owo-big';
-    
-    body.appendChild(div)
-
-    
-    let observer = new MutationObserver(mutations => {
-
-        for (let i = 0; i < mutations.length; i++) {
-            let dom = mutations[i].addedNodes,
-                owo_body = '';
-            if (dom.length == 2 && dom[1].className == 'OwO-body') owo_body = dom[1];
-            
-            
-            else continue;
-            
-            
-            if (document.body.clientWidth <= 768) owo_body.addEventListener('contextmenu', e => e.preventDefault());
-            
-            owo_body.onmouseover = (e) => {
-                    if (flag && e.target.tagName == 'IMG') {
-                        flag = 0;
-                        
-                        owo_time = setTimeout(() => {
-                            let height = e.path[0].clientHeight * m, 
-                                width = e.path[0].clientWidth * m, 
-                                left = (e.x - e.offsetX) - (width - e.path[0].clientWidth) / 2, 
-                                top = e.y - e.offsetY; 
-
-                            if ((left + width) > body.clientWidth) left -= ((left + width) - body.clientWidth + 10); 
-                            if (left < 0) left = 10; 
-                            
-                            div.style.cssText = `display:flex; height:${height}px; width:${width}px; left:${left}px; top:${top}px;`;
-                            
-                            div.innerHTML = `<img src="${e.target.src}">`
-                        }, 300);
-                    }
-                };
-            
-            owo_body.onmouseout = () => { div.style.display = 'none', flag = 1, clearTimeout(owo_time); }
-        }
-
-    })
-    observer.observe(document.getElementById('post-comment'), { subtree: true, childList: true }) 
-}
+          
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+          onCommentLoaded: function () {
+            var commentContents = document.getElementsByClassName('tk-content');
+            for (var i = 0; i < commentContents.length; i++) {
+              var commentItem = commentContents[i];
+              var imgEls = commentItem.getElementsByTagName('img');
+              if (imgEls.length > 0) {
+                for (var j = 0; j < imgEls.length; j++) {
+                  var imgEl = imgEls[j];
+                  var aEl = document.createElement('a');
+                  aEl.setAttribute('class', 'tk-lg-link');
+                  aEl.setAttribute('href', imgEl.getAttribute('src'));
+                  aEl.setAttribute('data-src', imgEl.getAttribute('src'));
+                  aEl.appendChild(imgEl.cloneNode(false));
+                  imgEl.parentNode.insertBefore(aEl, imgEl.nextSibling);
+                  imgEl.remove();
+                }
+                lightGallery(commentItem, {
+                  selector: '.tk-lg-link',
+                  share: true
+                });
+              }
+            }
+          }
         })
         </script>
         </div>
