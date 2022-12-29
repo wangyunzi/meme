@@ -11,12 +11,12 @@ html[data-theme="dark"] {
 
 
 
-.comments {
-    /* Add some basic styling for the comments section */
-    margin: 20px 0;
-    padding: 20px;
-    background-color: #f8f9fa;
-  }
+// .comments {
+//     /* Add some basic styling for the comments section */
+//     margin: 20px 0;
+//     padding: 20px;
+//     background-color: #f8f9fa;
+//   }
 
 
 /* 调整评论区颜色 */
@@ -25,13 +25,11 @@ html[data-theme="dark"] {
 }
 
 /* 调整两个评论的导航颜色 */
-[data-theme="dark"] .comments .label,.comments .tabs{
-  background: #16171d;
-}
+// [data-theme="dark"] .comments .label,.comments .tabs{
+//   background: #16171d;
+// }
 
-[data-theme="dark"] .tabs{
-  background: #16171d;
-}
+
 
 // / * 方案一，保持原有方案换个颜色 */
 /* 调整鼠标色 fill属性 */
