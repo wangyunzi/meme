@@ -27,6 +27,10 @@ html[data-theme="dark"] {
   background: #16171d;
 }
 
+[data-theme="dark"] .tabs{
+  background: #16171d;
+}
+
 / * 方案一，保持原有方案换个颜色 */
 /* 调整鼠标色 fill属性 */
 [data-theme="dark"] *{
