@@ -9,6 +9,17 @@ html[data-theme="dark"] {
     --waline-bgcolor-light: hsla(var(--color-contrast-lower-h), var(--color-contrast-lower-s), var(--color-contrast-lower-l), 0.5) !important;
 }
 
+:root {
+  --tabs-theme-color: hsl(220deg 50% 56%) !important;
+  --tabs-active-color: var(--color-primary) !important;
+}
+
+html[data-theme="dark"] {
+  --tabs-theme-color: hsl(201deg 45% 52%) !important;
+  --tabs-bgcolor: hsl(231, 14%, 10%) !important;
+  --tabs-bgcolor-light: hsla(var(--color-contrast-lower-h), var(--color-contrast-lower-s), var(--color-contrast-lower-l), 0.5) !important;
+}
+
 // .comments {
 //     /* Add some basic styling for the comments section */
 //     margin: 20px 0;
@@ -31,7 +42,7 @@ html[data-theme="dark"] {
   background: #16171d;
 }
 
-/ * 方案一，保持原有方案换个颜色 */
+// / * 方案一，保持原有方案换个颜色 */
 /* 调整鼠标色 fill属性 */
 [data-theme="dark"] *{
   cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' width='8px' height='8px'><circle cx='4' cy='4' r='4' opacity='.5' fill='rgb(57, 197, 187)'/></svg>") 4 4, auto
