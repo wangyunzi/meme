@@ -25,9 +25,13 @@ html[data-theme="dark"] {
 }
 
 /* 调整两个评论的导航颜色 */
-// [data-theme="dark"] .comments .label,.comments .tabs{
-//   background: #16171d;
-// }
+[data-theme="light"] .comments .label,.comments .tabs{
+  background: #fcfcfc;
+}
+
+[data-theme="dark"] .comments .label,.comments .tabs{
+  background: #16171d;
+}
 
 [data-theme="dark"] .comments .label,[data-theme="dark"] .comments .tabs{
   background: #16171d;
