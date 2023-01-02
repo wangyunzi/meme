@@ -13,7 +13,7 @@ indent: false
 
 
 
-**更新时间：2022-10-27**
+**更新时间：2023-01-02**
 
 <div align=center>  <!-- 可选的项：right，left，center -->
     <img src="海绵宝宝.jpg" width="" height="" alt="图片转载自https://i.pinimg.com/564x/73/02/fd/7302fda480fe5fde524fef65811c018e.jpg">  <!-- src处填写路径（本地或网络） width 和 height 就是控制图片的大小的-->
@@ -74,10 +74,11 @@ indent: false
 
 
 #### 👻短期目标
-{{< imgcap src="书.jpg" title="2022年下半年" alt="2022年下半年" width="200" height="50" align="left">}}
+{{< imgcap src="书.jpg" title="2023年上半年" alt="2023年上半年" width="200" height="50" align="left">}}
 
 - [ ] 每个月写一篇博客
 - [ ] 期末考试全科过
+- [ ] 希望我的英语可以提升一点点啊
 - [ ] ~~一个月跑步60公里~~（已经懈怠两个月了，既然完不成目标不要这个目标😅😅）
 
 
