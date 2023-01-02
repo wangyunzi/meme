@@ -36,7 +36,7 @@ displayCopyright: false
 {{< friend name="Dvel's Blog" url="https://dvel.me/" logo="https://dvel.me/avatar.png" word="Less is More." >}}
 {{< friend name="Black Flies" url="https://www.yyyzyyyz.cn/" logo="https://npm.elemecdn.com/imgscdn/img/202111191951780.JPG" word="When nothing goes right,just go left." >}}
 {{< friend name="邹江博客" url="https://www.zoujiang.com" logo="https://www.zoujiang.com/logo.jpg" word="记录和分享所见所闻" >}}
-{{< friend name="悠悠一草" url="https://www.agrass.cn" logo="http://q2.qlogo.cn/headimg_dl?dst_uin=1063199963&spec=100" word="一草的点滴记忆" >}}
+{{< friend name="信息种子" url="https://xxzz.net" logo="https://xxzz.net/logo.png" word="点滴记忆" >}}
 {{< friend name="yezipi" url="https://yezipi.net/" logo="https://yezipi.oss-cn-beijing.aliyuncs.com/blog/undefined/yezipi_1661863038289.jpg" word="使用nuxt3开发的博客系统，觉得不错就扫一扫关注支持一下本站吧" >}}
 {{< friend name="风记星辰" url="https://www.thyuu.com" logo="https://std.thyuu.com/avatar" word="分享生活 · 留下感动" >}}
 {{< friend name="DIDCTF-Blog" url="https://blog.didctf.com/" logo="https://s-cd-3454-didctf.oss.dogecdn.com/logo/didctf.jpg" word="一个爱好网安的法学生" >}}
@@ -47,7 +47,7 @@ displayCopyright: false
 {{< friend name="配菜师" url="https://mingshen.xyz/" logo="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/head_logo.jpg" word="In a Daze? NO!Become Sober!" >}}
 {{< friend name="Catch Wang" url="https://blog.catchwang.com/" logo="https://catchwang.com/img/logo-img/avatar.jpg" word="未来路长 · 勿忘初心" >}}
 {{< friend name="零零七" url="https://vfz.cc/" logo="https://q2.qlogo.cn/headimg_dl?dst_uin=1904727716&spec=100" word="喜欢随着风的方向跑。" >}}
-{{< friend name="西瓜撞地球" url="https://bio-w.cn/" logo="https://bio-w.cn/img/avater.jpg" word="我在人间贩卖彩虹" >}}
+{{< friend name="西瓜撞地球" url="https://bio-w.cn/" logo="https://bu.dusays.com/2022/10/17/634d313602a1e.png" word="我在人间贩卖彩虹" >}}
 {{< friend name="优盟盒子" url="https://www.umsbox.com" logo="https://www.umsbox.com/wp-content/uploads/2022/08/yqlogo.png" word="专注优质网络资源分享的技术博客." >}}
 {{< friend name="绝对值の垃圾站" url="https://absolutevalue.cc/" logo="https://bu.dusays.com/2022/10/11/63456cf24d191.png" word="某啥也不会的初二废物。" >}}
 {{< friend name="SeerSu" url="https://seersu.me" logo="https://seersu.me/favicon/avatar.jpg" word="留给自己一片大陆，把无垠的大海留给飞鸟和大鱼" >}}
