@@ -47,12 +47,12 @@ indent: false
 - [notion搭建的博客，简洁、美观、可爱](https://yazi.wangyunzi.com)
 - [一个hexo搭建的博客，主题可塑性强，有着很多其他静态博客都没有的功能](https://yunzi.wangyunzi.com)
 
-#### 🐸联系方式
+<!-- #### 🐸联系方式
 - [Twitter](https://twitter.com/YunziWang)
 - [Telegram](https://t.me/YunziWa)
 - [Instagram](https://www.instagram.com/YunziWang3/)
 - [Facebook](https://www.facebook.com/YunziWang4)
-- [Github](https://github.com/wangyunzi)
+- [Github](https://github.com/wangyunzi) -->
 
 #### 🎉关于博客
 <!-- - [Sulv's Blog](https://www.sulvblog.cn/)这个大佬的博客里面有搭建这个博客的教程 -->
