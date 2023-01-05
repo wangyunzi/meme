@@ -57,7 +57,7 @@ displayCopyright: false
 {{< friend name="Echo’s blog" url="https://www.liveout.cn/" logo="https://yy.liveout.cn/photo/photo2.jpg" word="韶华不为少年留 恨悠悠 几时休" >}}
 {{< friend name="Jdeal" url="https://www.jdeal.cn" logo="https://www.jdeal.cn/favicon.ico" word="Life is like a Design." >}}
 {{< friend name="一蓑烟雨的博客" url="https://easyf12.top/" logo="https://img.easyf12.top/images/2022/10/15/634a8b4186889.webp" word="竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。" >}}
-
+{{< friend name="Shixiaocaia" url="https://shixiaocaia.fun" logo=" https://bu.dusays.com/2022/12/25/63a806f74cf5e.jpg" word="去做吧，反正都会后悔。" >}}
 </div>
 </div>
 
