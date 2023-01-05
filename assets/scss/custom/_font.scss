@@ -3,6 +3,17 @@
 // Magic adjustment for en
 
 @font-face {
+    font-family: 'MiSans-Regular';
+    font-display: swap;
+    src: url('#{$baseRelURL}/fonts/MiSans-Regular.woff2') format('woff2');
+    // font-weight: normal;
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: 50% 125%;
+  }
+  
+
+@font-face {
   font-family: 'NotoSansCJK';
   font-display: swap;
   src: url('#{$baseRelURL}/fonts/NotoSansCJKsc-Regular.woff2') format('woff2');
