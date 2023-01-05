@@ -57,7 +57,7 @@ html[data-theme="dark"] {
     margin: 0;
     padding: 0;
     list-style: none;
-    background-color: transparent;
+    // background-color: transparent;
   }
   
   .tabs .input {
@@ -78,7 +78,7 @@ html[data-theme="dark"] {
     border: 1px solid transparent;
     border-bottom: none;
     transition: all 0.3s ease;
-    background-color: transparent;
+    // background-color: transparent;
   }
   
   .tabs .label:hover {
@@ -91,7 +91,7 @@ html[data-theme="dark"] {
     color: #333;
     border-color: #ddd;
     border-bottom: 1px solid #fff;
-    background-color: transparent;
+    // background-color: transparent;
   }
   
   .tabs .panel {
@@ -101,7 +101,7 @@ html[data-theme="dark"] {
     padding: 20px;
     border: 1px solid #ddd;
     border-top: none;
-    background-color: transparent;
+    // background-color: transparent;
   }
   
   .tabs .input:checked + .label + .panel {
