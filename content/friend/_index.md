@@ -45,7 +45,7 @@ displayCopyright: false
 {{< friend name="USTC-茶糜花开" url="https://blog.starysky.top" logo="https://blog.starysky.top/img/blog_avatar.jpg" word="Science lights up the world" >}}
 {{< friend name="繁星博客" url="https://blog.emoao.com" logo="https://blog.emoao.com/static/img/avatar.webp" word="允你一世繁星，许你一世星辰！" >}}
 {{< friend name="配菜师" url="https://mingshen.xyz/" logo="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/head_logo.jpg" word="In a Daze? NO!Become Sober!" >}}
-{{< friend name="Catch Wang" url="https://blog.catchwang.com/" logo="https://catchwang.com/img/logo-img/avatar.jpg" word="未来路长 · 勿忘初心" >}}
+{{< friend name="Catch Wang" url="https://catchwang.com/" logo="https://catchwang.com/img/logo-img/avatar.jpg" word="未来路长 · 勿忘初心" >}}
 {{< friend name="零零七" url="https://vfz.cc/" logo="https://q2.qlogo.cn/headimg_dl?dst_uin=1904727716&spec=100" word="喜欢随着风的方向跑。" >}}
 {{< friend name="西瓜撞地球" url="https://bio-w.cn/" logo="https://bu.dusays.com/2022/10/17/634d313602a1e.png" word="我在人间贩卖彩虹" >}}
 {{< friend name="优盟盒子" url="https://www.umsbox.com" logo="https://www.umsbox.com/wp-content/uploads/2022/08/yqlogo.png" word="专注优质网络资源分享的技术博客." >}}
