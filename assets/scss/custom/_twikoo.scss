@@ -247,6 +247,10 @@
     color: currentColor;
     background-color: transparent;
     border-color: rgba(144,147,153,0.31);
+	border-top-color: rgba(144, 147, 153, 0.31);
+    border-right-color: rgba(144, 147, 153, 0.31);
+    border-bottom-color: rgba(144, 147, 153, 0.31);
+    border-left-color: rgba(144, 147, 153, 0.31);
 }
 
 .el-input__inner {
@@ -277,6 +281,10 @@
 
 button, input, select, textarea {
     margin: 0;
+	margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
 }
 * {
     -webkit-box-sizing: inherit;
