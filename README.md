@@ -1,15 +1,3 @@
----
-title: "原来你也在这里"
-date: "2022-05-11T20:37:34+08:00"
-meta: false
-comments: true
-dropCap: false
-share: false
-toc: false
-indent: false
----
-<!-- <audio src="原来你也在这里-刘若英.m4a" preload="none" controls=smallconsole allowfullscreen></audio> -->
-
 
 
 **更新时间：2022-10-27**
