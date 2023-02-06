@@ -59,6 +59,7 @@ displayCopyright: false
 {{< friend name="一蓑烟雨的博客" url="https://easyf12.top/" logo="https://img.easyf12.top/images/2022/10/15/634a8b4186889.webp" word="竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。" >}}
 {{< friend name="Shixiaocaia" url="https://shixiaocaia.fun" logo="https://bu.dusays.com/2022/12/25/63a806f74cf5e.jpg" word="去做吧，反正都会后悔。" >}}
 {{< friend name="小卢" url="https://b0ae.cn" logo="https://b0ae.cn/tx/blog.png" word="个人博客记录日常" >}}
+{{< friend name="记忆一隅" url="https://vlieo.com/" logo="https://vlieo.com/images/avatar.png?v=1674992080987" word="凡事总需研究，才会明白" >}}
 </div>
 </div>
 
