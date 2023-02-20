@@ -54,7 +54,7 @@
         "@context": "https://schema.org",
         "@type": "WebPage",
         "datePublished": "2022-11-13T11:30:09+08:00",
-        "dateModified": "2023-02-19T22:41:42+08:00",
+        "dateModified": "2023-02-20T23:31:57+08:00",
         "url": "https://wangyunzi.com/others/commands/",
         "name": "常用命令合集",
         "description": "包括一些git命令、mangodb等",
@@ -342,9 +342,9 @@ twikoo.getCommentsCount({
             <div class="post-body e-content">
                 <h4 id="mangodb的twikoo评论数据上传和下载">mangodb的twikoo评论数据上传和下载</h4>
 <p>下载数据命令</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl"> mongoexport --uri mongodb+srv://twikoo:522RYkaoyan@cluster0.z5rsya3.mongodb.net/ --collection comment --type json --out twikoo-comments.json
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl"> mongoexport --uri mongodb+srv://xxx:xxx@cluster0.z5rsya3.mongodb.net/ --collection comment --type json --out twikoo-comments.json
 </span></span></code></pre></div><p>上传数据命令</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl"> mongoimport --uri mongodb+srv://twikoo:522RYkaoyan@cluster0.z5rsya3.mongodb.net/test --collection comment --type json --file twikoo-comments.json --mode upsert
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl"> mongoimport --uri mongodb+srv://xxx:xxx@cluster0.z5rsya3.mongodb.net/test --collection comment --type json --file twikoo-comments.json --mode upsert
 </span></span></code></pre></div><p>说明：</p>
 <p>第一个xxx：数据名称</p>
 <p>第二个xxx：密码</p>

@@ -10,12 +10,12 @@ displayCopyright: false
 #### mangodb的twikoo评论数据上传和下载
 下载数据命令
 ```markdown
- mongoexport --uri mongodb+srv://twikoo:522RYkaoyan@cluster0.z5rsya3.mongodb.net/ --collection comment --type json --out twikoo-comments.json
+ mongoexport --uri mongodb+srv://xxx:xxx@cluster0.z5rsya3.mongodb.net/ --collection comment --type json --out twikoo-comments.json
 ```
 
 上传数据命令
 ```markdown
- mongoimport --uri mongodb+srv://twikoo:522RYkaoyan@cluster0.z5rsya3.mongodb.net/test --collection comment --type json --file twikoo-comments.json --mode upsert
+ mongoimport --uri mongodb+srv://xxx:xxx@cluster0.z5rsya3.mongodb.net/test --collection comment --type json --file twikoo-comments.json --mode upsert
 ```
 
 说明：
