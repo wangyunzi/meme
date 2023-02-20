@@ -14,7 +14,7 @@
 
 @if ($enableBackToTopAutoHide) {
   .back-to-top {
-    bottom: -3.6em;
+    bottom: 20em;
     transition: bottom 0.3s ease-in-out;
     &.show {
       bottom: 0;

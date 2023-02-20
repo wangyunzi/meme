@@ -5,7 +5,8 @@ Last Modified time : 20220211 98:00 by https://immmmm.com
 :root {
     --lmm-hover: #fe5186;
     --lmm-fontcolor: #363636;
-    --lmm-background: #dddada;
+    // --lmm-background: #dddada;
+    --lmm-background: white;
     --lmm-floorcolor: #a9a9b3;
     --lmm-dark-fontcolor: #a9a9b3;
     --lmm-dack-background: #252627;
@@ -14,7 +15,8 @@ Last Modified time : 20220211 98:00 by https://immmmm.com
   
   [data-theme=light] {
     --lmm-fontcolor: #363636;
-    --lmm-background: #f7f9fe;
+    // --lmm-background: #f7f9fe;
+    --lmm-background: white;
     --lmm-floorcolor: #a9a9b3;
   }
   

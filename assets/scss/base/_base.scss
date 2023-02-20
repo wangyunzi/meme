@@ -19,6 +19,7 @@ body {
   @include tabSize;
   color: var(--color-contrast-high);
   background-color: var(--color-bg);
+  // background-color: white;
   overflow-wrap: break-word;
   word-wrap: break-word;
   line-height: 1.618;

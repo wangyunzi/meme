@@ -1,5 +1,5 @@
 ---
-slug: "Friend"
+slug: "friend"
 description: "有缘千里来相会"
 date: 2022-10-25T15:23:10+08:00
 tags: 
