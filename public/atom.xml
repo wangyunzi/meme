@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">长街短梦</title>
     <subtitle type="html">假若人生如一条长街，我就不愿意错过这街上的每一处细小的风景。 假若人生不过是长街上的一个短梦，我愿意把这短梦做的生机盎然。</subtitle>
-    <updated>2023-02-20T19:55:52&#43;08:00</updated>
+    <updated>2023-02-20T22:52:15&#43;08:00</updated>
     <id>https://wangyunzi.com/</id>
     <link rel="alternate" type="text/html" href="https://wangyunzi.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://wangyunzi.com/atom.xml" />
@@ -16,6 +16,41 @@
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     <generator uri="https://gohugo.io/" version="0.106.0">Hugo</generator>
+        <entry>
+            <title type="text">记忆七宗罪</title>
+            <link rel="alternate" type="text/html" href="https://wangyunzi.com/posts/39/" />
+            <id>https://wangyunzi.com/posts/39/</id>
+            <updated>2023-02-20T22:51:50&#43;08:00</updated>
+            <published>2023-02-20T22:49:00&#43;08:00</published>
+            <author>
+                    <name>王云子</name>
+                    <uri>https://wangyuzni.com/</uri>
+                    <email>xueq695@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">记忆七罪（The seven sins of memory) 记忆七罪分为：健忘、失神、空白、错认、暗示、偏颇及纠缠 健忘(Transience)：随着时间而记忆褪色或消失。 失神(Absent-mindedness)：心不在焉，忘东忘西。 空白(Blocking)：怎样想都想不出来但事后又突然间想回来。 错认(Misatt……</summary>
+            
+                <content type="html">&lt;p&gt;记忆七罪（The seven sins of memory)&lt;/p&gt;
+&lt;p&gt;记忆七罪分为：健忘、失神、空白、错认、暗示、偏颇及纠缠&lt;/p&gt;
+&lt;p&gt;健忘(Transience)：随着时间而记忆褪色或消失。&lt;/p&gt;
+&lt;p&gt;失神(Absent-mindedness)：心不在焉，忘东忘西。&lt;/p&gt;
+&lt;p&gt;空白(Blocking)：怎样想都想不出来但事后又突然间想回来。&lt;/p&gt;
+&lt;p&gt;错认(Misattribution)：张冠李戴，误把幻想当作事实。&lt;/p&gt;
+&lt;p&gt;暗示(Suggestibility)：受到外界的误导而扭曲记忆。&lt;/p&gt;
+&lt;p&gt;偏颇(Bias)：根据目前的认知或训练，而改变对过去的记忆。&lt;/p&gt;
+&lt;p&gt;纠缠(Persistence)：一直无法释怀的恼人回忆。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.wangyunzi.com/2023/02/1132abf6069a3b9b477201fd7ce2ced1.jpg&#34; alt=&#34;记忆七宗罪&#34;&gt;&lt;/p&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">瞎折腾</title>
             <link rel="alternate" type="text/html" href="https://wangyunzi.com/posts/39/" />
@@ -771,51 +806,6 @@
                             
                             
                                 <category scheme="https://wangyunzi.com/tags/%E7%8C%A5%E4%BA%B5/" term="猥亵" label="猥亵" />
-                            
-                        
-                    
-                
-            
-        </entry>
-    
-        <entry>
-            <title type="text">倒霉蛋的一天</title>
-            <link rel="alternate" type="text/html" href="https://wangyunzi.com/posts/25/" />
-            <id>https://wangyunzi.com/posts/25/</id>
-            <updated>2022-11-25T10:42:50&#43;08:00</updated>
-            <published>2022-11-04T20:23:34&#43;08:00</published>
-            <author>
-                    <name>王云子</name>
-                    <uri>https://wangyuzni.com/</uri>
-                    <email>xueq695@gmail.com</email>
-                    </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">唧唧复唧唧，倒霉蛋，倒霉蛋啊。 昨夜睡觉的时候总是容易被一些异样的声响吵醒，晚睡了一些。 午休睡着的时候被同学误认为是物品，偷拍照片，并被当作占座的人挂在朋友圈和学校墙上三个小时，感到十分难受生气，被误解的感觉如此强烈，又一次感叹自己原来是这么自卑敏感的人。 晚上跑步的时候被足球踢到了……</summary>
-            
-                <content type="html">&lt;p&gt;唧唧复唧唧，倒霉蛋，倒霉蛋啊。&lt;/p&gt;
-&lt;p&gt;昨夜睡觉的时候总是容易被一些异样的声响吵醒，晚睡了一些。&lt;/p&gt;
-&lt;p&gt;午休睡着的时候被同学误认为是物品，偷拍照片，并被当作占座的人挂在朋友圈和学校墙上三个小时，感到十分难受生气，被误解的感觉如此强烈，又一次感叹自己原来是这么自卑敏感的人。&lt;/p&gt;
-&lt;p&gt;晚上跑步的时候被足球踢到了，不疼，但还是有点委屈。&lt;/p&gt;
-&lt;p&gt;明天早上6点半还要早起体侧，担心自己的肺活量、体脂率、800米·······&lt;/p&gt;
-&lt;p&gt;哦，倒霉蛋的体脂率好像偏低~&lt;/p&gt;
-</content>
-            
-            
-            
-            
-            
-                
-                    
-                        
-                            
-                            
-                            
-                                <category scheme="https://wangyunzi.com/tags/%E6%82%B2%E5%82%AC/" term="悲催" label="悲催" />
-                            
-                        
-                            
-                            
-                            
-                                <category scheme="https://wangyunzi.com/tags/%E5%80%92%E9%9C%89%E8%9B%8B/" term="倒霉蛋" label="倒霉蛋" />
                             
                         
                     
