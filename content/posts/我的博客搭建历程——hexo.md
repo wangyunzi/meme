@@ -2,7 +2,7 @@
 title: 我的博客搭建历程——hexo
 date: 2022-05-27 15:36:35
 slug: "3"
-categories: [Blog]
+# categories: [Blog]
 tags:
   - Hexo
 plugins:

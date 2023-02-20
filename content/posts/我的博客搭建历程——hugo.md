@@ -2,7 +2,7 @@
 title: 我的博客搭建历程——hugo
 date: 2022-05-28 15:44:13
 slug: "6"
-categories: [Blog]
+# categories: [Blog]
 tags:
   - hugo
 plugins:

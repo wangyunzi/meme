@@ -1317,7 +1317,7 @@ uglyURLs = false
     #      的优先级高于此处
 
     # 相关文章数
-    relatedPostsNumber = 5
+    relatedPostsNumber = 4
 
     # 相关文章标题右边的图标
     relatedPostsIcon = "plus-circle"
@@ -1354,7 +1354,7 @@ uglyURLs = false
     # 极简页脚
 
     # 是否开启
-    enableMinimalFooter = false
+    enableMinimalFooter = true
     enableVerticalBarStructure = true
     # 说明：如果开启此项，显示在右边的部类或分区
     #      将会包含全部的第一级部类或分区，并且
