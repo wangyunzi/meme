@@ -2,22 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://wangyunzi.com/posts/</loc>
+    <lastmod>2023-02-26T12:31:11+08:00</lastmod>
+  </url><url>
+    <loc>https://wangyunzi.com/posts/42/</loc>
+    <lastmod>2023-02-26T12:31:11+08:00</lastmod>
+  </url><url>
+    <loc>https://wangyunzi.com/</loc>
+    <lastmod>2023-02-26T12:31:11+08:00</lastmod>
+  </url><url>
     <loc>https://wangyunzi.com/tags/ai/</loc>
     <lastmod>2023-02-24T12:23:35+08:00</lastmod>
   </url><url>
     <loc>https://wangyunzi.com/tags/notion/</loc>
     <lastmod>2023-02-24T12:23:35+08:00</lastmod>
   </url><url>
-    <loc>https://wangyunzi.com/posts/</loc>
-    <lastmod>2023-02-24T12:23:35+08:00</lastmod>
-  </url><url>
     <loc>https://wangyunzi.com/tags/</loc>
     <lastmod>2023-02-24T12:23:35+08:00</lastmod>
   </url><url>
     <loc>https://wangyunzi.com/posts/41/</loc>
-    <lastmod>2023-02-24T12:23:35+08:00</lastmod>
-  </url><url>
-    <loc>https://wangyunzi.com/</loc>
     <lastmod>2023-02-24T12:23:35+08:00</lastmod>
   </url><url>
     <loc>https://wangyunzi.com/tags/%E8%AE%B0%E5%BF%86/</loc>
@@ -349,9 +352,6 @@
   </url><url>
     <loc>https://wangyunzi.com/tags/%E5%86%99%E4%BD%9C/</loc>
     <lastmod>2022-11-25T11:32:37+08:00</lastmod>
-  </url><url>
-    <loc>https://wangyunzi.com/posts/untitled/</loc>
-    <lastmod>2022-12-24T18:20:38+08:00</lastmod>
   </url><url>
     <loc>https://wangyunzi.com/bb/</loc>
     <lastmod>2022-08-21T12:41:26+08:00</lastmod>
