@@ -1,0 +1,11 @@
+{
+  "uploadByClipSwitch": true,
+  "uploader": "PicGo-Core",
+  "uploadServer": "http://127.0.0.1:36677/upload",
+  "picgoCorePath": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\PicGo\\PicGo.exe",
+  "workOnNetWork": false,
+  "fixPath": false,
+  "applyImage": true,
+  "newWorkBlackDomains": "",
+  "deleteSource": false
+}
