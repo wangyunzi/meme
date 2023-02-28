@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/41.md",
+                "file": "content/posts/43.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/41.md",
+                "file": "content/posts/43.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/41.md",
+                "file": "content/posts/43.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/41.md"
+                "file": "content/posts/43.md"
               }
             }
           }
@@ -148,6 +148,10 @@
   },
   "active": "6a55e6f95e8720a6",
   "lastOpenFiles": [
+    "README.md",
+    "content/posts/43.md",
+    "content/posts/42.md",
+    "content/posts/41.md",
     "content/posts/2023m2d28h21m19s51.md",
     "content/posts/《沉默的大多数》.md",
     "content/about/_index.md",
