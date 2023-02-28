@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/43.md",
+                "file": "content/posts/44.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/43.md",
+                "file": "content/posts/44.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/43.md",
+                "file": "content/posts/44.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/43.md"
+                "file": "content/posts/44.md"
               }
             }
           }
@@ -138,6 +138,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "remotely-save:Remotely Save": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -148,17 +149,33 @@
   },
   "active": "6a55e6f95e8720a6",
   "lastOpenFiles": [
-    "content/posts/44.md",
+    "content/posts/13.md",
+    "content/posts/1.md",
     "content/posts/43.md",
-    "README.md",
-    "content/posts/42.md",
-    "content/posts/41.md",
-    "content/posts/2023m2d28h21m19s51.md",
-    "content/posts/《沉默的大多数》.md",
-    "content/about/_index.md",
-    "obs_sctipts/NewBlog.js.md",
+    "content/posts/44.md",
+    "content/posts/3.md",
+    "content/posts/2.md",
+    "content/posts/5.md",
+    "content/posts/27.md",
+    "content/posts/34.md",
+    "content/posts/10.md",
+    "content/posts/37.md",
+    "content/posts/23.md",
+    "content/posts/35.md",
+    "content/posts/28.md",
+    "content/posts/24.md",
+    "content/posts/39.md",
+    "content/posts/16.md",
+    "content/posts/32.md",
+    "content/posts/6.md",
+    "content/posts/4.md",
+    "content/posts/33.md",
+    "content/posts/9.md",
+    "content/posts/26.md",
+    "content/posts/19.md",
+    "content/posts/7.md",
+    "content/posts/22.md",
     "obs_sctipts/NewBlog.js",
-    "archetypes/default.md",
     "obs_sctipts"
   ]
 }
