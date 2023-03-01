@@ -149,6 +149,9 @@
   },
   "active": "6a55e6f95e8720a6",
   "lastOpenFiles": [
+    "static/css",
+    "README.md",
+    "content/posts/45.md",
     "content/posts/44.md",
     "content/posts/13.md",
     "content/posts/1.md",
@@ -172,9 +175,6 @@
     "content/posts/33.md",
     "content/posts/9.md",
     "content/posts/26.md",
-    "content/posts/19.md",
-    "content/posts/7.md",
-    "content/posts/22.md",
     "obs_sctipts/NewBlog.js",
     "obs_sctipts"
   ]
