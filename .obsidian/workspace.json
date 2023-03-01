@@ -11,12 +11,8 @@
             "id": "6a55e6f95e8720a6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/posts/46.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/46.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/46.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "content/posts/46.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -147,8 +139,9 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "6a55e6f95e8720a6",
+  "active": "a2e66060f90aef23",
   "lastOpenFiles": [
+    "static/js/dusays.js",
     "public/posts/46/index.html",
     "public/posts/46",
     "content/posts/45.md",
