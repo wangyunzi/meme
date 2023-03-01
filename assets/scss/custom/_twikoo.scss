@@ -2,6 +2,7 @@
 
 .twikoo {
 	overflow: visible !important;
+	font-size: 0.928rem;
 }
 .tk-extras,.tk-row.actions .tk-action-icon.__markdown,.tk-preview,.tk-content p a.at,.tk-tag.tk-tag-green {
 	display: none !important;
@@ -263,7 +264,7 @@ em-emoji-picker{
     box-sizing: border-box;
     color: #606266;
     display: inline-block;
-    font-size: inherit;
+    font-size: 15em;
     height: 40px;
     line-height: 40px;
     outline: 0;
