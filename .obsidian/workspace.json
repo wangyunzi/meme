@@ -147,8 +147,12 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "6a55e6f95e8720a6",
+  "active": "a2e66060f90aef23",
   "lastOpenFiles": [
+    "assets/js/dusays.js",
+    "content/memos/_index.md",
+    "content/memos",
+    "layouts/_default/memos.html",
     "content/posts/46.md",
     "static/js/dusays.js",
     "public/posts/46/index.html",
@@ -177,7 +181,6 @@
     "content/posts/6.md",
     "content/posts/4.md",
     "content/posts/33.md",
-    "content/posts/9.md",
     "obs_sctipts/NewBlog.js",
     "obs_sctipts"
   ]

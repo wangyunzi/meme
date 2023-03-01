@@ -243,12 +243,12 @@ uglyURLs = false
     #    post = "pagelines"
         identifier = "friends"
     [[menu.main]]
-        pageref = "/talk/"
-        name = "说说"
+        pageref = "/memos/"
+        name = "瞬间"
         weight = 8
         pre = "internal"
     #    post = "pagelines"
-        identifier = "talk"
+        identifier = "memos"
     #[[menu.main]]
     #    pageref = "/bb/"
     #    name = "哔哔"

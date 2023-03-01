@@ -1,0 +1,24 @@
+{{ define "main" }}
+<main class="main single" id="main">
+<div class="main-inner">
+<div class="container">
+  <p>共发表了 <span id="memosCount">0</span> 条 Memos 说说！</p>
+</div>
+<script>
+  function getTotal() {
+    var totalUrl = "https://dusays-memos.itisn.cyou/api/memo/amount?creatorId=9";
+    fetch(totalUrl).then(response => {
+      return response.json();
+    }).then(data => {
+      var memosCount = document.getElementById('memosCount');
+      memosCount.innerHTML = data.data;
+    }).catch(err => {
+    });
+  };
+  window.onload = getTotal();
+</script>
+
+</div>
+</main>
+
+{{ end }}
