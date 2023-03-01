@@ -11,8 +11,12 @@
             "id": "6a55e6f95e8720a6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/45.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "content/posts/45.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "content/posts/45.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "content/posts/45.md"
+              }
             }
           }
         ]
@@ -139,13 +147,13 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "a2e66060f90aef23",
+  "active": "6a55e6f95e8720a6",
   "lastOpenFiles": [
+    "content/posts/46.md",
     "static/js/dusays.js",
     "public/posts/46/index.html",
     "public/posts/46",
     "content/posts/45.md",
-    "content/posts/46.md",
     "static/css",
     "README.md",
     "content/posts/44.md",
