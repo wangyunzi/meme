@@ -44,22 +44,20 @@ displayCopyright: false
 {{< friend name="山岳库博" url="https://kmar.top/" logo="https://fastly.jsdelivr.net/npm/@kmar/fonts/avatar/own.png" word="开发学习启发性二刺螈" >}}
 {{< friend name="USTC-茶糜花开" url="https://blog.starysky.top" logo="https://blog.starysky.top/img/blog_avatar.jpg" word="Science lights up the world" >}}
 {{< friend name="繁星博客" url="https://blog.emoao.com" logo="https://blog.emoao.com/static/img/avatar.webp" word="允你一世繁星，许你一世星辰！" >}}
-{{< friend name="配菜师" url="https://mingshen.xyz/" logo="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/head_logo.jpg" word="In a Daze? NO!Become Sober!" >}}
+<!-- {{< friend name="配菜师" url="https://mingshen.xyz/" logo="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/head_logo.jpg" word="In a Daze? NO!Become Sober!" >}} -->
 {{< friend name="Catch Wang" url="https://catchwang.com/" logo="https://catchwang.com/img/logo-img/avatar.jpg" word="未来路长 · 勿忘初心" >}}
-{{< friend name="零零七" url="https://vfz.cc/" logo="https://q2.qlogo.cn/headimg_dl?dst_uin=1904727716&spec=100" word="喜欢随着风的方向跑。" >}}
 {{< friend name="西瓜撞地球" url="https://bio-w.cn/" logo="https://bu.dusays.com/2022/10/17/634d313602a1e.png" word="我在人间贩卖彩虹" >}}
-{{< friend name="优盟盒子" url="https://www.umsbox.com" logo="https://www.umsbox.com/wp-content/uploads/2022/08/yqlogo.png" word="专注优质网络资源分享的技术博客." >}}
 {{< friend name="绝对值の垃圾站" url="https://absolutevalue.cc/" logo="https://bu.dusays.com/2022/10/11/63456cf24d191.png" word="某啥也不会的初二废物。" >}}
 {{< friend name="SeerSu" url="https://seersu.me" logo="https://seersu.me/favicon/avatar.jpg" word="留给自己一片大陆，把无垠的大海留给飞鸟和大鱼" >}}
 {{< friend name="胡涂说" url="https://hutusi.com/" logo="https://avatars.githubusercontent.com/u/487036?v=4" word="任抛星汉归园圃，留取乾坤盛酒囊" >}}
 {{< friend name="浮云翩迁之间" url="https://blognas.hwb0307.com" logo="https://blognas.hwb0307.com/logo.jpg" word="百代繁华一朝都，谁非过客；千秋明月吹角寒，花是主人。" >}}
-{{< friend name="阿波尔的博客" url="https://www.zaqizaba.xyz" logo="https://www.zaqizaba.xyz/favicon.ico" word="来世愿做一只乌鸦" >}}
 {{< friend name="Echo’s blog" url="https://www.liveout.cn/" logo="https://yy.liveout.cn/photo/photo2.jpg" word="韶华不为少年留 恨悠悠 几时休" >}}
 {{< friend name="Jdeal" url="https://www.jdeal.cn" logo="https://www.jdeal.cn/favicon.ico" word="Life is like a Design." >}}
 {{< friend name="一蓑烟雨的博客" url="https://easyf12.top/" logo="https://img.easyf12.top/images/2022/10/15/634a8b4186889.webp" word="竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。" >}}
 {{< friend name="Shixiaocaia" url="https://shixiaocaia.fun" logo="https://bu.dusays.com/2022/12/25/63a806f74cf5e.jpg" word="去做吧，反正都会后悔。" >}}
 {{< friend name="小卢" url="https://b0ae.cn" logo="https://b0ae.cn/tx/blog.png" word="个人博客记录日常" >}}
 {{< friend name="记忆一隅" url="https://vlieo.com/" logo="https://vlieo.com/images/avatar.png?v=1674992080987" word="凡事总需研究，才会明白" >}}
+{{< friend name="This Cute World" url="https://thiscute.world/" logo="https://thiscute.world/avatar/myself.webp" word="脚下虽有万水千山，但行者必至。" >}}
 </div>
 </div>
 
