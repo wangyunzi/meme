@@ -147,14 +147,14 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "a2e66060f90aef23",
+  "active": "6a55e6f95e8720a6",
   "lastOpenFiles": [
+    "static/js/dusays.js",
     "assets/js/dusays.js",
     "content/memos/_index.md",
     "content/memos",
     "layouts/_default/memos.html",
     "content/posts/46.md",
-    "static/js/dusays.js",
     "public/posts/46/index.html",
     "public/posts/46",
     "content/posts/45.md",
