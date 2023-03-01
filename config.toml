@@ -554,7 +554,7 @@ uglyURLs = false
     # 列表页面
 
     # 宽度
-    listWidth = 50
+    listWidth = 47
     # 说明：如果留空（""），则用 42 作为默认值
     #      单位：em
 
@@ -875,7 +875,7 @@ uglyURLs = false
     # 注意：只支持 HSL 颜色值
 
     # 文章的内容宽度
-    postWidth = 50
+    postWidth = 47
     # 说明：如果留空（""），则用 42 作为默认值
     #      单位：em
 
@@ -1116,9 +1116,15 @@ uglyURLs = false
     #fontFamilyBody = "Tauri, 'JetBrains Mono', 'Noto Sans SC', 'Microsoft YaHei', sans-serif"
     #fontFamilyBody = "MiSans-Regular, 微软雅黑, Microsoft YaHei, Georgia, STZhongsong, serif"
     #fontFamilyBody = "'Source Sans Pro', 'Segoe UI', 'Lucida Grande', Helvetica, Arial, 'Microsoft YaHei', FreeSans, Arimo, 'Droid Sans', 'wenquanyi micro hei', 'Hiragino Sans GB', 'Hiragino Sans GB W3', FontAwesome, sans-serif"
-    fontFamilyBody = "SFMono-Regular, Consolas, 'Liberation Mono', Menlo, Courier, monospace"
+    #fontFamilyBody = "SFMono-Regular, Consolas, 'Liberation Mono', Menlo, Courier, monospace"
+    fontFamilyBody =  "Bitter, 'PingFang SC', '-apple-system', 'BlinkMacSystemFont', 'Hiragino Sans GB', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Segoe UI', 'Noto Sans SC', 'HarmonyOS_Regular', 'Microsoft YaHei', 'Helvetica Neue', 'Helvetica', 'Source Han Sans SC', 'Arial', 'sans-serif', 'Apple Color Emoji'"
+
 
     # 网络字体链接
+    #fontsLink = "https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Noto+Serif+SC:wght@400;500;700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    #fontsLink = "https://fonts.googleapis.com/css?family=Bitter&display=swap"
+    fontsLink = "https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@500&display=swap"
+    #fontsLink = "https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500&display=swap"
     #fontsLink = "https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Noto+Serif+SC:wght@400;500;700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap"
     # https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Noto+Serif+SC:wght@400;500;700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap
     # 说明：要想读者一定体验到你设置的字体，最好
@@ -1130,7 +1136,7 @@ uglyURLs = false
     ######################################
     ## 字号（单位：px）
 
-    fontSize = 17
+    fontSize = 18
 
     ######################################
     ## 制表符的宽度
