@@ -1113,9 +1113,10 @@ uglyURLs = false
     #fontFamilyBody = "Charter, Georgia, 'Helvetica Neue', Arial, 'Songti SC', 'SimSun', 'Hiragino Sans GB','宋体', 'Microsoft YaHei', 'STKaiti', 'Kai', 'Kaiti SC', 'KaiTi', 'KaiTi_GB2312', '楷体', sans-serif"
     #fontFamilyBody = "OPPOSans, UbuntuMono, 'Varela Round', 'PingFang SC', 'Microsoft YaHei', Helvetica, Arial"
     #fontFamilyBody = "HarmonyOS_Sans_SC_Medium, HarmonyOS_Sans_Condensed_Medium_Italic, Georgia, -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif"
-    fontFamilyBody = "Tauri, 'JetBrains Mono', 'Noto Sans SC', 'Microsoft YaHei', sans-serif"
+    #fontFamilyBody = "Tauri, 'JetBrains Mono', 'Noto Sans SC', 'Microsoft YaHei', sans-serif"
     #fontFamilyBody = "MiSans-Regular, 微软雅黑, Microsoft YaHei, Georgia, STZhongsong, serif"
     #fontFamilyBody = "'Source Sans Pro', 'Segoe UI', 'Lucida Grande', Helvetica, Arial, 'Microsoft YaHei', FreeSans, Arimo, 'Droid Sans', 'wenquanyi micro hei', 'Hiragino Sans GB', 'Hiragino Sans GB W3', FontAwesome, sans-serif"
+    fontFamilyBody = "SFMono-Regular, Consolas, 'Liberation Mono', Menlo, Courier, monospace"
 
     # 网络字体链接
     #fontsLink = "https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Noto+Serif+SC:wght@400;500;700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap"
