@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/44.md",
+                "file": "content/posts/45.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/44.md",
+                "file": "content/posts/45.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/44.md",
+                "file": "content/posts/45.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/44.md"
+                "file": "content/posts/45.md"
               }
             }
           }
@@ -138,21 +138,21 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "remotely-save:Remotely Save": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "remotely-save:Remotely Save": false
     }
   },
   "active": "6a55e6f95e8720a6",
   "lastOpenFiles": [
+    "content/posts/44.md",
     "content/posts/13.md",
     "content/posts/1.md",
     "content/posts/43.md",
-    "content/posts/44.md",
     "content/posts/3.md",
     "content/posts/2.md",
     "content/posts/5.md",

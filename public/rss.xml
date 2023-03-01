@@ -23,10 +23,143 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Sun, 26 Feb 2023 12:37:57 &#43;0800</lastBuildDate>
+        <lastBuildDate>Wed, 01 Mar 2023 18:39:11 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://wangyunzi.com/rss.xml" />
         
+        
+            <item>
+                <title>obsidian如何同步全平台</title>
+                <link>https://wangyunzi.com/posts/45/</link>
+                <guid isPermaLink="true">https://wangyunzi.com/posts/45/</guid>
+                <pubDate>Wed, 01 Mar 2023 17:09:25 &#43;0800</pubDate>
+                
+                    <author>xueq695@gmail.com (王云子)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;p&gt;目前我的设备是一台Windows、一个Ipad和一部安装vivo手机，我迫切希望这几个设备能够联动起来众周知。obsidian令广大用户头疼的一个问题就是全平台同步，在电脑端的obsidian无疑是所向披靡的，但是对于大部分的人来说同步也是必须的一个功能。&lt;/p&gt;
+&lt;p&gt;接上一篇博客，我在使用obsidian发布博客之后就想着要不将ob全同步，这样就可以实现hugo博客随时随地发布，解决了静态博客在发布地点和发布时间的限制。下午搜索了几个ob同步教程，令我遗憾的是这样的想法有点过于完美，ob可以同步文件，却不可以同步插件设置之类的，甚至某些插件不能再移动端适配，当我把我的所有博客文件同步至移动端时，我就不能享受在电脑端的新建博客这样的便捷功能，但至少可以写一篇文章同步到电脑端，然后打开电脑发布，至少我只能做到如此。&lt;/p&gt;
+&lt;p&gt;因为obsidian发布博客的重要步骤都是借助obsidian插件实现完成的，所以这个想法可能要等到以后看有没有其他方法解决，还是老老实实的用电脑写博客吧。&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://wangyunzi.com/tags/obsidian/">obsidian</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://wangyunzi.com/tags/%E5%8D%9A%E5%AE%A2/">博客</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>obsidian发布hugo博客</title>
+                <link>https://wangyunzi.com/posts/44/</link>
+                <guid isPermaLink="true">https://wangyunzi.com/posts/44/</guid>
+                <pubDate>Tue, 28 Feb 2023 21:53:07 &#43;0800</pubDate>
+                
+                    <author>xueq695@gmail.com (王云子)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;p&gt;首先非常感谢&lt;a href=&#34;https://immmmm.com/&#34;&gt;木木木木木&lt;/a&gt;和&lt;a href=&#34;https://zhangyingwei.github.io/&#34;&gt;胡说&lt;/a&gt;大佬的教程和代码。&lt;/p&gt;
+&lt;p&gt;在刚开始使用hugo博客时候我就看到&lt;a href=&#34;https://zhangyingwei.github.io/&#34;&gt;胡说&lt;/a&gt;大佬的这篇教程，只是当时折腾半天obsidian还没折腾明白在这上面就不了了之，今天偶然看到&lt;a href=&#34;https://immmmm.com/&#34;&gt;木木木木木&lt;/a&gt;的教程又开始尝试一下，结果一把子就成功了，欣喜万分。加上最近自己对obsidian的兴趣又开始，所以觉得用obsidian也是一个不错的选择。&lt;/p&gt;
+&lt;p&gt;为了测试自己是否成功发布了这篇文章，如您所见，此篇文章是用obsidian写作与发布的。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.wangyunzi.com/2023/02/5e39318bf2cd2ebb86070851ac0b0dc3.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h5 id=&#34;参考文章&#34;&gt;参考文章&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.zhangyingwei.com/posts/2022m4d11h19m42s28/&#34;&gt;Hugo 博客写作最佳实践&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://immmmm.com/hugo-with-obsidian/&#34;&gt;Hugo With Obsidian&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>姐姐，我在德令哈</title>
+                <link>https://wangyunzi.com/posts/43/</link>
+                <guid isPermaLink="true">https://wangyunzi.com/posts/43/</guid>
+                <pubDate>Tue, 28 Feb 2023 21:38:13 &#43;0800</pubDate>
+                
+                    <author>xueq695@gmail.com (王云子)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;p&gt;偶然想起来高中时期在广播中听到的海子&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;https://wangyunzi.com/posts/43/#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;的一首小诗，当时就被深深吸引，到至今仍然念念不忘，今日得以记录，我是一个不太爱记事的，大概看过就过去了，才懒得去记录这些悲春伤秋。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;姐姐，今夜我在德令哈，夜色笼罩&lt;/p&gt;
+&lt;p&gt;姐姐，今夜我只有戈壁&lt;/p&gt;
+&lt;p&gt;草原尽头我两手空空&lt;/p&gt;
+&lt;p&gt;悲痛时握不住一颗泪滴&lt;/p&gt;
+&lt;p&gt;姐姐，今夜我在德令哈&lt;/p&gt;
+&lt;p&gt;这是雨水中一座荒凉的城&lt;/p&gt;
+&lt;p&gt;除了那些路过的和居住的&lt;/p&gt;
+&lt;p&gt;德令哈……今夜&lt;/p&gt;
+&lt;p&gt;这是唯一的，最后的，抒情。&lt;/p&gt;
+&lt;p&gt;这是唯一的，最后的，草原。&lt;/p&gt;
+&lt;p&gt;我把石头还给石头&lt;/p&gt;
+&lt;p&gt;让胜利的胜利&lt;/p&gt;
+&lt;p&gt;今夜青稞只属于她自己&lt;/p&gt;
+&lt;p&gt;一切都在生长&lt;/p&gt;
+&lt;p&gt;今夜我只有美丽的戈壁 空空&lt;/p&gt;
+&lt;p&gt;姐姐，今夜我不关心人类，我只想你&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;海子（1964年3月24日—1989年3月26日），原名查海生，出生于安徽省怀宁县高河镇查湾村，当代诗人。海子在农村长大，1979年15岁时考入北京大学法律系，1982年大学期间开始诗歌创作，1983年自北大毕业后分配至北京中国政法大学哲学教研室工作，1989年3月26日在山海关附近卧轨自杀，年仅25岁。&amp;#160;&lt;a href=&#34;https://wangyunzi.com/posts/43/#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://wangyunzi.com/tags/%E6%B5%B7%E5%AD%90/">海子</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://wangyunzi.com/tags/%E8%AF%97%E8%AF%8D/">诗词</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>一周三餐记录</title>
@@ -195,6 +328,7 @@
 &lt;p&gt;总的来说，Notion AI是一款非常有用的工具，可以大大提高我们的工作效率和生活质量。虽然它有一些局限性和缺点，但是随着技术的不断进步，它的表现会越来越出色。除了Notion AI，本文还介绍了其他一些人工智能工具的应用场景和优势，例如OCR技术、语音识别技术和智能推荐算法等等。这些工具可以帮助我们更快地处理信息，更高效地完成工作，提高我们的生活质量。&lt;/p&gt;
 &lt;p&gt;然而，我们也需要注意人工智能工具的局限性，不要过分依赖它们，而是要在适当的时候进行人工干预，保证工作的准确性和稳定性。只有合理地使用人工智能工具，才能让它们更好地为我们服务。&lt;/p&gt;
 &lt;p&gt;因此，如果你想提高自己的工作效率和生活质量，不妨试试Notion AI这款人工智能工具，或者根据具体的需求选择其他的人工智能工具。只有合理地选择和使用这些工具，才能让它们更好地为我们服务。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.wangyunzi.com/2023/02/7cbe5c5060155b4b1c1f6f647abb18a5.png&#34; alt=&#34;image.png&#34;&gt;&lt;/p&gt;
 </description>
                 
                 
@@ -740,169 +874,6 @@
                 
                 
                     
-                        
-                    
-                
-            </item>
-        
-            <item>
-                <title>爆炸吧，思源</title>
-                <link>https://wangyunzi.com/posts/30/</link>
-                <guid isPermaLink="true">https://wangyunzi.com/posts/30/</guid>
-                <pubDate>Tue, 15 Nov 2022 17:02:10 &#43;0800</pubDate>
-                
-                    <author>xueq695@gmail.com (王云子)</author>
-                
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
-                
-                    <description>&lt;p&gt;今天来给大家小小的吐槽一下思源吧，以下内容均属于深度使用笔记软件后个人主观感受，并不存在对于思源笔记抹黑、造谣等行为。&lt;/p&gt;
-&lt;p&gt;前面我一直强烈推荐用思源，现在我觉得我打脸了，打得生疼，思源笔记同步真让人一言难尽(会员才能用官方同步)，而且思源更新频率很快，这个更新不是指升级变得更好，虽然我也不知道为什么，但是事实就是每次更新都会出现一堆小bugs，连最基本的文字编辑都不能保障了，实在感到痛心，作为一个如此优秀的笔记软件。而让我感到难过的是思源社区，当你遇到问题想要寻求帮助的时候，里面的人并不是首先不是解决问题，而是先吐槽你为什么不会用这个软件，然后就会说，你看，我也没有这个bug，当我说自己已经拥有众多笔记文件难以从思源迁出的时候，一种声音刺痛了我，都是垃圾文件，此时我无言以对并带着一丝愤怒，当我觉得一个软件失去它该有的性质而成为一群人洋洋自得、高高在上的工具的时候，我突然意识到，我好像并不该用这个软件，或许我的初心和这里是相悖的。我很难过，我在这个软件上面花费了很多的心思，几乎所有的笔记都寄托在这个软件上面，这是因为我相信这个软件既能帮我提高学习上的效率，又能让我愉快的记笔记。我的需求其实很简单，在思源里面都能找到，但是好像也不能找到了。&lt;/p&gt;
-&lt;p&gt;接下来应该还会继续使用思源笔记的，已经熟悉了它的写作模式和流程，因为最近大大小小的考试临近，真的不想再花多余的心思去适应别的软件了，加上前几天才购入官方会员，所以一年之类的话还是会继续使用，毕竟由于思源笔记的文件格式不是传统的md文件，导致我现在不知道如何处理这堆文件。&lt;/p&gt;
-&lt;p&gt;为什么会有这篇吐槽文章还要感谢思源的同步bug，写了一下午的课堂笔记，最后电脑在图书馆没电了，我们可爱的图书馆以前到处都是插座，可能前不久为了符合国家消防安全的规定，把很多插座都封了，所以经常会看到一些个别朋友抱着电脑在图书馆找插座的场景，下午我找不到插座，只能先用ipad接着写我下午没写完的笔记，结果就是根本没给我同步过来，我真的慌了，浪费时间等于慢性自杀啊，没有电脑，ipad也不能继续编辑，不知道自己写到哪里了，也不能接着写，弄了几个小时到处去找方法和询问，都没解决掉这个麻烦，所以用自己的手机写下了这篇文章。加上我中午没午休，整个脑袋像炸了一样，所以火气一下子就窜上来了。&lt;/p&gt;
-&lt;p&gt;如果有人知道其他好用的可以同步的软件的话也可以向我推荐一下，先谢谢诸位朋友同仁啦。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;后来补充内容：&lt;/p&gt;
-&lt;p&gt;谈一谈我心目中的软件吧。&lt;/p&gt;
-&lt;p&gt;当我刚开始接触obsidian软件的时候，被这个软件强大的可自定义功能深深吸引了，和很多的朋友一样，我们到处去找各种装饰、设置笔记软件的教程，只是为了让我的笔记软件更美观和高级一些，毫不夸张的说，我在折腾obsidian的一年中熬了多少个日与夜，白天上课，晚上就开始折腾，笔记没写多少，倒是折腾到最后别人来向我寻求帮助。后来也看来几篇关于这方面的文章，我发现自己错得离谱，简直就是本末倒置，一个笔记软件不好好用来写东西，作为一个不是计算机人员却到处瞎折腾，闲置自己的本业，实在滑天下之大稽。&lt;/p&gt;
-&lt;p&gt;后来接触思源，我发现这个软件既符合我的审美要求，包括一些小小的功能也深合我意，比如一键剪藏网页文章、保存微信文章以及微信提醒功能，这都是我所需要的并且重度使用的功能，像我们这个专业经常上网搜索一堆案例和条文，然后剪藏下来慢慢分析，无疑思源提高了我的学习效率，最关键的是我不用像obsidian那样去折腾插件之类，直接写笔记就可以了，最终还是我头疼的同步，电脑没电的情况时常在我这种不在寝室学习的人身上发生，我有两台设备，当然需要同步持续支持。&lt;/p&gt;
-&lt;p&gt;后来的我始终记住：工具始终只是工具，不必花费太多心思在工具本身（当然如果喜欢折腾并且感兴趣人的除外），真正要做的还是用工具实现自己的目的，追求效率和内容才是我真正的想要的。&lt;/p&gt;
-&lt;p&gt;好了，结束吧。我的头快要爆炸了！！&lt;/p&gt;
-</description>
-                
-                
-                
-                
-                
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://wangyunzi.com/tags/%E6%80%9D%E6%BA%90/">思源</category>
-                                
-                            
-                                
-                                
-                                
-                                    <category domain="https://wangyunzi.com/tags/%E7%AC%94%E8%AE%B0/">笔记</category>
-                                
-                            
-                        
-                    
-                
-            </item>
-        
-            <item>
-                <title>【一席】張秋子：活著圖個啥？</title>
-                <link>https://wangyunzi.com/posts/29/</link>
-                <guid isPermaLink="true">https://wangyunzi.com/posts/29/</guid>
-                <pubDate>Sun, 13 Nov 2022 10:46:10 &#43;0800</pubDate>
-                
-                    <author>xueq695@gmail.com (王云子)</author>
-                
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
-                
-                    <description>&lt;div style=&#34;position: relative; padding: 32% 45%;&#34;&gt;
-        &lt;iframe style=&#34;position: absolute; width: 100%; height: 100%; left: 0; top: 0;&#34; 
-        src=&#34;https://wangyunzi.com//player.bilibili.com/player.html?bvid=BV1Vt4y1M7wM&amp;page=1&amp;as_wide=1&amp;high_quality=1&amp;danmaku=1&#34; 
-        scrolling=&#34;no&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-&lt;!-- &lt;div style=&#34;position: relative; padding: 32% 45%;&#34;&gt;
-    &lt;iframe style=&#34;position: absolute; width: 100%; height: 100%; left: 0; top: 0;&#34; 
-    src=&#34;https://www.youtube.com/embed/X88qP0s1OI4?autoplay=0&#34; 
-    scrolling=&#34;no&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt; --&gt;
-&lt;!-- &lt;div align=center class=&#34;aspect-ratio&#34;&gt;
-&lt;iframe src=&#34;https://wangyunzi.com//player.bilibili.com/player.html?aid=987163771&amp;bvid=BV1Vt4y1M7wM&amp;cid=879091937&amp;page=1&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;
-&lt;/div&gt; --&gt;
-&lt;h6 id=&#34;视频介绍&#34;&gt;视频介绍&lt;/h6&gt;
-&lt;p&gt;张秋子，云南师范大学讲师。&lt;/p&gt;
-&lt;p&gt;“活著图个啥？文学并不能解决这个问题，文学也无法回答什麽才是有意义的生活，甚至它会把问题越描越黑，带给我们更多困惑。但是借由文学的隐喻，我们看到的生活可能更接近于：
-人们已经像哈姆雷特王子一样，不再相信古典时代的天经地义；像《醋栗》那样，可能大多数人都是被裹在时代语境的洪流与迷雾裡，接受了某种价值观，然后奋勇向前，一辈子这麽囫囵地过去了；像《幸福》那样，有一些人可能隐隐觉得此刻的生活是不满意的，但又想不到更好的解决之道；像《局外人》那样，而如果要背对社会、发明意义，那麽下场会很惨，要付出的代价也会很大。&lt;/p&gt;
-&lt;p&gt;如果有一天我们能活到90岁，又有多少人能拍著自己的胸脯说，我这一辈子没白活，我活透了呢？更可能的情形，也许是像《哈姆雷特》中所说的：当我们摆脱了这一具朽腐的皮囊以后，在那死的睡眠裡，究竟将要做些什麽梦，那不能不使我们踌躇顾虑。”&lt;/p&gt;
-&lt;h6 id=&#34;视频指路&#34;&gt;视频指路：&lt;/h6&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=X88qP0s1OI4&amp;amp;ab_channel=%E4%B8%80%E5%B8%ADYiXi&#34;&gt;【一席】張秋子：活著圖個啥？&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;这个视频反复看了两遍，让我惊讶不止的是老师对于文字的精准运用和描述，还有将文学与现实交叉结合的熟稔，这正是我所需要的，如何将所拥有的、所学的精准的表达出来，无论是口述还是写作，这无疑需要下一番大功夫。演讲的顺序从身边的小事到引入经典名著小说，然后拿出自己的观点，既不会感到枯燥，也不会让人觉得生涩难懂。&lt;/p&gt;
-&lt;p&gt;一千个人有一千种活法，若是将人活着的目标制定一个等级——有意义、没意义，就会陷入一种精英主义。让我想起《月亮与六便士》中男主人公作为股票经纪人突然扔下妻子和孩子去追寻成为艺术家的梦想，所有人都认为他是疯了，抛下“美好”的生活去追求一些不可能看起来虚无缥缈的东西。群体喜欢将幸福定义成一种固定的模式，比如拥有稳定的工作、生儿育女等，正是因为所有人都在追求这样的状态，让另外一种截然不同的状态成为羡慕、遥不可及的天上月，正是如此，多数小说都会留下不完美的结局，让读者流连忘返，久久不能忘怀，犹记得我中学时总是对于那些结局“惘然”的小说不能释怀。&lt;/p&gt;
-&lt;p&gt;我们总是喜欢将自己已有的看似完美的东西击碎，然后再重新塑造，人就是这样一种无聊喜欢自虐的群体，而我们恰恰喜欢的也是那些破碎的、撕裂的，鲁迅在《再论雷峰塔的倒掉》这样描述：&amp;quot;不过在戏台上罢了，悲剧将人生的有价值的东西毁灭给人看，喜剧将那无价值的撕破给人看。讥讽又不过是喜剧的变简的一支流。但悲壮滑稽，却都是十景病的仇敌，因为都有破坏性，虽然所破坏的方面各不同。中国如十景病尚存，则不但卢梭他们似的疯子决不产生，并且也决不产生一个悲剧作家或喜剧作家或讽刺诗人。所有的，只是喜剧底人物或非喜剧非悲剧底人物，在互相模造的十景中生存，一面各各带了十景病。&amp;quot;也就是“悲剧就是把人生有价值的东西毁灭给人看”，这段人们熟知的话。是的，总是要处在一种“欠然”的状态。&lt;/p&gt;
-&lt;p&gt;触动最深也值得思考的是那句“难道平庸的生活也要遭受歧视吗”，我们总是在这追求意义的生活，于是我们将追求精神需求视作最高级的，竟然排在物质生活的前面，文学将这样的理念植入社会群体，追求金钱和名利会被当做没有意义、不高尚的做法，为什么会有这样的观念，因为我们的文学作品都在向我们传递这样一个观点：阅读使人高尚和高级，世俗的追求则是没有意义的。我觉得这样的观点有点微妙，这种微妙的感觉我说不上来，这样的思考似乎需要推翻我们已有的传统的思想。&lt;/p&gt;
-</description>
-                
-                
-                
-                
-                
-                    
-                        
-                    
-                
-            </item>
-        
-            <item>
-                <title>小意外</title>
-                <link>https://wangyunzi.com/posts/28/</link>
-                <guid isPermaLink="true">https://wangyunzi.com/posts/28/</guid>
-                <pubDate>Thu, 10 Nov 2022 19:38:58 &#43;0800</pubDate>
-                
-                    <author>xueq695@gmail.com (王云子)</author>
-                
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
-                
-                    <description>&lt;p&gt;        日期：周四          气温：17摄氏度         天气：晴&lt;/p&gt;
-&lt;p&gt;夜幕降临。&lt;/p&gt;
-&lt;p&gt;刚把共享单车停好，哐当一声，只听见左边一排的自行车辆都倒下了，还有一辆电动车被困其中。&lt;/p&gt;
-&lt;p&gt;无奈。&lt;/p&gt;
-&lt;p&gt;只好尴尬地在众人面前扶起一辆辆自行车。&lt;/p&gt;
-&lt;p&gt;心情平静如初。&lt;/p&gt;
-&lt;p&gt;电动车有点糟糕，和一辆自行车互相缠绕一起了，估计是顺着倒下的时候把手刚好卡进去了自行车的后轮胎。&lt;/p&gt;
-&lt;p&gt;一个男生，帮着我扶起最后一辆自行车，来到电动车旁，说道：“好像卡住了”，说着自顾自地的抬起电动车试图掰开。&lt;/p&gt;
-&lt;p&gt;嗯，有人来帮我了，有点庆幸。&lt;/p&gt;
-&lt;p&gt;在“案发现场”研究了一会儿，两个漂亮可爱的小姐姐来了，和我们一起观察。&lt;/p&gt;
-&lt;p&gt;这可怎么办？&lt;/p&gt;
-&lt;p&gt;哦，好像可以把它们一起抬起来试试。&lt;/p&gt;
-&lt;p&gt;好。&lt;/p&gt;
-&lt;p&gt;男生用手使劲将电动车把手分离轮胎，心里默念，加油！&lt;/p&gt;
-&lt;p&gt;呼，终于拿出来了。&lt;/p&gt;
-&lt;p&gt;瞬间，上课的人多了起来，周围涌上一群人，人群嘈杂。&lt;/p&gt;
-&lt;p&gt;我有点迟钝，等三人离开后才反应过来可以留一个联系方式。&lt;/p&gt;
-&lt;p&gt;回头看到两个小姐姐还在旁边。&lt;/p&gt;
-&lt;p&gt;“小姐姐加个微信，请你们喝杯奶茶。”&lt;/p&gt;
-&lt;p&gt;“不用不用了，没有帮到什么忙。”&lt;/p&gt;
-&lt;p&gt;临近上课时间，不好再拦着。&lt;/p&gt;
-&lt;p&gt;回头寻找男生的踪影，却再也找不着，匆忙来到教室，仔细回想男生是什么样子的，我竟发现什么也想不起来，只记得那双好看的手和一块石英表，还有白色外套。&lt;/p&gt;
-&lt;p&gt;后知后觉。&lt;/p&gt;
-&lt;p&gt;背后一身热汗，脸上也是红彤彤的。&lt;/p&gt;
-&lt;p&gt;真是愚钝之人，好吧，现在人家帮了你，也不懂得如何感谢。&lt;/p&gt;
-&lt;p&gt;一个小意外，一点遗憾。&lt;/p&gt;
-</description>
-                
-                
-                
-                
-                
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://wangyunzi.com/tags/%E6%84%8F%E5%A4%96/">意外</category>
-                                
-                            
-                                
-                                
-                                
-                                    <category domain="https://wangyunzi.com/tags/%E5%BF%83%E6%83%85/">心情</category>
-                                
-                            
-                                
-                                
-                                
-                                    <category domain="https://wangyunzi.com/tags/%E6%84%9F%E6%81%A9/">感恩</category>
-                                
-                            
                         
                     
                 
