@@ -6,7 +6,7 @@
 </div>
 <script>
   function getTotal() {
-    var totalUrl = "https://s.dusays.com/u/9";
+    var totalUrl = "https://s.dusays.com/api/memo/amount?userId=9";
     fetch(totalUrl).then(response => {
       return response.json();
     }).then(data => {
