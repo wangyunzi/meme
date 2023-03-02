@@ -6,7 +6,7 @@
 </div>
 <script>
   function getTotal() {
-    var totalUrl = "https://dusays-memos.itisn.cyou/api/memo/amount?userId=9";
+    var totalUrl = "https://s.dusays.com/u/9";
     fetch(totalUrl).then(response => {
       return response.json();
     }).then(data => {
@@ -25,7 +25,7 @@
 <script src="https://jsd.onmicrosoft.cn/gh/Tokinx/Lately/lately.min.js"></script>
 <script type="text/javascript">
   var bbMemos = {
-    memos : 'https://dusays-memos.itisn.cyou/',//修改为自己部署 Memos 的网址，末尾有 / 斜杠
+    memos : 'https://s.dusays.com/',//修改为自己部署 Memos 的网址，末尾有 / 斜杠
     limit : '10',//默认每次显示 10条
     creatorId:'9' ,//早期默认为 101 用户，新安装是 1； https://demo.usememos.com/u/101
     domId: '',//默认为 <div id="bber"></div>
