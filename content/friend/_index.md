@@ -58,6 +58,9 @@ displayCopyright: false
 {{< friend name="小卢" url="https://b0ae.cn" logo="https://b0ae.cn/tx/blog.png" word="个人博客记录日常" >}}
 {{< friend name="记忆一隅" url="https://vlieo.com/" logo="https://vlieo.com/images/avatar.png?v=1674992080987" word="凡事总需研究，才会明白" >}}
 {{< friend name="This Cute World" url="https://thiscute.world/" logo="https://thiscute.world/avatar/myself.webp" word="脚下虽有万水千山，但行者必至。" >}}
+{{< friend name="Leonus" url="https://blog.leonus.cn" logo="https://q1.qlogo.cn/g?b=qq&nk=553344777&s=5" word="进一寸有进一寸的欢喜。" >}}
+{{< friend name="This Cute World" url="https://thiscute.world/" logo="https://thiscute.world/avatar/myself.webp" word="脚下虽有万水千山，但行者必至。" >}}
+
 </div>
 </div>
 
