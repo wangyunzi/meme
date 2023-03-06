@@ -59,7 +59,8 @@ displayCopyright: false
 {{< friend name="记忆一隅" url="https://vlieo.com/" logo="https://vlieo.com/images/avatar.png?v=1674992080987" word="凡事总需研究，才会明白" >}}
 {{< friend name="This Cute World" url="https://thiscute.world/" logo="https://thiscute.world/avatar/myself.webp" word="脚下虽有万水千山，但行者必至。" >}}
 {{< friend name="Leonus" url="https://blog.leonus.cn" logo="https://q1.qlogo.cn/g?b=qq&nk=553344777&s=5" word="进一寸有进一寸的欢喜。" >}}
-{{< friend name="This Cute World" url="https://thiscute.world/" logo="https://thiscute.world/avatar/myself.webp" word="脚下虽有万水千山，但行者必至。" >}}
+{{< friend name="阿波尔的博客" url="https://www.zaqizaba.xyz" logo="https://s1.ax1x.com/2022/09/23/xkcJv8.jpg" word="来世做一个无闻的乌鸦" >}}
+{{< friend name="月下八哥" url="https://www.blog.yx-bug.xyz" logo="https://s2.loli.net/2022/07/08/SMLg7Cwn4FZRikE.jpg" word="平平无奇的苍蓝星、光之战士，偶尔写写代码。" >}}
 
 </div>
 </div>
