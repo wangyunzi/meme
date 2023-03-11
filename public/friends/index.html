@@ -188,12 +188,12 @@ href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"
             
         
             
-                <li class="menu-item"><a href="/talk/"><span class="menu-item-name">说说</span></a>
+                <li class="menu-item"><a href="/memos/"><span class="menu-item-name">瞬间</span></a>
                 </li>
             
         
             
-                <li class="menu-item"><a href="/photos/"><span class="menu-item-name">相册</span></a>
+                <li class="menu-item"><a href="/photos1/"><span class="menu-item-name">相册</span></a>
                 </li>
             
         
@@ -282,21 +282,23 @@ href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"
   <div class="post-content">
     
     <div id="hexo-circle-of-friends-root"></div>
-<script>
-    let UserConfig = {
-        
-        private_api_url: 'https://friends.wangyunzi.com/',
-        
-        page_turning_number: 10,
-        
-        error_img: 'https://sdn.geekzu.org/avatar/57d8260dfb55501c37dde588e7c3852c',
-        
-        sort_rule: 'created'
-    }
-</script>
-
-<script type="text/javascript" src="https://npm.elemecdn.com/fcircle-theme-yyyz@1.0.13/dist/app.min.js"></script>
-<script type="text/javascript" src="https://npm.elemecdn.com/fcircle-theme-yyyz@1.0.13/dist/bundle.js"></script>
+    <script>
+        let UserConfig = {
+            
+            private_api_url: 'https://friends.wangyunzi.com/',
+            
+            page_init_number: 20,
+            
+            page_turning_number: 10,
+            
+            error_img: 'https://sdn.geekzu.org/avatar/57d8260dfb55501c37dde588e7c3852c',
+            
+            sort_rule: 'created',
+            
+            expire_days: 1, 
+        }
+    </script>
+    <script type="text/javascript" src="https://npm.elemecdn.com/fcircle-theme-yyyz@1.0.13/dist/fcircle.min.js"></script>
 
 <style>.post:first-of-type{margin:0;padding-bottom: 0;}.content{margin-bottom: 0;}</style>
 
