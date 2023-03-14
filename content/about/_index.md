@@ -13,14 +13,17 @@ indent: false
 
 
 
-**更新时间：2023-01-02**
+**更新时间：2023-03-14**
 
-<div align=center>  <!-- 可选的项：right，left，center -->
-    <img src="海绵宝宝.jpg" width="" height="" alt="图片转载自https://i.pinimg.com/564x/73/02/fd/7302fda480fe5fde524fef65811c018e.jpg">  <!-- src处填写路径（本地或网络） width 和 height 就是控制图片的大小的-->
+<div align=center>  
+    <img src="海绵宝宝.jpg" width="" height="" alt="图片转载自https://i.pinimg.com/564x/73/02/fd/7302fda480fe5fde524fef65811c018e.jpg">  
 </div>
 
-> 图片转载自[pinterest](https://i.pinimg.com/564x/73/02/fd/7302fda480fe5fde524fef65811c018e.jpg)
+> 图片转载自[pinterest](https://i.pinimg.com/564x/73/02/fd/7302fda480fe5fde524fef65811c018e.jpg) 
 
+<!-- #### 👀我的近况 -->
+
+<!-- {{< album >}} -->
 
 
 #### 🙈关于我

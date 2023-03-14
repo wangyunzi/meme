@@ -255,6 +255,13 @@ uglyURLs = false
     #    weight = 9
     #    pre = "internal"
     #    post = "user-circle"
+    #[[menu.main]]
+    #    pageref = "/album/"
+    #    name = "相册"
+    #    weight = 10
+    #    pre = "internal"
+    #    post = "pagelines"
+    #    identifier = "album"
     [[menu.main]]
         pageref = "/photos/"
         name = "相册"

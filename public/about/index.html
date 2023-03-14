@@ -57,7 +57,7 @@
         "@context": "https://schema.org",
         "@type": "WebPage",
         "datePublished": "2022-05-11T20:37:34+08:00",
-        "dateModified": "2023-03-02T20:03:28+08:00",
+        "dateModified": "2023-03-14T22:26:39+08:00",
         "url": "https://wangyunzi.com/about/",
         "name": "原来你也在这里",
         "description": "用笨拙的文字记录最真实的故事",
@@ -193,7 +193,7 @@ href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"
             
         
             
-                <li class="menu-item"><a href="/photos1/"><span class="menu-item-name">相册</span></a>
+                <li class="menu-item"><a href="/photos/"><span class="menu-item-name">相册</span></a>
                 </li>
             
         
@@ -294,13 +294,143 @@ href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"
 
             <div class="post-body e-content">
                 <!-- <audio src="原来你也在这里-刘若英.m4a" preload="none" controls=smallconsole allowfullscreen></audio> -->
-<p><strong>更新时间：2023-01-02</strong></p>
-<div align=center>  <!-- 可选的项：right，left，center -->
-    <img src="海绵宝宝.jpg" width="" height="" alt="图片转载自https://i.pinimg.com/564x/73/02/fd/7302fda480fe5fde524fef65811c018e.jpg">  <!-- src处填写路径（本地或网络） width 和 height 就是控制图片的大小的-->
+<p><strong>更新时间：2023-03-14</strong></p>
+<div align=center>  
+    <img src="海绵宝宝.jpg" width="" height="" alt="图片转载自https://i.pinimg.com/564x/73/02/fd/7302fda480fe5fde524fef65811c018e.jpg">  
 </div>
 <blockquote>
 <p>图片转载自<a href="https://i.pinimg.com/564x/73/02/fd/7302fda480fe5fde524fef65811c018e.jpg" target="_blank" rel="noopener">pinterest</a></p>
 </blockquote>
+<!-- #### 👀我的近况 -->
+<!-- <div id="album"></div>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    let limit = 8
+    var memoUrl = "https://s.dusays.com/"
+    var creatorId = 9
+    
+    var galleryUrl = memoUrl+"api/memo/all?rowStatus=NORMAL&limit="+limit+"&tag=相册"
+    let nowNum = 1;
+    fetch(galleryUrl).then(res => res.json()).then( resdata =>{
+        var result = '',resultAll="",data = resdata.data
+        for(var i=0;i < data.length;i++){
+            var galleryTitle = data[i].content.replace("#相册 ",'')
+            var imgs = galleryTitle.match(/\!\[(.*?)\s*(.*?)\]\((.*?)\)/g)
+            
+            if(imgs){
+              imgs.forEach(item => {
+                if(nowNum < limit ){
+                  nowNum ++
+                  let img = item.replace(/!\[.*?\]\((.*?)\)/g,'$1'),
+                      time, title, tmp = item.replace(/!\[(.*?)\]\(.*?\)/g,'$1');
+                  if (tmp.indexOf(' ') != -1) {
+                      time = tmp.split(' ')[0];
+                      title = tmp.split(' ')[1];
+                  } else title = tmp
+                  result += `<div class="memos-photo"><img class="photo-img" loading='lazy' decoding="async" src="${img}"></a>`;
+                  title ? result += `<span class="photo-title">${title}</span>` : '';
+                  time ? result += `<span class="photo-time">${time}</span>` : '';
+                  result += `</div>`;
+                }
+              });
+            }
+            
+            if(data[i].resourceList && data[i].resourceList.length > 0){
+              var resourceList = data[i].resourceList;
+              for(var j=0;j < resourceList.length;j++){
+                var galleryTime = new Date(resourceList[j].createdTs * 1000).toLocaleString()
+                var restype = resourceList[j].type.slice(0,5);
+                var resexlink = resourceList[j].externalLink
+                var resLink = ''
+                if(resexlink){
+                  resLink = resexlink
+                }else{
+                  resLink = memoUrl+'o/r/'+resourceList[j].id+'/'+resourceList[j].filename
+                }
+                if(restype == 'image' && nowNum <= limit ){
+                    nowNum ++
+                    result += '<div class="memos-photo"><img class="photo-img" loading="lazy" decoding="async" src="'+resLink+'"/><span class="photo-title">'+galleryTitle+'</span><span class="photo-time">'+galleryTime+'</span></div>'
+                }
+              }
+            }
+        }
+        var galleryDom = document.querySelector('#album');
+        var galleryBefore = `<div class="memos-photo-wrapper">`
+        var galleryAfter = `</div>`
+        resultAll = galleryBefore + result + galleryAfter
+        galleryDom.innerHTML = resultAll
+        //相册排版
+        imgStatus.watch('.photo-img', function(imgs) {
+            if(imgs.isDone()){
+              waterfall('.gallery-photos');
+              let pagePhoto = document.querySelectorAll('.gallery-photo');
+              for(var i=0;i < pagePhoto.length;i++){pagePhoto[i].className += " visible"};
+            }
+          });
+          window.addEventListener('resize', function () {
+            waterfall('.gallery-photos');
+          });
+        
+        window.Lately && Lately.init({ target: '.photo-time'});
+        
+        window.ViewImage && ViewImage.init('.gallery-photo img')
+    });
+});
+</script>
+
+
+<style>
+.memos-photo-wrapper {
+  grid-template-columns: repeat(4,minmax(0,1fr));
+  margin-top: .5rem;
+  display: grid;
+   width: 100%;
+  gap: .5rem;
+}
+.memos-photo{
+  position: relative;
+  overflow: hidden;
+  border-radius: .25rem;
+  height: 194px;
+}
+.memos-photo>img {
+  min-height: 100%;
+  width: auto;
+  min-width: 100%;
+  cursor: pointer;
+  -o-object-fit: cover;
+  object-fit: cover;
+  height: auto;
+  animation: fadeIn 1s;
+  transition: all .4s ease-in-out;
+}
+.memos-photo span.photo-title,.memos-photo span.photo-time{background: rgba(0, 0, 0, 0.3);padding:0px 8px;font-size:0.9rem;color: #fff;display:none;animation: fadeIn 1s;}
+.memos-photo span.photo-title{position:absolute;bottom:4px;left:4px;}
+.memos-photo span.photo-time{position:absolute;top:4px;left:4px;font-size:0.8rem;}
+.memos-photo:hover span.photo-title,.memos-photo:hover span.photo-time{display:block !important;}
+@keyframes fadeIn{
+	0% {opacity: 0;}
+   100% {opacity: 1;}
+}
+@media screen and (min-width:480px) and (max-width: 899px) {
+  .memos-photo-wrapper{
+    grid-template-columns: repeat(3,minmax(0,1fr));
+  }
+  .memos-photo{
+    height: 201px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .memos-photo-wrapper{
+    grid-template-columns: repeat(2,minmax(0,1fr));
+  }
+  .memos-photo{
+    height: 171px;
+  }
+}
+</style>
+ -->
 <h4 id="关于我">🙈关于我</h4>
 <ul>
 <li>性格：重度社恐，死宅女一枚，简简单单普通人，茫茫人海中最不起眼的一个</li>
@@ -686,6 +816,15 @@ twikoo.init({
 
 
 
+
+
+
+<script type="text/javascript" src="/js/theme-main-1.js"></script>
+<script type="text/javascript" src="/js/lately.min.js"></script>
+<script type="text/javascript" src="/js/waterfall.min.js"></script>
+<script type="text/javascript" src="/js/imgStatus.min.js"></script>
+<script type="text/javascript" src="/js/view-image.js"></script>
+<script type="text/javascript" src="/js/theme-lmm-20230123.js"></script>
         </div>
     </footer>
 
@@ -912,5 +1051,6 @@ function owoBig() {
 }, {once: true});
 </script>
 
+       
     </body>
 </html>

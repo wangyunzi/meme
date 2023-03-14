@@ -1,6 +1,6 @@
 ---
 title: "瞬间"
-layout: "memeos"
+layout: "memos"
 # description: 原来你也在这里
 ---
 

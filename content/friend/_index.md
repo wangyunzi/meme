@@ -2,15 +2,6 @@
 slug: "friend"
 description: "有缘千里来相会"
 date: 2022-10-25T15:23:10+08:00
-tags: 
-categories:
-share: false
-comments: true
-meta: false        # 文章表头
-dropCap:     # 首字下沉
-indent:      # 段排首缩
-gitinfo: false
-displayCopyright: false
 ---
 <!-- {{< notice notice-info >}}
 朋友们真的抱歉，由于博主最近一段时间开始忙的飞起，所以先暂停一段时间的友链添加，如果实在想添加友链的，可以留言，但是要等过一段时间才会添加到本博客的页面。敬请谅解！
