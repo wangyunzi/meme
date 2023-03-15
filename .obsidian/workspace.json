@@ -149,6 +149,8 @@
   },
   "active": "a2e66060f90aef23",
   "lastOpenFiles": [
+    "resources/_gen/assets/scss/scss/main.scss_dcedc82701b741d3f4d51a3ae693cbeb.content",
+    "resources/_gen/assets/scss/scss/main.scss_dcedc82701b741d3f4d51a3ae693cbeb.json",
     "public/manifest.json",
     "public/json/model/fox.json",
     "public/json/model",
@@ -158,8 +160,6 @@
     "public/robots.txt",
     "public/rss.xml",
     "public/atom.xml",
-    "public/404.html",
-    "public/sitemap.xml",
     "public/about/海绵宝宝.jpg",
     "public/about/书.jpg",
     "public/icons/safari-pinned-tab.svg",
