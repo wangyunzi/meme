@@ -149,6 +149,7 @@
   },
   "active": "a2e66060f90aef23",
   "lastOpenFiles": [
+    "netlify.toml",
     "static/js/bb-lmm.js",
     "assets/js/bb-lmm.js",
     "assets/js/bb-lmm-mk.js",
@@ -159,7 +160,6 @@
     "static/js/bbs-lmm.js",
     "layouts/_default/photos.html",
     "layouts/_default/photos.hml",
-    "public/photos/index.html",
     "content/photos/_index.md",
     "public/about/海绵宝宝.jpg",
     "public/about/书.jpg",
