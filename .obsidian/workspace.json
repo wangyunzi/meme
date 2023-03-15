@@ -149,6 +149,7 @@
   },
   "active": "a2e66060f90aef23",
   "lastOpenFiles": [
+    "static/css/friends.css",
     "assets/scss/custom/_memos.scss",
     "content/posts/45.md",
     "public/photos/rogue-wave-7439216 (1).jpg",
@@ -168,7 +169,6 @@
     "public/json/emoji.json",
     "public/json",
     "public/robots.txt",
-    "public/rss.xml",
     "public/about/海绵宝宝.jpg",
     "public/about/书.jpg",
     "content/photos/_index.md",
