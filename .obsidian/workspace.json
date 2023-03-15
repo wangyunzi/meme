@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/45.md",
+                "file": "content/about/_index.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/45.md",
+                "file": "content/about/_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/45.md",
+                "file": "content/about/_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/45.md"
+                "file": "content/about/_index.md"
               }
             }
           }
@@ -149,6 +149,12 @@
   },
   "active": "a2e66060f90aef23",
   "lastOpenFiles": [
+    "assets/scss/custom/_memos.scss",
+    "content/posts/45.md",
+    "public/photos/rogue-wave-7439216 (1).jpg",
+    "public/photos/port-7418239.jpg",
+    "public/photos/photo-1662534783126-3a8bd6a43a06.jpg",
+    "public/photos/monastery-7443192.jpg",
     "static/photos/rogue-wave-7439216 (1).jpg",
     "static/photos/port-7418239.jpg",
     "static/photos/photo-1662534783126-3a8bd6a43a06.jpg",
@@ -165,18 +171,12 @@
     "public/rss.xml",
     "public/about/海绵宝宝.jpg",
     "public/about/书.jpg",
-    "public/icons/safari-pinned-tab.svg",
-    "public/icons/mstile-150x150.png",
-    "public/icons/favicon-32x32.png",
-    "public/icons/favicon-16x16.png",
-    "public/icons/apple-touch-icon.png",
     "content/photos/_index.md",
     "content/gallery/_index.md",
     "content/album/_index.md",
     "content/waterfal/_index.md",
     "content/photos1/_index.md",
     "content/about/_index.md",
-    "content/posts/45.md",
     "content/memos/_index.md",
     "content/posts/46.md",
     "README.md",
