@@ -90,10 +90,10 @@ Last Modified time : 20220211 98:00 by https://immmmm.com
   .dark-theme .cf-article:hover .cf-article-floor,.dark-theme .cf-article:hover .cf-time-created,.dark-theme .cf-article:hover .cf-time-updated,.dark-theme .cf-overshow p span,.theme-dark .cf-article:hover .cf-article-floor,.theme-dark .cf-article:hover .cf-time-created,.theme-dark .cf-article:hover .cf-time-updated,.theme-dark .cf-overshow p span{color: var(--lmm-dark-fontcolor);}
   
   /* 移动端适配 */
-  @media screen and (max-width:40px) {
+  /* @media screen and (max-width:40px) {
     #cf-state {font-size:14px;}
     .cf-article-time i{display:none;}
   }
   @media screen and (max-width:30px) {
     #cf-state,.cf-article-time{display:none;}
-  }
+  } */
