@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/45.md",
-                "mode": "preview",
+                "file": "content/posts/46.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/45.md",
+                "file": "content/posts/46.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/45.md",
+                "file": "content/posts/46.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/45.md"
+                "file": "content/posts/46.md"
               }
             }
           }
@@ -149,19 +149,21 @@
   },
   "active": "6a55e6f95e8720a6",
   "lastOpenFiles": [
+    "Pasted image 20230316211632.png",
+    "Pasted image 20230316211031.png",
+    "public/tags/图床/index.html",
+    "public/tags/图床",
+    "public/posts/46/index.html",
+    "public/posts/46",
+    "content/posts/45.md",
+    "content/posts/46.md",
     "verifyingfile.html",
     "public/life/29",
     "public/js/libs",
     "public/life/36",
     "public/life/35",
     "public/life/34",
-    "public/life/33",
-    "public/life/32",
-    "public/life/31",
-    "public/life/30",
-    "public/life/28",
     "content/about/_index.md",
-    "content/posts/45.md",
     "public/photos/rogue-wave-7439216 (1).jpg",
     "public/photos/port-7418239.jpg",
     "public/photos/photo-1662534783126-3a8bd6a43a06.jpg",
@@ -171,7 +173,6 @@
     "static/photos/photo-1662534783126-3a8bd6a43a06.jpg",
     "static/photos/monastery-7443192.jpg",
     "public/about/海绵宝宝.jpg",
-    "public/about/书.jpg",
     "content/photos/_index.md",
     "content/gallery/_index.md",
     "content/album/_index.md",
@@ -193,7 +194,6 @@
     "content/posts/37.md",
     "content/posts/23.md",
     "content/posts/35.md",
-    "content/posts/28.md",
-    "content/posts/24.md"
+    "content/posts/28.md"
   ]
 }
