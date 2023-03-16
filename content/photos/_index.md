@@ -22,13 +22,4 @@ meta: false
     });
     </script>
 
-<!-- <gallery>
-    <img src="https://cn.bing.com/th?id=OHR.SessileOaks_EN-US1487454928_768x1280.jpg">
-    <img src="https://cn.bing.com/th?id=OHR.SessileOaks_EN-US1487454928_1280x768.jpg">
-    <img src="https://cn.bing.com/th?id=OHR.Umschreibung_EN-US4693850900_768x1280.jpg">
-    <img src="https://cn.bing.com/th?id=OHR.RumeliHisari_EN-US4800002879_1280x768.jpg">
-</gallery>
-
-<gallery>![你好](https://cn.bing.com/th?id=OHR.SessileOaks_EN-US1487454928_768x1280.jpg)![美丽风景]([https://xxxx](https://cn.bing.com/th?id=OHR.SessileOaks_EN-US1487454928_1280x768.jpg))</gallery> -->
-
 {{< album >}}
