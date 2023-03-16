@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/about/_index.md",
+                "file": "content/posts/45.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/about/_index.md",
+                "file": "content/posts/45.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/about/_index.md",
+                "file": "content/posts/45.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/about/_index.md"
+                "file": "content/posts/45.md"
               }
             }
           }
@@ -138,19 +138,28 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "remotely-save:Remotely Save": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "remotely-save:Remotely Save": false
+      "command-palette:打开命令面板": false
     }
   },
-  "active": "a2e66060f90aef23",
+  "active": "6a55e6f95e8720a6",
   "lastOpenFiles": [
-    "static/css/friends.css",
-    "assets/scss/custom/_memos.scss",
+    "content/about/_index.md",
+    "js/memos.min.js",
+    "js",
+    "public/css/_memos.scss",
+    "static/css/_memos.scss",
+    "public/js/pangu.min.js",
+    "public/js/moment.twitter.min.js",
+    "public/js/moment.twitter.js",
+    "public/js/moment.twitter.en.min.js",
+    "public/js/moment.twitter.en.js",
+    "public/js/moment.min.js",
     "content/posts/45.md",
     "public/photos/rogue-wave-7439216 (1).jpg",
     "public/photos/port-7418239.jpg",
@@ -160,15 +169,6 @@
     "static/photos/port-7418239.jpg",
     "static/photos/photo-1662534783126-3a8bd6a43a06.jpg",
     "static/photos/monastery-7443192.jpg",
-    "resources/_gen/assets/scss/scss/main.scss_dcedc82701b741d3f4d51a3ae693cbeb.content",
-    "resources/_gen/assets/scss/scss/main.scss_dcedc82701b741d3f4d51a3ae693cbeb.json",
-    "public/manifest.json",
-    "public/json/model/fox.json",
-    "public/json/model",
-    "public/json/friends.json",
-    "public/json/emoji.json",
-    "public/json",
-    "public/robots.txt",
     "public/about/海绵宝宝.jpg",
     "public/about/书.jpg",
     "content/photos/_index.md",
@@ -176,7 +176,6 @@
     "content/album/_index.md",
     "content/waterfal/_index.md",
     "content/photos1/_index.md",
-    "content/about/_index.md",
     "content/memos/_index.md",
     "content/posts/46.md",
     "README.md",

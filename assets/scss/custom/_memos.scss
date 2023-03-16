@@ -1,73 +1,824 @@
-/*隐藏每条可见状态标签*/
-.user-banner-container > .username-container > .tag,
-.memo-wrapper
-    > .memo-top-wrapper
-    > .status-text-container
-    > .status-text.public,
-.page-header .title-text {
-    display: none !important;
+#memos {
+    ul {
+        padding-left: 0 !important;
+    }
 }
 
-/* 隐藏昵称后面的 MOD 字符 */
-.user-banner-container > .username-container > .tag {
-    display: none !important;
+.talks {
+    min-height: 300px;
+    text-align: left;
+    width: 100%;
+    margin-top: 2.5rem !important;
+    ul {
+        margin-left: 0 !important;
+    }
+    .video-wrapper {
+        > iframe {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            border: 0;
+        }
+        > video {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            border: 0;
+        }
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-bottom: 56.25%;
+        overflow: hidden;
+    }
+    pre {
+        border-radius: 6px !important;
+        -webkit-hyphens: none !important;
+        -ms-hyphens: none !important;
+        hyphens: none !important;
+        line-height: 1.45 !important;
+        margin: 0.5em 0 !important;
+        overflow: auto !important;
+        tab-size: 4 !important;
+        text-align: left !important;
+        white-space: pre !important;
+        word-break: normal !important;
+        word-spacing: normal !important;
+        white-space: pre-wrap !important;
+        word-wrap: break-word !important;
+        line-height: 1.5rem !important;
+        display: flex !important;
+        overflow-x: auto !important;
+        overflow-y: hidden !important;
+        word-wrap: normal !important;
+        background: #fafafa !important;
+        code {
+            flex-shrink: 0 !important;
+        }
+    }
+    code {
+        background: #fafafa !important;
+    }
 }
-
-/*隐藏 大于10行的标签 By eallion*/
-.tags-wrapper > .tags-container .tag-item-container:nth-child(1n + 11) {
-    display: none !important;
+.talks__text {
+    ul {
+        margin-left: 0 !important;
+        li {
+            margin-left: 1rem;
+            padding: 0;
+            list-style: inside;
+        }
+    }
+    position: relative;
+    background: #eaeaea;
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-size: 1em;
+    p {
+        margin: 0.5rem 0 !important;
+        padding: 0 !important;
+        line-height: 1.5 !important;
+    }
+    i {
+        margin: 0 0.25em;
+    }
 }
-
-/*隐藏发布权限设置*/
-.memo-editor-container > .editor-header-container > .visibility-selector {
-    display: none !important;
+.talks__content {
+    flex-grow: 1;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
 }
-
-/*统一标签、链接颜色为绿色*/
-.memo-content-wrapper > .memo-content-text .tag-span,
-.memo-content-wrapper > .memo-content-text .link {
-    color: rgb(22, 163, 74) !important;
+.timeline {
+    &:hover {
+        .talks__text {
+            background: #eeeef1;
+            &:before {
+                background: #eeeef1 !important;
+                z-index: -1;
+            }
+        }
+    }
+    img {
+        display: block;
+        max-height: 96px;
+        margin: 10px 0;
+        border-radius: 5px;
+    }
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 1.5em;
 }
-
-/*修改 blockquote 为单引号*/
-.memo-content-wrapper > .memo-content-text blockquote {
-    font-family: KaiTi, STKaiti, STFangsong !important;
-    margin: 0 0 0 1rem !important;
-    padding: 0.25rem 2rem !important;
-    position: relative !important;
-    border-left: 0 none !important;
+.talks__meta {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.25rem;
+    small {
+        font-size: 0.8em;
+        font-weight: 500;
+        color: #8186a2;
+        margin-left: 0.25rem;
+    }
 }
-
-.memo-content-wrapper > .memo-content-text blockquote::before {
-    line-height: 2rem !important;
-    content: "“" !important;
-    font-family: Georgia, serif !important;
-    font-size: 28px !important;
-    font-weight: bold !important;
-    position: absolute !important;
-    left: 10px !important;
-    top: 5px !important;
+.talks__userinfo {
+    display: flex;
+    font-weight: 700;
+    align-items: center;
 }
-
-/*开启暗黑模式*/
-@media (prefers-color-scheme: dark) {
-    body {
-        filter: invert(90%) hue-rotate(180deg) !important;
+.talks__verify {
+    margin-left: 2px;
+    max-width: 20px;
+    max-height: 20px;
+    color: #1d9bf0;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    vertical-align: text-bottom;
+    position: relative;
+    height: 1.25em;
+    fill: currentcolor;
+    display: inline-block;
+    flex-shrink: 1;
+    margin-left: 4px;
+}
+.talks__id {
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB",
+    "WenQuanYi Micro Hei", "Microsoft Yahei", "Segoe UI", sans-serif, serif;;
+    font-size: 0.875em;
+    overflow-wrap: break-word;
+    min-width: 0px;
+    box-sizing: border-box;
+    color: #536471;
+    display: inline;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    flex-shrink: 1;
+    font-weight: 400;
+    margin-left: 4px;
+}
+.talks__date {
+    a {
+        color: #536471 !important;
+        font-weight: 400;
+        font-size: 0.7rem;
+        text-decoration: none !important;
+        &:hover {
+            color: #536471 !important;
+        }
+    }
+    .tooltip {
+        text-align: center;
+        &::after {
+            font-size: 12px;
+        }
+        &::before {
+            font-size: 12px;
+        }
+    }
+}
+.memos__comment {
+    margin-right: 5px;
+    button {
+        background: none !important;
+        margin: 0;
+        padding: 0;
+        border: none;
+        i {
+            color: #73747b;
+        }
+    }
+    &:hover {
+        .icon-comment {
+            &::before {
+                content: "\e691";
+            }
+        }
+    }
+}
+.talks__search {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    p {
+        white-space: nowrap;
+        padding-left: 50px;
+    }
+}
+.search-talks {
+    position: relative;
+    background: #eaeaea;
+    height: 40px;
+    border-radius: 50px;
+    &:hover {
+        > .search-input {
+            width: 313px;
+            padding: 0 1em;
+        }
+        > .search-btn {
+            background: #fff;
+            color: #222;
+            display: none;
+        }
+        > .search-clear {
+            color: #fff;
+            float: left;
+            width: 40px;
+            height: 40px;
+            border-radius: 50px;
+            background: #eaeaea;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+    }
+}
+.talksBtn {
+    display: inline-block;
+    border-radius: 8px;
+    border: none;
+    background: #eaeaea;
+    text-align: center;
+    box-shadow: 0px 14px 56px -11px #eaeaea;
+    width: 10em;
+    padding: 1em;
+    transition: all 0.4s;
+    cursor: pointer;
+    font-size: 0.85em;
+    &:hover {
+        background: #eeeef1;
+        box-shadow: 0px 14px 56px -11px #eeeef1;
+        span {
+            padding: 0 2em 0 0;
+            &:after {
+                opacity: 1;
+                right: 0;
+            }
+        }
+    }
+    span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.4s;
+        &:after {
+            content: "\e883";
+            font-size: 0.85em;
+            position: absolute;
+            opacity: 0;
+            top: -2px;
+            right: -2em;
+            transition: 0.7s;
+            transform: rotate(90deg);
+            animation: toggle 0.6s alternate infinite;
+        }
+    }
+}
+.search-input {
+    outline: none;
+    border: none;
+    background: none;
+    width: 0;
+    padding: 0;
+    color: #222;
+    float: left;
+    font-size: 16px;
+    transition: 0.3s;
+    line-height: 40px;
+    &::placeholder {
+        color: #222;
+        opacity: 0.4;
+    }
+    &:focus {
+        width: 313px;
+        padding: 0 1em;
+        + {
+            .search-btn {
+                background: #fff;
+                color: #222;
+                display: none;
+            }
+            .search-clear {
+                color: #fff;
+                float: left;
+                width: 40px;
+                height: 40px;
+                border-radius: 50px;
+                background: #eaeaea;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+                transition: 0.3s;
+            }
+        }
+    }
+    &:not(:placeholder-shown) {
+        width: 313px;
+        padding: 0 1em;
+        + {
+            .search-btn {
+                background: #fff;
+                color: #222;
+                display: none;
+            }
+            .search-clear {
+                color: #fff;
+                float: left;
+                width: 40px;
+                height: 40px;
+                border-radius: 50px;
+                background: #eaeaea;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+                transition: 0.3s;
+            }
+        }
+    }
+}
+.search-btn {
+    color: #fff;
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background: #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.search-clear {
+    display: none;
+}
+.talk {
+    display: none;
+}
+.post-preview {
+    max-width: 100%;
+    height: 210px;
+    margin: 1em auto;
+    position: relative;
+    display: flex;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.25);
+    section {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+    }
+}
+.post-preview--meta {
+    width: 100%;
+    padding: 25px;
+    overflow: hidden;
+}
+.post-preview--middle {
+    line-height: 28px;
+}
+.post-preview--title {
+    font-size: 18px;
+    margin: 0 !important;
+    a {
+        text-decoration: none;
+    }
+}
+.post-preview--date {
+    font-size: 14px;
+    color: #999;
+}
+.post-preview--excerpt {
+    font-size: 14px;
+    line-height: 1.825;
+    p {
+        display: inline;
+        margin: 0;
+    }
+}
+.post-preview--image {
+    margin: 0 !important;
+    margin-right: 1rem !important;
+    height: 210px !important;
+    max-height: 210px !important;
+    width: auto;
+    float: right;
+    border-radius: 0 !important;
+    border-top-right-radius: 2px !important;
+    border-bottom-right-radius: 2px !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+.load-btn {
+    color: #222;
+    margin: 0 auto;
+    padding: 10px 50px;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.post-content {
+    .spotify-wrapper {
+        > iframe {
+            position: relative;
+            height: 152px;
+        }
+    }
+}
+.rating {
+    display: block;
+    line-height: 15px;
+}
+.rating-star {
+    display: inline-block;
+    width: 75px;
+    height: 15px;
+    background-repeat: no-repeat;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAAClCAYAAAAUAAAYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA5xJREFUeNrs3T9rFEEcxvG7qEQIglaCICKkin9AUEtBKxU7wS61VlYivgWj70TtNFj5BqzE7qxEWwsxKIoYn4UtluFmbm8nczvzm+/BjxyuDwNzu3uXD0+46f7LC5PA45Hm+WTYw1x2LRDc0jzTXB+wqMlsaLPutz8fDFjYZHYauAz3NBvt83XNnyUWNpn1nVm3OsHmsb3EomazzZnVXKMPNcc0xzUnNKc0Rzv/77fms+Z7O3vt9b1eU7bZrNN68l5zcolX4ofmsuZXTdnmMvyi2dR86Bmcac62P6vKrnVubpc0bxYE32nOab45N8YqsvPeDfcD4SOav4HjprPuu+H5BTt9LXDMfNbdLPfT678Fx6vKupt1o/O8+R3pkOaJ5/iktqx7z/qp+aq5q/nY+fczmheaK03Gs7D5rLtZdzSvA6/Ebc2u55j57HQB0TzW7AzkjiKzny6+2hlKNE8juMNcFqKBaIZndRlCNBBNgmx7ZkE0fbLtZkE0EA1EM17WuQwhGogGooFoss6296y52cNO+J6HLJoPaFdbsvA9zGerIxrPh85eWYgGooFoDiQbuAxp0UA0EVmdWbRo+ma1WbRoIBqIZtzsnHdDWjQQDUQD0WSbde5ZS2UhmtqJJtSEiVkXooFoIJre2VATJmZdiKZ2ogk1YSb8oVMvDeUPnSAaiCaPJkzMuhANRAPRQDQpsqEmTMy6EI11oolpwkA0EA1EcyDZmCYMRAPR+LMxTZjqiCamCQPRQDQQzehNGIgGooFoIJpVZ2OaMBBN7USTqgkD0UA0EE3vbKomDERTO9GkasKYJJpUTRiIBqKBaEZvwkA0EA1EA9GkyKZqwkA01olmrCYMRAPRQDR9LkO+0QmiKbAJUyTRjNWEgWggGohm9CYMRAPRQDQQzZDsWE0YiMYC0eTYhIFoIJrKiCbHJgxEY4FocmzCZEs0OTZhIBqIpjKiybEJA9FANBANROPL5tiEgWhKIJoSmzAQDURjjGhKbMJANCUQTYlNmNGIpsQmDEQD0RgjmhKbMBANRAPR1Es0JTZhIJpciMZaEwaigWgKJBprTRiIJheisdaESUo01powEA1EUyDRWGvCQDQQDURjm2isNWEgmlURzWw2q4pZIBqIJkOiCVyGJpkFolkV0ejMMvel28mIRptl7ku3IRqIpjCimfNuaJpZIBqIBqIpm2ice5Z5ZonJupvVkMRu4JW4qXnrOWY++1+AAQBw9BJSCTeN9wAAAABJRU5ErkJggg==);
+    overflow: hidden;
+}
+.allstar10 {
+    background-position: 0px 0px;
+}
+.allstar9 {
+    background-position: 0px -15px;
+}
+.allstar8 {
+    background-position: 0px -30px;
+}
+.allstar7 {
+    background-position: 0px -45px;
+}
+.allstar6 {
+    background-position: 0px -60px;
+}
+.allstar5 {
+    background-position: 0px -75px;
+}
+.allstar4 {
+    background-position: 0px -90px;
+}
+.allstar3 {
+    background-position: 0px -105px;
+}
+.allstar2 {
+    background-position: 0px -120px;
+}
+.allstar1 {
+    background-position: 0px -135px;
+}
+.allstar0 {
+    background-position: 0px -150px;
+}
+.rating-average {
+    color: #777;
+    display: inline-block;
+    font-size: 13px;
+    margin-left: 10px;
+}
+pre {
+    code {
+        font-family: "JetBrains Mono", "Noto Sans Mono", "Source Code Pro", "Fira Code", Consolas, Monaco, "Andale Mono",
+        "Ubuntu Mono", monospace !important;
+        font-size: 0.875rem !important;
+        padding: 1rem 0 !important;
+    }
+    code.hljs {
+        display: block !important;
+        overflow-x: auto !important;
+        padding: 1rem !important;
+    }
+}
+code {
+    font-family: "JetBrains Mono", "Noto Sans Mono", "Source Code Pro", "Fira Code", Consolas, Monaco, "Andale Mono",
+    "Ubuntu Mono", monospace !important;
+    font-size: 0.875rem !important;
+}
+:not(pre) {
+    > code {
+        border-radius: 0.25em !important;
+        white-space: normal !important;
+    }
+}
+[theme="blank"] {
+    .talks {
+        pre {
+            background: #2d333b !important;
+        }
+    }
+}
+code.hljs {
+    padding: 3px 5px !important;
+}
+.hljs {
+    color: #24292e !important;
+    background: #fff !important;
+}
+.hljs-doctag {
+    color: #d73a49 !important;
+}
+.hljs-keyword {
+    color: #d73a49 !important;
+}
+.hljs-meta {
+    .hljs-keyword {
+        color: #d73a49 !important;
+    }
+    color: #005cc5 !important;
+    .hljs-string {
+        color: #032f62 !important;
+    }
+}
+.hljs-template-tag {
+    color: #d73a49 !important;
+}
+.hljs-template-variable {
+    color: #d73a49 !important;
+}
+.hljs-type {
+    color: #d73a49 !important;
+}
+.hljs-variable.language_ {
+    color: #d73a49 !important;
+}
+.hljs-title {
+    color: #6f42c1 !important;
+}
+.hljs-title.class_ {
+    color: #6f42c1 !important;
+}
+.hljs-title.class_.inherited__ {
+    color: #6f42c1 !important;
+}
+.hljs-title.function_ {
+    color: #6f42c1 !important;
+}
+.hljs-attr {
+    color: #005cc5 !important;
+}
+.hljs-attribute {
+    color: #005cc5 !important;
+}
+.hljs-literal {
+    color: #005cc5 !important;
+}
+.hljs-number {
+    color: #005cc5 !important;
+}
+.hljs-operator {
+    color: #005cc5 !important;
+}
+.hljs-selector-attr {
+    color: #005cc5 !important;
+}
+.hljs-selector-class {
+    color: #005cc5 !important;
+}
+.hljs-selector-id {
+    color: #005cc5 !important;
+}
+.hljs-variable {
+    color: #005cc5 !important;
+}
+.hljs-regexp {
+    color: #032f62 !important;
+}
+.hljs-string {
+    color: #032f62 !important;
+}
+.hljs-built_in {
+    color: #e36209 !important;
+}
+.hljs-symbol {
+    color: #e36209 !important;
+}
+.hljs-code {
+    color: #6a737d !important;
+}
+.hljs-comment {
+    color: #6a737d !important;
+}
+.hljs-formula {
+    color: #6a737d !important;
+}
+.hljs-name {
+    color: #22863a !important;
+}
+.hljs-quote {
+    color: #22863a !important;
+}
+.hljs-selector-pseudo {
+    color: #22863a !important;
+}
+.hljs-selector-tag {
+    color: #22863a !important;
+}
+.hljs-subst {
+    color: #24292e !important;
+}
+.hljs-section {
+    color: #005cc5 !important;
+    font-weight: 700 !important;
+}
+.hljs-bullet {
+    color: #735c0f !important;
+}
+.hljs-emphasis {
+    color: #24292e !important;
+    font-style: italic !important;
+}
+.hljs-strong {
+    color: #24292e !important;
+    font-weight: 700 !important;
+}
+.hljs-addition {
+    color: #22863a !important;
+    background-color: #f0fff4 !important;
+}
+.hljs-deletion {
+    color: #b31d28 !important;
+    background-color: #ffeef0 !important;
+}
+@media (max-width: 683px) {
+    .talks__content {
+        margin-left: 0;
+        &:before {
+            border-radius: 25px;
+            height: 25px;
+            width: 25px;
+            left: 15px;
+            top: 12px;
+            z-index: 100;
+        }
+    }
+    .talks__text {
+        &:before {
+            display: none;
+        }
+    }
+    .talks__search {
+        p {
+            padding-left: 0;
+        }
+        display: block !important;
+    }
+    .search-talks {
+        display: none !important;
+    }
+    .talk {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        line-height: 1;
+        cursor: pointer;
+        padding: 10px;
+        a {
+            text-decoration: none;
+        }
+    }
+    .post-preview {
+        width: 95%;
+    }
+    .post-preview--excerpt {
+        display: none;
+    }
+    .post-preview--middle {
+        line-height: 19px;
+    }
+    .load-btn {
+        margin-left: 0;
+    }
+}
+@media (max-width: 899px) {
+    .search-input {
+        &:focus {
+            width: 152px;
+        }
+        &:not(:placeholder-shown) {
+            width: 152px;
+        }
+    }
+    .search-talks {
+        &:hover {
+            > .search-input {
+                width: 152px;
+            }
+        }
+    }
+}
+@media (max-width: 319px) {
+    .talk {
+        display: none;
+    }
+}
+@media (max-width: 860px) {
+    #memos {
+        ul {
+            padding-left: 0 !important;
+        }
     }
 
-    img,
-    .icon,
-    .mr-1,
-    video,
-    div[class*="language-"] {
-        filter: invert(110%) hue-rotate(180deg) !important;
-        opacity: 0.8 !important;
+    .timeline {
+        margin-right: 0;
+        ul {
+            li {
+                margin-left: 0;
+                div {
+                    width: 100%;
+                    left: 0;
+                    max-width: 100%;
+                }
+            }
+        }
     }
+}
 
-    .memo-editor-container
-        > .common-tools-wrapper
-        > .btns-container
-        > .confirm-btn {
-        color: #000 !important;
+/* 首页嘀咕样式 JSON 版 */
+#ticker {
+    display: flex;
+    flex: 1 auto;
+    align-items: center;
+    line-height: 35px;
+    height: 45px;
+    max-width: 800px;
+    width: 96%;
+    text-align: left;
+    padding: 5px 15px;
+    margin: 20px 0;
+    position: relative;
+    border-radius: 8px;
+    font-size: 1rem;
+    overflow: hidden;
+    background: #eeeef1;
+}
+.home {
+    .home-profile {
+        .home-disclaimer {
+            padding: 0 !important;
+        }
+    }
+}
+.ticker-wrap {
+    overflow: hidden;
+    ul {
+        padding-left: 0.5rem;
+    }
+}
+.ticker-list {
+    margin: 0;
+    height: 35px;
+    li {
+        list-style: none;
+        margin-bottom: 10px;
+        width: 100%;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+}
+.item {
+    list-style: none;
+    margin-bottom: 10px;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    code {
+        white-space: nowrap !important;
+    }
+}
+[theme="dark"] {
+    #ticker {
+        background: #2d333b !important;
+    }
+}
+[theme="black"] {
+    #ticker {
+        background: #2d333b !important;
+    }
+}
+.fa-github-alt {
+    &:before {
+        content: "\f09b" !important;
+    }
+}
+@media (max-width: 860px) {
+    #ticker {
+        width: 90%;
     }
 }
